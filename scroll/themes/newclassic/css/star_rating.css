@@ -1,0 +1,58 @@
+/*----------*/
+.CStarRating{
+    width: 100%;
+    float: left;
+    margin-bottom: 7px;
+}
+ul.StarRating,
+ul.StarRating li.Active a {
+    background: url(http://www.ybook.vn/themes/newclassic/images/star1.gif) repeat-x;
+}
+ul.StarRating li.Active a {
+    background-position: left bottom;
+}
+/**/
+ul.StarRating {
+    position: relative;
+    width: 85px;
+    height: 16px;
+    background-position: left top;
+    margin: 0 !important;
+    padding: 0 !important;
+    float: left;
+    overflow: hidden;
+}
+ul.StarRating li {
+    display: inline !important;
+	width: auto !important;
+	position: static;
+}
+ul.StarRating li a {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-indent: -1000em;
+    height: 16px;
+    outline:none;
+	font-size: 0em !important;
+} 
+ul.StarRating li a.OneStart {
+    width: 20%;
+    z-index: 5;
+} 
+ul.StarRating li a.TwoStarts {
+    width: 40%;
+    z-index: 4;
+} 
+ul.StarRating li a.ThreeStarts {
+    width: 60%;
+    z-index: 3;
+} 
+ul.StarRating li a.FourStarts {
+    width: 80%;
+    z-index: 2;
+} 
+ul.StarRating li a.FiveStarts {
+    width: 100%;
+    z-index: 1;
+}

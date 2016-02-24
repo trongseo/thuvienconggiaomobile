@@ -1,0 +1,87 @@
+﻿    r-click chon git bash
+	git pull origin master
+	ok add
+	---
+	<?php foreach($dataColor as $value):?>
+                            <option value="<?php echo $value["color_id"] ?>" ><?php echo $value["color_name"] ?></option>
+                            <?php endforeach?>
+3966306561   fptcode
+-them
+-xoa  admingia/ajaxdelete&guid_id
+-sua   load du lieu  len== admingia/giasanpham&guid_id,,,update xuong  admingia/ajaxupdate&guid_id
+-list
+
+$datam_size
+$sp_price
+$san_pham_price_guid
+$san_pham_guid
+#m_size_guid
+#color_id
+pass wordpress bucminhquadi
+admingia/loadallprice&san_pham_guid
+-------------------
+- set san pham front==>ok
+ ss
+   
+  - upload hinh dai dien cho mau sac
+
+•	Hiện số người online
+•	Gửi email đến người qui định trong admin khi có khách hàng đặt hàng, liên hệ
+•	Cập nhật ip khách vào website,thời gian vào.
+
+- chinh font sie cho texteditor
+---ajaxadmin/hinhtrangchulist.php
+[chua gui email, chua hien so nguoi online, chua kiem tra ma sp trung==>ok]
+-------
++ cho up hinh dong tren trang chu
++ hien thi thay doi menu mau sac,kich co.
+-------------------------------------------
+danh muc ,cho 1 sp host  (isshowhome)==>ok
+Mã ko cho phép nhập khoang trắng,chi co chu va số==>ok
+tang dan theo masp
+mouse over tren hinh cho hien copy right kinhtanphuc ==>ok
+4 cho an hien danh muc  (database ==>isshow)==>Ok
+--------------
+Control panel: http://112.213.89.20:2082 hay http://kinhtanphuc.com:2082 
+Username: kinhtanp
+Password: azebxxxxxx273yjau
+xxxxxx:baminhthumay
+112.213.89.20
+db:kinhtanp_db
+!}8up6K320c(
+Warehouse
+
+Hosting cho domain www.maytinh24gio.com
+Control panel: https://112.213.89.112:8443  hay https://maytinh24gio.com:8443 
+Username: maytinh24gio.com 
+Password: hubd3127qwpe
+
++Đối với IE: chọn vào: Continue to this website (not recommended).
+
++Đối với firefox cũ:
+
+-Or you can add an exception…
+
+-Nhấn nút Add Exception...
+
+-Nhấn nút Get Certificate
+
+-Nhấn nút Confirm Sercurity Exception
+
++Đối với firefox 3.6:
+
+-I understand the risks
+
+-Nhấn nút Add Exception...
+
+-Nhấn nút Confirm Sercurity Exception
+
+De an toan cho website. Quy khach phai thay doi tat ca password ngay sau khi login lan dau tien.
+
+Thong tin tai khoan FTP
+
+Host name: ftp.maytinh24gio.com hoặc 112.213.89.112
+Username: maytinh24gio 
+Password: hubd3127qwpe 
+URL: http://hcmdomain.nhanhoa.com/customer
+Username: trongtayninh@yahoo.com

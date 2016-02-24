@@ -1,0 +1,14 @@
+<IfModule mod_php4.c>
+  php_value engine off
+</IfModule>
+<IfModule mod_php5.c>
+  php_value engine off
+</IfModule>
+<Files ~ ".*\.php$">
+Order deny,allow
+Deny from all
+</Files>
+<Files ~ ".*\.txt$">
+Order deny,allow
+Deny from all
+</Files>

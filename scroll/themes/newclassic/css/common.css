@@ -1,0 +1,57 @@
+/* 
+    Document   : common
+    Created on : Apr 1, 2011, 5:43:59 PM
+    Author     : Shinichi
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+.processing {
+    top: 0;
+    left:45%;
+    padding: 2px 10px 2px 10px;
+    background-color:#EF813F;
+    color: white;
+    position:absolute;
+    font-weight:bold;
+    z-index:9999;
+}
+
+.hidden {
+    display:none;
+}
+
+.hidden-cover {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.red-button {
+    background-color:#FFEBDF;
+    border:1px gray solid;
+    padding:2px 7px 2px 7px;
+    color:black !important;
+    text-decoration:none;
+    cursor:pointer;
+    margin: 2px;
+}
+
+.red-button:hover {
+    background-color:#EF813F;
+    border:1px gray solid;
+    padding:2px 7px 2px 7px;
+    color:#FFFFFF !important;
+    text-decoration:none;
+    cursor:pointer;
+    margin: 2px;
+}

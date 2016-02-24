@@ -1,0 +1,18 @@
+<script type="text/javascript" src="js/tinymce/tinymce.min.js"></script>
+<script type="text/javascript">
+tinymce.init({
+    selector: "textarea",
+    plugins: [
+        "advlist autolink lists link image charmap print preview anchor",
+        "searchreplace visualblocks code fullscreen",
+        "jbimages insertdatetime media table contextmenu paste colorpicker "
+    ],
+    toolbar: "preview media insertfile jbimages undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image",
+    relative_urls: false
+
+});
+</script>
+
+<form method="post" action="somepage">
+    <textarea name="content" style="width:100%"></textarea>
+</form>

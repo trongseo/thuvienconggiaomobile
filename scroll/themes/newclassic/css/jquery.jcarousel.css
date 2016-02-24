@@ -1,0 +1,245 @@
+/**
+ * This <div> element is wrapped by jCarousel around the list
+ * and has the classname "jcarousel-container".
+*/
+.jcarousel-container {
+    position: relative;
+}
+
+.jcarousel-clip {
+    z-index: 2;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.jcarousel-list {
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel-list li,
+.jcarousel-item {
+    float: left;
+    list-style: none;
+    /* We set the width/height explicitly. No width/height causes infinite loops. */
+    width: 75px;
+    height: 75px;
+}
+
+/**
+ * The buttons are added dynamically by jCarousel before
+ * the <ul> list (inside the <div> described above) and
+ * have the classnames "jcarousel-next" and "jcarousel-prev".
+*/
+.jcarousel-next {
+    z-index: 3;
+    display: none;
+}
+
+.jcarousel-prev {
+    z-index: 3;
+    display: none;
+}
+
+/*=============================START: Saw=================================*/
+#saw-group .jcarousel-container {
+    /*    -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+       border-radius: 10px;
+        background: #F0F6F9;
+        border: 1px solid #346F97;*/
+}
+
+#saw-group .jcarousel-direction-rtl {
+    direction: rtl;
+}
+
+#saw-group .jcarousel-container-horizontal {
+    width: 245px;
+    padding: 20px 40px;
+}
+
+#saw-group .jcarousel-container-vertical {
+    width: 180px;
+    height: 200px;
+    /*padding: 0 5px 10px 15px;*/
+}
+
+#saw-group .jcarousel-clip {
+    overflow: hidden;
+}
+
+#saw-group .jcarousel-clip-horizontal {
+    width:  245px;
+    height: 75px;
+}
+
+#saw-group .jcarousel-clip-vertical {
+    width:  180px;
+    height: 200px;
+}
+
+#saw-group .jcarousel-item {
+    width: 160px;
+    /*height: 250px;*/
+    overflow: hidden;
+    min-height: 50px;
+    max-height: 400px;
+}
+
+#saw-group .jcarousel-item-horizontal {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+#saw-group .jcarousel-direction-rtl .jcarousel-item-horizontal {
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+#saw-group .jcarousel-item-vertical {
+    margin-bottom: 10px;
+    margin-left: 12px;
+}
+
+#saw-group .jcarousel-item-placeholder {
+    background: #fff;
+    color: #000;
+}
+
+/**
+ *  Horizontal Buttons
+*/
+#saw-group .jcarousel-next-horizontal {
+    position: absolute;
+    top: 43px;
+    right: 5px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(http://www.ybook.vn/themes/newclassic/css/next-horizontal.png) no-repeat 0 0;
+}
+
+#saw-group .jcarousel-direction-rtl .jcarousel-next-horizontal {
+    left: 5px;
+    right: auto;
+    background-image: url(http://www.ybook.vn/themes/newclassic/css/prev-horizontal.png);
+}
+
+#saw-group .jcarousel-next-horizontal:hover,
+#saw-group .jcarousel-next-horizontal:focus {
+    background-position: -32px 0;
+}
+
+#saw-group .jcarousel-next-horizontal:active {
+    background-position: -64px 0;
+}
+
+#saw-group .jcarousel-next-disabled-horizontal,
+#saw-group .jcarousel-next-disabled-horizontal:hover,
+#saw-group .jcarousel-next-disabled-horizontal:focus,
+#saw-group .jcarousel-next-disabled-horizontal:active {
+    cursor: default;
+    background-position: -96px 0;
+}
+
+#saw-group .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 43px;
+    left: 5px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(http://www.ybook.vn/themes/newclassic/css/prev-horizontal.png) no-repeat 0 0;
+}
+
+#saw-group .jcarousel-direction-rtl .jcarousel-prev-horizontal {
+    left: auto;
+    right: 5px;
+    background-image: url(http://www.ybook.vn/themes/newclassic/css/next-horizontal.png);
+}
+
+#saw-group .jcarousel-prev-horizontal:hover, 
+#saw-group .jcarousel-prev-horizontal:focus {
+    background-position: -32px 0;
+}
+
+#saw-group .jcarousel-prev-horizontal:active {
+    background-position: -64px 0;
+}
+
+#saw-group .jcarousel-prev-disabled-horizontal,
+#saw-group .jcarousel-prev-disabled-horizontal:hover,
+#saw-group .jcarousel-prev-disabled-horizontal:focus,
+#saw-group .jcarousel-prev-disabled-horizontal:active {
+    cursor: default;
+    background-position: -96px 0;
+}
+
+/**
+ *  Vertical Buttons
+*/
+#saw-group .jcarousel-next-vertical {
+    /*    position: absolute;
+        bottom: 5px;
+        left: 43px;
+        width: 32px;
+        height: 32px;
+        cursor: pointer;
+        background: transparent url(next-vertical.png) no-repeat 0 0;*/
+    display: none;
+}
+
+#saw-group .jcarousel-next-vertical:hover,
+#saw-group .jcarousel-next-vertical:focus {
+    background-position: 0 -32px;
+}
+
+#saw-group .jcarousel-next-vertical:active {
+    background-position: 0 -64px;
+}
+
+#saw-group .jcarousel-next-disabled-vertical,
+#saw-group .jcarousel-next-disabled-vertical:hover,
+#saw-group .jcarousel-next-disabled-vertical:focus,
+#saw-group .jcarousel-next-disabled-vertical:active {
+    cursor: default;
+    background-position: 0 -96px;
+}
+
+#saw-group .jcarousel-prev-vertical {
+    /*    position: absolute;
+        top: 5px;
+        left: 43px;
+        width: 32px;
+        height: 32px;
+        cursor: pointer;
+        background: transparent url(prev-vertical.png) no-repeat 0 0;*/
+    display: none;
+}
+
+#saw-group .jcarousel-prev-vertical:hover,
+#saw-group .jcarousel-prev-vertical:focus {
+    background-position: 0 -32px;
+}
+
+#saw-group .jcarousel-prev-vertical:active {
+    background-position: 0 -64px;
+}
+
+#saw-group .jcarousel-prev-disabled-vertical,
+#saw-group .jcarousel-prev-disabled-vertical:hover,
+#saw-group .jcarousel-prev-disabled-vertical:focus,
+#saw-group .jcarousel-prev-disabled-vertical:active {
+    cursor: default;
+    background-position: 0 -96px;
+}
+
+/*=============================END: Saw=================================*/

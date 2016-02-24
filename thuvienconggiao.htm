@@ -1,0 +1,1122 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="language" content="en">
+        <title>Thu vien cong giao</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="stylesheet" href="css/bootstrap.css" type="text/css"/>
+        <link href="css/select2.css" rel="stylesheet" />
+        <link rel="stylesheet" href="css/main.css" type="text/css"/>
+        <script src="js/jquery-1.9.1.min.js"></script>        
+        <script src="js/select2.js"></script>
+        <script type="text/javascript" language="javascript" src="js/jquery.bt.min.js"></script>
+        <script type="text/javascript" src="js/jssor.js"></script>
+        <script type="text/javascript" src="js/jssor.slider.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/admin/plugins/font-awesome/css/font-awesome.min.css">
+        
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    </head>
+    <body>
+        <div class="container-wp">
+            <div class="col-md-12">
+                <div class="col-md-12 container-content head-content">
+                    <div class="logo">
+                        <a href=""><img src="images/logo.png" /></a>
+                        <div style="float: left;position: relative;top:20px;padding-left: 20px;">
+                            <span style="font-size:34px;font-weight: bold;color: #D5904D;">Thư Viện</span>
+                            <span style="font-size:34px;font-weight: bold;color: #5f2d08;">Công Giáo</span>
+                            <span style="font-size:34px;font-weight: bold;color: #D5904D;">Việt Nam</span>
+                        </div>
+                    </div>
+                    <div class="logo-login">
+                        <a class="register" href="">
+                            <img src="images/ic_register.png" /> Đăng ký
+                        </a>
+                        <a class="login" href="" style="margin-left: 10px;">
+                            <img src="images/ic_login.png" /> Đăng nhập
+                        </a>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="row">
+                                <a href="" class="menu" style="width: 13%;">
+                                    <img src="images/ic_home.png" />
+                                </a>
+                                <a href="" class="menu" style="width: 29%;">
+                                    Thư viện
+                                </a>
+                                <a href="" class="menu" style="width: 29%;">
+                                    Tủ sách
+                                </a>
+                                <a href="" class="menu" style="width: 29%;">
+                                    Giới thiệu
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 menu-search">
+                            <div class="row searchbox">
+                                <input type="text" placeholder="Nhập từ khóa tìm kiếm" />
+                            </div>                          
+                        </div>
+                        <div class="col-md-3 menu-search">
+                            <div class="row">
+                                <select id="fabric" style="height: 37px;">
+                                    <option>Xem tất cả sách</option>
+                                    <option>Kiến thức cơ bản</option>
+                                    <option>Thánh kinh</option>
+                                    <option>Tín lý</option>
+                                    <option>Luân lý và Tu đức</option>
+                                    <option>Ân sủng và Bí tích</option>
+                                    <option>Phụng vụ</option>
+                                    <option>Giáo sử - Giáo luật</option>
+                                    <option>Công đồng - Thông điệp - Văn kiện</option>
+                                    <option>Mục vụ</option>
+                                    <option>Giáo dục - Sư phạm</option>
+                                </select>
+                            </div>                                
+                        </div>
+                        <div class="col-md-1 menu right">
+                            <div class="row">
+                                Tìm kiếm
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="slider-home-container">
+							<div class="col-md-8 slide-left-container">
+								<div id="slider1_container" style="display: none; position: relative; margin: 0 auto;
+								top: 0px; left: 0px; width: 675px; height: 253px; overflow: hidden;">
+									<div u="loading" style="position: absolute; top: 0px; left: 0px;">
+										<div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block;
+										top: 0px; left: 0px; width: 100%; height: 100%;">
+										</div>
+										<div style="position: absolute; display: block; background: url(img/loading.gif) no-repeat center center;
+										top: 0px; left: 0px; width: 100%; height: 100%;">
+										</div>
+									</div>
+									<div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1130px; height: 300px; overflow: hidden;">
+										<div>
+											<img u="image" src="img/slide/01.jpg" />
+										</div>
+										<div>
+											<img u="image" src="img/slide/02.jpg" />
+										</div>
+										<div>
+											<img u="image" src="img/slide/03.jpg" />
+										</div>
+										<div>
+											<img u="image" src="img/slide/04.jpg" />
+										</div>
+									</div>
+									<div u="navigator" class="jssorb21" style="position: absolute; bottom: 26px; left: 6px;">
+										<div u="prototype" style="POSITION: absolute; WIDTH: 19px; HEIGHT: 19px; text-align:center; line-height:19px; color:White; font-size:12px;"></div>
+									</div>
+									<span u="arrowleft" class="jssora21l" style="width: 55px; height: 55px; top: 123px; left: 8px;">
+									</span>
+									<span u="arrowright" class="jssora21r" style="width: 55px; height: 55px; top: 123px; right: 8px">
+									</span>
+								</div>
+								<script>
+									jQuery(document).ready(function ($) {
+										var options = {
+											$FillMode: 2,                                       //[Optional] The way to fill image in slide, 0 stretch, 1 contain (keep aspect ratio and put all inside slide), 2 cover (keep aspect ratio and cover whole slide), 4 actual size, 5 contain for large image, actual size for small image, default value is 0
+											$AutoPlay: true,                                    //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
+											$AutoPlayInterval: 4000,                            //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
+											$PauseOnHover: 1,                                   //[Optional] Whether to pause when mouse over if a slider is auto playing, 0 no pause, 1 pause for desktop, 2 pause for touch device, 3 pause for desktop and touch device, 4 freeze for desktop, 8 freeze for touch device, 12 freeze for desktop and touch device, default value is 1
+
+											$ArrowKeyNavigation: true,                          //[Optional] Allows keyboard (arrow key) navigation or not, default value is false
+											$SlideEasing: $JssorEasing$.$EaseOutQuint,          //[Optional] Specifies easing for right to left animation, default value is $JssorEasing$.$EaseOutQuad
+											$SlideDuration: 800,                               //[Optional] Specifies default duration (swipe) for slide in milliseconds, default value is 500
+											$MinDragOffsetToSlide: 20,                          //[Optional] Minimum drag offset to trigger slide , default value is 20
+											//$SlideWidth: 600,                                 //[Optional] Width of every slide in pixels, default value is width of 'slides' container
+											//$SlideHeight: 300,                                //[Optional] Height of every slide in pixels, default value is height of 'slides' container
+											$SlideSpacing: 0,                                   //[Optional] Space between each slide in pixels, default value is 0
+											$DisplayPieces: 1,                                  //[Optional] Number of pieces to display (the slideshow would be disabled if the value is set to greater than 1), the default value is 1
+											$ParkingPosition: 0,                                //[Optional] The offset position to park slide (this options applys only when slideshow disabled), default value is 0.
+											$UISearchMode: 1,                                   //[Optional] The way (0 parellel, 1 recursive, default value is 1) to search UI components (slides container, loading screen, navigator container, arrow navigator container, thumbnail navigator container etc).
+											$PlayOrientation: 1,                                //[Optional] Orientation to play slide (for auto play, navigation), 1 horizental, 2 vertical, 5 horizental reverse, 6 vertical reverse, default value is 1
+											$DragOrientation: 1,                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $DisplayPieces is greater than 1, or parking position is not 0)
+
+											$BulletNavigatorOptions: {                          //[Optional] Options to specify and enable navigator or not
+												$Class: $JssorBulletNavigator$,                 //[Required] Class to create navigator instance
+												$ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+												$AutoCenter: 1,                                 //[Optional] Auto center navigator in parent container, 0 None, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
+												$Steps: 1,                                      //[Optional] Steps to go for each navigation request, default value is 1
+												$Lanes: 1,                                      //[Optional] Specify lanes to arrange items, default value is 1
+												$SpacingX: 8,                                   //[Optional] Horizontal space between each item in pixel, default value is 0
+												$SpacingY: 8,                                   //[Optional] Vertical space between each item in pixel, default value is 0
+												$Orientation: 1,                                //[Optional] The orientation of the navigator, 1 horizontal, 2 vertical, default value is 1
+												$Scale: false,                                  //Scales bullets navigator or not while slider scale
+											},
+
+											$ArrowNavigatorOptions: {                           //[Optional] Options to specify and enable arrow navigator or not
+												$Class: $JssorArrowNavigator$,                  //[Requried] Class to create arrow navigator instance
+												$ChanceToShow: 1,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+												$AutoCenter: 2,                                 //[Optional] Auto center arrows in parent container, 0 No, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
+												$Steps: 1                                       //[Optional] Steps to go for each navigation request, default value is 1
+											}
+										};
+										$("#slider1_container").css("display", "block");
+										var jssor_slider1 = new $JssorSlider$("slider1_container", options);
+										function ScaleSlider() {
+											var bodyWidth = document.body.clientWidth - 30;
+											if (bodyWidth)
+												jssor_slider1.$ScaleWidth(Math.min(bodyWidth, 675));
+											else
+												window.setTimeout(ScaleSlider, 30);
+										}
+										ScaleSlider();
+										$(window).bind("load", ScaleSlider);
+										$(window).bind("resize", ScaleSlider);
+										$(window).bind("orientationchange", ScaleSlider);
+									});
+								</script>
+								</div>
+								<div class="col-md-4 slide-right-container">
+									<img u="image" src="images/banner-right.png" />
+									<div class="slide-right-content">										
+										<a href="#">
+										<span style="font-size:17px;font-weight: bold;color: #D5904D;">Nhấn</span>
+										<span style="font-size:14px;font-weight: bold;color: #5f2d08;">vào đây để vào</span>
+										<span style="font-size:17px;font-weight: bold;color: #D5904D;">Thư viện</span>
+										</a>
+									</div>
+								</div>
+                    </div>
+                    </div>
+                </div>
+                <div class="clear1"></div>
+                <div class="col-md-12">
+                    <div class="row boxproduct">
+                        <div class="arrow-home">
+                            <h4>Sách mới đưa vào thư viện</h4>
+                        </div>
+                        <div class="arrow-slide-right">(Có 30 quyển sách)</div>
+                        <div class="clear"></div>
+                        <div class="col-md-12 line-shadow" ></div>
+                        <div class="clear1"></div>
+                        <div  style="max-width: 1140px;">
+                            <div style="max-width:600px;float:left;">
+                                <div id="child_slider2_container" style="position: relative; top: 0px; left: 0px; width: 500px;
+                                    height: 300px; overflow: hidden;">
+                                    <div u="loading" style="position: absolute; top: 0px; left: 0px;">
+                                        <div style="filter: alpha(opacity=70); opacity:0.7; position: absolute; display: block;
+                                            background-color: #000; top: 0px; left: 0px;width: 100%;height:100%;">
+                                        </div>
+                                        <div style="position: absolute; display: block; background: url(img/loading.gif) no-repeat center center;
+                                            top: 0px; left: 0px;width: 100%;height:100%;">
+                                        </div>
+                                    </div>
+                                    <div u="slides" style="position: absolute; left: 0px; top: 0px; width: 500px; height: 300px;
+                                        overflow: hidden;">
+                                        <div style="width: 120px !important;">
+                                            <div style="position:absolute;z-index: 9999;">
+                                                <img class="img-shadow" style="height: 250px;" u="image" src="images/item.jpg" />
+                                                <div class="clear1"></div>
+                                                <div style="padding-left:30px;">
+                                                    <a href="">
+                                                        <div class="read-book">
+                                                            Đọc
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div style="float:right;width:275px;">
+                                                <a class="slid-pro-title">
+                                                    <h4 style=" font-weight:bold;">Clive Cussler</h4>
+                                                </a>
+                                                <b>
+                                                    Giới thiệu những cuốn sách quý giá nhất mọi thời đại, được chủ sở hữu chia sẽ lại, mới mong muốn đưa người đọc tới cảm gác sâu thawme,,,
+                                                </b>                                                
+                                            </div>
+                                        </div>
+                                        <div style="width: 120px !important;">
+                                            <div style="position:absolute;z-index: 9999;">
+                                                <img class="img-shadow" style="height: 250px;" u="image" src="images/item.jpg" />
+                                                <div class="clear1"></div>
+                                                <div style="padding-left:30px;">
+                                                    <a href="">
+                                                        <div class="read-book">
+                                                            Đọc
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div style="float:right;width:275px;">
+                                                <a class="slid-pro-title">
+                                                    <h4 style=" font-weight:bold;">Clive Cussler</h4>
+                                                </a>
+                                                <b>
+                                                    Giới thiệu những cuốn sách quý giá nhất mọi thời đại, được chủ sở hữu chia sẽ lại, mới mong muốn đưa người đọc tới cảm gác sâu thawme,,,
+                                                </b>
+                                                
+                                            </div>
+                                        </div>
+                                        <div style="width: 120px !important;">
+                                            <div style="position:absolute;z-index: 9999;">
+                                                <img class="img-shadow" style="height: 250px;" u="image" src="images/item.jpg" />
+                                                <div class="clear1"></div>
+                                                <div style="padding-left:30px;">
+                                                    <a href="">
+                                                        <div class="read-book">
+                                                            Đọc
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div style="float:right;width:275px;">
+                                                <a class="slid-pro-title">
+                                                    <h4 style=" font-weight:bold;">Clive Cussler</h4>
+                                                </a>
+                                                <b>
+                                                    Giới thiệu những cuốn sách quý giá nhất mọi thời đại, được chủ sở hữu chia sẽ lại, mới mong muốn đưa người đọc tới cảm gác sâu thawme,,,
+                                                </b>
+                                                
+                                            </div>
+                                        </div>
+                                        <div style="width: 120px !important;">
+                                            <div style="position:absolute;z-index: 9999;">
+                                                <img class="img-shadow" style="height: 250px;" u="image" src="images/item.jpg" />
+                                                <div class="clear1"></div>
+                                                <div style="padding-left:30px;">
+                                                    <a href="">
+                                                        <div class="read-book">
+                                                            Đọc
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div style="float:right;width:275px;">
+                                                <a class="slid-pro-title">
+                                                    <h4 style=" font-weight:bold;">Clive Cussler</h4>
+                                                </a>
+                                                <b>
+                                                    Giới thiệu những cuốn sách quý giá nhất mọi thời đại, được chủ sở hữu chia sẽ lại, mới mong muốn đưa người đọc tới cảm gác sâu thawme,,,
+                                                </b>
+                                                
+                                            </div>
+                                        </div>
+                                        <div style="width: 120px !important;">
+                                            <div style="position:absolute;z-index: 9999;">
+                                                <img class="img-shadow" style="height: 250px;" u="image" src="images/item.jpg" />
+                                                <div class="clear1"></div>
+                                                <div style="padding-left:30px;">
+                                                    <a href="">
+                                                        <div class="read-book">
+                                                            Đọc
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div style="float:right;width:275px;">
+                                                <a class="slid-pro-title">
+                                                    <h4 style=" font-weight:bold;">Clive Cussler</h4>
+                                                </a>
+                                                <b>
+                                                    Giới thiệu những cuốn sách quý giá nhất mọi thời đại, được chủ sở hữu chia sẽ lại, mới mong muốn đưa người đọc tới cảm gác sâu thawme,,,
+                                                </b>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="border-radius: 10px;max-width:585px;float:left;padding:17px 2px;background:#dcc1a4;margin:19px 0px 25px 10px;">
+                                <div id="slider2_container" style="position: relative; top: 0px; left: 0px; width: 820px; height: 195px; overflow: hidden; ">
+                                    <div u="loading" style="position: absolute; top: 0px; left: 0px;">
+                                        <div style="filter: alpha(opacity=70); opacity:0.7; position: absolute; display: block;
+                                                    background-color: #000; top: 0px; left: 0px;width: 100%;height:100%;">
+                                        </div>
+                                        <div style="position: absolute; display: block; background: url(img/loading.gif) no-repeat center center;
+                                                    top: 0px; left: 0px;width: 100%;height:100%;">
+                                        </div>
+                                    </div>
+
+                                    <div u="slides" style="position: absolute; left: 0px; top: 20px; width: 820px; height: 280px; overflow: hidden;">
+                                        <div style="width: 120px !important;padding-left:30px;">
+                                            <div style="position:absolute;z-index: 9999;">
+                                                <img class="boximg" style="height: 150px;" u="image" src="images/item.jpg" />
+                                            </div>
+                                        </div>
+                                        <div style="width: 120px !important;padding-left:30px;">
+                                            <div style="position:absolute;z-index: 9999;">
+                                                <img class="boximg" style="height: 150px;" u="image" src="images/item.jpg" />
+                                            </div>
+                                        </div>
+                                        <div style="width: 120px !important;padding-left:30px;">
+                                            <div style="position:absolute;z-index: 9999;">
+                                                <img class="boximg" style="height: 150px;" u="image" src="images/item.jpg" />
+                                            </div>
+                                        </div>
+                                        <div style="width: 120px !important;padding-left:30px;">
+                                            <div style="position:absolute;z-index: 9999;">
+                                                <img class="boximg" style="height: 150px;" u="image" src="images/item.jpg" />
+                                            </div>
+                                        </div>
+                                        <div style="width: 120px !important;padding-left:30px;">
+                                            <div style="position:absolute;z-index: 9999;">
+                                                <img class="boximg" style="height: 150px;" u="image" src="images/item.jpg" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div u="navigator" class="jssorb03" style="bottom: 4px; right: 6px;;">
+                                        <div u="prototype" style="display:none !important;"><div u="numbertemplate"></div></div>
+                                    </div>
+                                    <span u="arrowleft" class="jssora03l" style="top: 123px; left: -10px;">
+                                    </span>
+                                    <!-- Arrow Right -->
+                                    <span u="arrowright" class="jssora03r" style="top: 123px; right: 10px;">
+                                    </span>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="clear1"></div>                        
+                    </div>
+                    <div class="clear1"></div>
+                    <div class="clear1"></div>
+                    <div class="row boxproduct">
+                        <div class="arrow-home">
+                            <h4>Sách sắp đưa vào thư viện</h4>
+                        </div>
+                        <div class="arrow-slide-right">(Có 30 quyển sách)</div>
+                        <div class="clear"></div>
+                        <div class="col-md-12 line-shadow" ></div>
+                        <div class="clear1"></div>
+                        <div  style="max-width: 1140px;">
+                            <div style="max-width:600px;float:left;">
+                                <div id="child_slider3_container" style="position: relative; top: 0px; left: 0px; width: 500px;
+                                    height: 300px; overflow: hidden;">
+                                    <div u="loading" style="position: absolute; top: 0px; left: 0px;">
+                                        <div style="filter: alpha(opacity=70); opacity:0.7; position: absolute; display: block;
+                                            background-color: #000; top: 0px; left: 0px;width: 100%;height:100%;">
+                                        </div>
+                                        <div style="position: absolute; display: block; background: url(img/loading.gif) no-repeat center center;
+                                            top: 0px; left: 0px;width: 100%;height:100%;">
+                                        </div>
+                                    </div>
+                                    <div u="slides" style="position: absolute; left: 0px; top: 0px; width: 500px; height: 300px;
+                                        overflow: hidden;">
+                                        <div style="width: 120px !important;">
+                                            <div style="position:absolute;z-index: 9999;">
+                                                <img class="img-shadow" style="height: 250px;" u="image" src="images/item.jpg" />
+                                                <div class="clear1"></div>
+                                                <div style="padding-left:30px;">
+                                                    <a href="">
+                                                        <div class="read-book">
+                                                            Đọc
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div style="float:right;width:275px;">
+                                                <a class="slid-pro-title">
+                                                    <h4 style=" font-weight:bold;">Clive Cussler</h4>
+                                                </a>
+                                                <b>
+                                                    Giới thiệu những cuốn sách quý giá nhất mọi thời đại, được chủ sở hữu chia sẽ lại, mới mong muốn đưa người đọc tới cảm gác sâu thawme,,,
+                                                </b>                                                
+                                            </div>
+                                        </div>
+                                        <div style="width: 120px !important;">
+                                            <div style="position:absolute;z-index: 9999;">
+                                                <img class="img-shadow" style="height: 250px;" u="image" src="images/item.jpg" />
+                                                <div class="clear1"></div>
+                                                <div style="padding-left:30px;">
+                                                    <a href="">
+                                                        <div class="read-book">
+                                                            Đọc
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div style="float:right;width:275px;">
+                                                <a class="slid-pro-title">
+                                                    <h4 style=" font-weight:bold;">Clive Cussler</h4>
+                                                </a>
+                                                <b>
+                                                    Giới thiệu những cuốn sách quý giá nhất mọi thời đại, được chủ sở hữu chia sẽ lại, mới mong muốn đưa người đọc tới cảm gác sâu thawme,,,
+                                                </b>
+                                                
+                                            </div>
+                                        </div>
+                                        <div style="width: 120px !important;">
+                                            <div style="position:absolute;z-index: 9999;">
+                                                <img class="img-shadow" style="height: 250px;" u="image" src="images/item.jpg" />
+                                                <div class="clear1"></div>
+                                                <div style="padding-left:30px;">
+                                                    <a href="">
+                                                        <div class="read-book">
+                                                            Đọc
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div style="float:right;width:275px;">
+                                                <a class="slid-pro-title">
+                                                    <h4 style=" font-weight:bold;">Clive Cussler</h4>
+                                                </a>
+                                                <b>
+                                                    Giới thiệu những cuốn sách quý giá nhất mọi thời đại, được chủ sở hữu chia sẽ lại, mới mong muốn đưa người đọc tới cảm gác sâu thawme,,,
+                                                </b>
+                                                
+                                            </div>
+                                        </div>
+                                        <div style="width: 120px !important;">
+                                            <div style="position:absolute;z-index: 9999;">
+                                                <img class="img-shadow" style="height: 250px;" u="image" src="images/item.jpg" />
+                                                <div class="clear1"></div>
+                                                <div style="padding-left:30px;">
+                                                    <a href="">
+                                                        <div class="read-book">
+                                                            Đọc
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div style="float:right;width:275px;">
+                                                <a class="slid-pro-title">
+                                                    <h4 style=" font-weight:bold;">Clive Cussler</h4>
+                                                </a>
+                                                <b>
+                                                    Giới thiệu những cuốn sách quý giá nhất mọi thời đại, được chủ sở hữu chia sẽ lại, mới mong muốn đưa người đọc tới cảm gác sâu thawme,,,
+                                                </b>
+                                                
+                                            </div>
+                                        </div>
+                                        <div style="width: 120px !important;">
+                                            <div style="position:absolute;z-index: 9999;">
+                                                <img class="img-shadow" style="height: 250px;" u="image" src="images/item.jpg" />
+                                                <div class="clear1"></div>
+                                                <div style="padding-left:30px;">
+                                                    <a href="">
+                                                        <div class="read-book">
+                                                            Đọc
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div style="float:right;width:275px;">
+                                                <a class="slid-pro-title">
+                                                    <h4 style=" font-weight:bold;">Clive Cussler</h4>
+                                                </a>
+                                                <b>
+                                                    Giới thiệu những cuốn sách quý giá nhất mọi thời đại, được chủ sở hữu chia sẽ lại, mới mong muốn đưa người đọc tới cảm gác sâu thawme,,,
+                                                </b>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="border-radius: 10px;max-width:585px;float:left;padding:17px 2px;background:#dcc1a4;margin:19px 0px 25px 10px;">
+                                <div id="slider3_container" style="position: relative; top: 0px; left: 0px; width: 820px; height: 195px; overflow: hidden; ">
+                                    <div u="loading" style="position: absolute; top: 0px; left: 0px;">
+                                        <div style="filter: alpha(opacity=70); opacity:0.7; position: absolute; display: block;
+                                                    background-color: #000; top: 0px; left: 0px;width: 100%;height:100%;">
+                                        </div>
+                                        <div style="position: absolute; display: block; background: url(img/loading.gif) no-repeat center center;
+                                                    top: 0px; left: 0px;width: 100%;height:100%;">
+                                        </div>
+                                    </div>
+
+                                    <div u="slides" style="position: absolute; left: 0px; top: 20px; width: 820px; height: 280px; overflow: hidden;">
+                                        <div style="width: 120px !important;padding-left:30px;">
+                                            <div style="position:absolute;z-index: 9999;">
+                                                <img class="boximg" style="height: 150px;" u="image" src="images/item.jpg" />
+                                            </div>
+                                        </div>
+                                        <div style="width: 120px !important;padding-left:30px;">
+                                            <div style="position:absolute;z-index: 9999;">
+                                                <img class="boximg" style="height: 150px;" u="image" src="images/item.jpg" />
+                                            </div>
+                                        </div>
+                                        <div style="width: 120px !important;padding-left:30px;">
+                                            <div style="position:absolute;z-index: 9999;">
+                                                <img class="boximg" style="height: 150px;" u="image" src="images/item.jpg" />
+                                            </div>
+                                        </div>
+                                        <div style="width: 120px !important;padding-left:30px;">
+                                            <div style="position:absolute;z-index: 9999;">
+                                                <img class="boximg" style="height: 150px;" u="image" src="images/item.jpg" />
+                                            </div>
+                                        </div>
+                                        <div style="width: 120px !important;padding-left:30px;">
+                                            <div style="position:absolute;z-index: 9999;">
+                                                <img class="boximg" style="height: 150px;" u="image" src="images/item.jpg" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div u="navigator" class="jssorb03" style="bottom: 4px; right: 6px;;">
+                                        <div u="prototype" style="display:none !important;"><div u="numbertemplate"></div></div>
+                                    </div>
+                                    <span u="arrowleft" class="jssora03l" style="top: 123px; left: -10px;">
+                                    </span>
+                                    <!-- Arrow Right -->
+                                    <span u="arrowright" class="jssora03r" style="top: 123px; right: 10px;">
+                                    </span>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="clear1"></div>                        
+                    </div>
+                    <div class="clear1"></div>
+                    <div class="clear1"></div>
+                    <div class="row boxproduct">
+                        <div class="arrow-home">
+                            <h4>Sách hay nên đọc</h4>
+                        </div>
+                        <div class="arrow-slide-right">(Có 30 quyển sách)</div>
+                        <div class="clear"></div>
+                        <div class="col-md-12 line-shadow" ></div>
+                        <div class="clear1"></div>
+                        <div  style="max-width: 1140px;">
+                            <div style="max-width:600px;float:left;">
+                                <div id="child_slider4_container" style="position: relative; top: 0px; left: 0px; width: 500px;
+                                    height: 300px; overflow: hidden;">
+                                    <div u="loading" style="position: absolute; top: 0px; left: 0px;">
+                                        <div style="filter: alpha(opacity=70); opacity:0.7; position: absolute; display: block;
+                                            background-color: #000; top: 0px; left: 0px;width: 100%;height:100%;">
+                                        </div>
+                                        <div style="position: absolute; display: block; background: url(img/loading.gif) no-repeat center center;
+                                            top: 0px; left: 0px;width: 100%;height:100%;">
+                                        </div>
+                                    </div>
+                                    <div u="slides" style="position: absolute; left: 0px; top: 0px; width: 500px; height: 300px;
+                                        overflow: hidden;">
+                                        <div style="width: 120px !important;">
+                                            <div style="position:absolute;z-index: 9999;">
+                                                <img class="img-shadow" style="height: 250px;" u="image" src="images/item.jpg" />
+                                                <div class="clear1"></div>
+                                                <div style="padding-left:30px;">
+                                                    <a href="">
+                                                        <div class="read-book">
+                                                            Đọc
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div style="float:right;width:275px;">
+                                                <a class="slid-pro-title">
+                                                    <h4 style=" font-weight:bold;">Clive Cussler</h4>
+                                                </a>
+                                                <b>
+                                                    Giới thiệu những cuốn sách quý giá nhất mọi thời đại, được chủ sở hữu chia sẽ lại, mới mong muốn đưa người đọc tới cảm gác sâu thawme,,,
+                                                </b>                                                
+                                            </div>
+                                        </div>
+                                        <div style="width: 120px !important;">
+                                            <div style="position:absolute;z-index: 9999;">
+                                                <img class="img-shadow" style="height: 250px;" u="image" src="images/item.jpg" />
+                                                <div class="clear1"></div>
+                                                <div style="padding-left:30px;">
+                                                    <a href="">
+                                                        <div class="read-book">
+                                                            Đọc
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div style="float:right;width:275px;">
+                                                <a class="slid-pro-title">
+                                                    <h4 style=" font-weight:bold;">Clive Cussler</h4>
+                                                </a>
+                                                <b>
+                                                    Giới thiệu những cuốn sách quý giá nhất mọi thời đại, được chủ sở hữu chia sẽ lại, mới mong muốn đưa người đọc tới cảm gác sâu thawme,,,
+                                                </b>
+                                                
+                                            </div>
+                                        </div>
+                                        <div style="width: 120px !important;">
+                                            <div style="position:absolute;z-index: 9999;">
+                                                <img class="img-shadow" style="height: 250px;" u="image" src="images/item.jpg" />
+                                                <div class="clear1"></div>
+                                                <div style="padding-left:30px;">
+                                                    <a href="">
+                                                        <div class="read-book">
+                                                            Đọc
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div style="float:right;width:275px;">
+                                                <a class="slid-pro-title">
+                                                    <h4 style=" font-weight:bold;">Clive Cussler</h4>
+                                                </a>
+                                                <b>
+                                                    Giới thiệu những cuốn sách quý giá nhất mọi thời đại, được chủ sở hữu chia sẽ lại, mới mong muốn đưa người đọc tới cảm gác sâu thawme,,,
+                                                </b>
+                                                
+                                            </div>
+                                        </div>
+                                        <div style="width: 120px !important;">
+                                            <div style="position:absolute;z-index: 9999;">
+                                                <img class="img-shadow" style="height: 250px;" u="image" src="images/item.jpg" />
+                                                <div class="clear1"></div>
+                                                <div style="padding-left:30px;">
+                                                    <a href="">
+                                                        <div class="read-book">
+                                                            Đọc
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div style="float:right;width:275px;">
+                                                <a class="slid-pro-title">
+                                                    <h4 style=" font-weight:bold;">Clive Cussler</h4>
+                                                </a>
+                                                <b>
+                                                    Giới thiệu những cuốn sách quý giá nhất mọi thời đại, được chủ sở hữu chia sẽ lại, mới mong muốn đưa người đọc tới cảm gác sâu thawme,,,
+                                                </b>
+                                                
+                                            </div>
+                                        </div>
+                                        <div style="width: 120px !important;">
+                                            <div style="position:absolute;z-index: 9999;">
+                                                <img class="img-shadow" style="height: 250px;" u="image" src="images/item.jpg" />
+                                                <div class="clear1"></div>
+                                                <div style="padding-left:30px;">
+                                                    <a href="">
+                                                        <div class="read-book">
+                                                            Đọc
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div style="float:right;width:275px;">
+                                                <a class="slid-pro-title">
+                                                    <h4 style=" font-weight:bold;">Clive Cussler</h4>
+                                                </a>
+                                                <b>
+                                                    Giới thiệu những cuốn sách quý giá nhất mọi thời đại, được chủ sở hữu chia sẽ lại, mới mong muốn đưa người đọc tới cảm gác sâu thawme,,,
+                                                </b>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="border-radius: 10px;max-width:585px;float:left;padding:17px 2px;background:#dcc1a4;margin:19px 0px 25px 10px;">
+                                <div id="slider4_container" style="position: relative; top: 0px; left: 0px; width: 820px; height: 195px; overflow: hidden; ">
+                                    <div u="loading" style="position: absolute; top: 0px; left: 0px;">
+                                        <div style="filter: alpha(opacity=70); opacity:0.7; position: absolute; display: block;
+                                                    background-color: #000; top: 0px; left: 0px;width: 100%;height:100%;">
+                                        </div>
+                                        <div style="position: absolute; display: block; background: url(img/loading.gif) no-repeat center center;
+                                                    top: 0px; left: 0px;width: 100%;height:100%;">
+                                        </div>
+                                    </div>
+
+                                    <div u="slides" style="position: absolute; left: 0px; top: 20px; width: 820px; height: 280px; overflow: hidden;">
+                                        <div style="width: 120px !important;padding-left:30px;">
+                                            <div style="position:absolute;z-index: 9999;">
+                                                <img class="boximg" style="height: 150px;" u="image" src="images/item.jpg" />
+                                            </div>
+                                        </div>
+                                        <div style="width: 120px !important;padding-left:30px;">
+                                            <div style="position:absolute;z-index: 9999;">
+                                                <img class="boximg" style="height: 150px;" u="image" src="images/item.jpg" />
+                                            </div>
+                                        </div>
+                                        <div style="width: 120px !important;padding-left:30px;">
+                                            <div style="position:absolute;z-index: 9999;">
+                                                <img class="boximg" style="height: 150px;" u="image" src="images/item.jpg" />
+                                            </div>
+                                        </div>
+                                        <div style="width: 120px !important;padding-left:30px;">
+                                            <div style="position:absolute;z-index: 9999;">
+                                                <img class="boximg" style="height: 150px;" u="image" src="images/item.jpg" />
+                                            </div>
+                                        </div>
+                                        <div style="width: 120px !important;padding-left:30px;">
+                                            <div style="position:absolute;z-index: 9999;">
+                                                <img class="boximg" style="height: 150px;" u="image" src="images/item.jpg" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div u="navigator" class="jssorb03" style="bottom: 4px; right: 6px;;">
+                                        <div u="prototype" style="display:none !important;"><div u="numbertemplate"></div></div>
+                                    </div>
+                                    <span u="arrowleft" class="jssora03l" style="top: 123px; left: -10px;">
+                                    </span>
+                                    <!-- Arrow Right -->
+                                    <span u="arrowright" class="jssora03r" style="top: 123px; right: 10px;">
+                                    </span>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="clear1"></div>                        
+                    </div>
+                    <div class="clear1">	</div>
+                    <div class="clear1">	</div>
+					<div class="row boxproduct">
+                        <div class="arrow-home">
+                            <h4>Tham khảo</h4>
+                        </div>
+                        <div class="arrow-slide-right">(Có 30 quyển sách)</div>
+                        <div class="clear"></div>
+                        <div class="col-md-12 line-shadow" ></div>
+                        <div class="clear1"></div>
+                        <div  style="max-width: 1140px;">
+                            <div style="max-width:600px;float:left;">
+                                <div id="child_slider5_container" style="position: relative; top: 0px; left: 0px; width: 500px;
+                                    height: 300px; overflow: hidden;">
+                                    <div u="loading" style="position: absolute; top: 0px; left: 0px;">
+                                        <div style="filter: alpha(opacity=70); opacity:0.7; position: absolute; display: block;
+                                            background-color: #000; top: 0px; left: 0px;width: 100%;height:100%;">
+                                        </div>
+                                        <div style="position: absolute; display: block; background: url(img/loading.gif) no-repeat center center;
+                                            top: 0px; left: 0px;width: 100%;height:100%;">
+                                        </div>
+                                    </div>
+                                    <div u="slides" style="position: absolute; left: 0px; top: 0px; width: 500px; height: 300px;
+                                        overflow: hidden;">
+                                        <div style="width: 120px !important;">
+                                            <div style="position:absolute;z-index: 9999;">
+                                                <img class="img-shadow" style="height: 250px;" u="image" src="images/item.jpg" />
+                                                <div class="clear1"></div>
+                                                <div style="padding-left:30px;">
+                                                    <a href="">
+                                                        <div class="read-book">
+                                                            Đọc
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div style="float:right;width:275px;">
+                                                <a class="slid-pro-title">
+                                                    <h4 style=" font-weight:bold;">Clive Cussler</h4>
+                                                </a>
+                                                <b>
+                                                    Giới thiệu những cuốn sách quý giá nhất mọi thời đại, được chủ sở hữu chia sẽ lại, mới mong muốn đưa người đọc tới cảm gác sâu thawme,,,
+                                                </b>                                                
+                                            </div>
+                                        </div>
+                                        <div style="width: 120px !important;">
+                                            <div style="position:absolute;z-index: 9999;">
+                                                <img class="img-shadow" style="height: 250px;" u="image" src="images/item.jpg" />
+                                                <div class="clear1"></div>
+                                                <div style="padding-left:30px;">
+                                                    <a href="">
+                                                        <div class="read-book">
+                                                            Đọc
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div style="float:right;width:275px;">
+                                                <a class="slid-pro-title">
+                                                    <h4 style=" font-weight:bold;">Clive Cussler</h4>
+                                                </a>
+                                                <b>
+                                                    Giới thiệu những cuốn sách quý giá nhất mọi thời đại, được chủ sở hữu chia sẽ lại, mới mong muốn đưa người đọc tới cảm gác sâu thawme,,,
+                                                </b>
+                                                
+                                            </div>
+                                        </div>
+                                        <div style="width: 120px !important;">
+                                            <div style="position:absolute;z-index: 9999;">
+                                                <img class="img-shadow" style="height: 250px;" u="image" src="images/item.jpg" />
+                                                <div class="clear1"></div>
+                                                <div style="padding-left:30px;">
+                                                    <a href="">
+                                                        <div class="read-book">
+                                                            Đọc
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div style="float:right;width:275px;">
+                                                <a class="slid-pro-title">
+                                                    <h4 style=" font-weight:bold;">Clive Cussler</h4>
+                                                </a>
+                                                <b>
+                                                    Giới thiệu những cuốn sách quý giá nhất mọi thời đại, được chủ sở hữu chia sẽ lại, mới mong muốn đưa người đọc tới cảm gác sâu thawme,,,
+                                                </b>
+                                                
+                                            </div>
+                                        </div>
+                                        <div style="width: 120px !important;">
+                                            <div style="position:absolute;z-index: 9999;">
+                                                <img class="img-shadow" style="height: 250px;" u="image" src="images/item.jpg" />
+                                                <div class="clear1"></div>
+                                                <div style="padding-left:30px;">
+                                                    <a href="">
+                                                        <div class="read-book">
+                                                            Đọc
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div style="float:right;width:275px;">
+                                                <a class="slid-pro-title">
+                                                    <h4 style=" font-weight:bold;">Clive Cussler</h4>
+                                                </a>
+                                                <b>
+                                                    Giới thiệu những cuốn sách quý giá nhất mọi thời đại, được chủ sở hữu chia sẽ lại, mới mong muốn đưa người đọc tới cảm gác sâu thawme,,,
+                                                </b>
+                                                
+                                            </div>
+                                        </div>
+                                        <div style="width: 120px !important;">
+                                            <div style="position:absolute;z-index: 9999;">
+                                                <img class="img-shadow" style="height: 250px;" u="image" src="images/item.jpg" />
+                                                <div class="clear1"></div>
+                                                <div style="padding-left:30px;">
+                                                    <a href="">
+                                                        <div class="read-book">
+                                                            Đọc
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div style="float:right;width:275px;">
+                                                <a class="slid-pro-title">
+                                                    <h4 style=" font-weight:bold;">Clive Cussler</h4>
+                                                </a>
+                                                <b>
+                                                    Giới thiệu những cuốn sách quý giá nhất mọi thời đại, được chủ sở hữu chia sẽ lại, mới mong muốn đưa người đọc tới cảm gác sâu thawme,,,
+                                                </b>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="border-radius: 10px;max-width:585px;float:left;padding:17px 2px;background:#dcc1a4;margin:19px 0px 25px 10px;">
+                                <div id="slider5_container" style="position: relative; top: 0px; left: 0px; width: 820px; height: 195px; overflow: hidden; ">
+                                    <div u="loading" style="position: absolute; top: 0px; left: 0px;">
+                                        <div style="filter: alpha(opacity=70); opacity:0.7; position: absolute; display: block;
+                                                    background-color: #000; top: 0px; left: 0px;width: 100%;height:100%;">
+                                        </div>
+                                        <div style="position: absolute; display: block; background: url(img/loading.gif) no-repeat center center;
+                                                    top: 0px; left: 0px;width: 100%;height:100%;">
+                                        </div>
+                                    </div>
+
+                                    <div u="slides" style="position: absolute; left: 0px; top: 20px; width: 820px; height: 280px; overflow: hidden;">
+                                        <div style="width: 120px !important;padding-left:30px;">
+                                            <div style="position:absolute;z-index: 9999;">
+                                                <img class="boximg" style="height: 150px;" u="image" src="images/item.jpg" />
+                                            </div>
+                                        </div>
+                                        <div style="width: 120px !important;padding-left:30px;">
+                                            <div style="position:absolute;z-index: 9999;">
+                                                <img class="boximg" style="height: 150px;" u="image" src="images/item.jpg" />
+                                            </div>
+                                        </div>
+                                        <div style="width: 120px !important;padding-left:30px;">
+                                            <div style="position:absolute;z-index: 9999;">
+                                                <img class="boximg" style="height: 150px;" u="image" src="images/item.jpg" />
+                                            </div>
+                                        </div>
+                                        <div style="width: 120px !important;padding-left:30px;">
+                                            <div style="position:absolute;z-index: 9999;">
+                                                <img class="boximg" style="height: 150px;" u="image" src="images/item.jpg" />
+                                            </div>
+                                        </div>
+                                        <div style="width: 120px !important;padding-left:30px;">
+                                            <div style="position:absolute;z-index: 9999;">
+                                                <img class="boximg" style="height: 150px;" u="image" src="images/item.jpg" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div u="navigator" class="jssorb03" style="bottom: 4px; right: 6px;;">
+                                        <div u="prototype" style="display:none !important;"><div u="numbertemplate"></div></div>
+                                    </div>
+                                    <span u="arrowleft" class="jssora03l" style="top: 123px; left: -10px;">
+                                    </span>
+                                    <!-- Arrow Right -->
+                                    <span u="arrowright" class="jssora03r" style="top: 123px; right: 10px;">
+                                    </span>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="clear1"></div>                        
+                    </div>
+                    <div class="clear1"></div>
+                </div>
+            </div>
+            <div class="clear1"></div>
+            <div class="col-md-12">
+                <div class="col-md-12 footer-wp">
+                    <div class="row">
+                        <div class="col-md-4 form-group">
+                            <h4>Thông tin</h4>
+                            <a href="">
+                                <div class="items items-1">
+                                    Điều khoản sử dụng
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="items items-2">
+                                    Liên hệ
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 form-group">
+                            <h4>Phần mềm đọc sách</h4>
+                            <a href="">
+                                <div class="items items-7">
+                                    Ứng dụng cho Windows
+                                </div>
+                            </a><a href="">
+                                <div class="items items-3">
+                                    Ứng dụng cho IOS
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="items items-4">
+                                    Ừng dụng cho Android
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 form-group">
+                            <h4>Hỗ trợ</h4>
+                            <a href="">
+                                <div class="items items-5">
+                                    Hướng dẫn
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="items items-6">
+                                    Những câu hỏi thường gặp
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </body>
+    <script>
+        $(document).ready(function() {
+            $("#fabric").select2();
+            jssor_slider1_starter('slider2_container','child_slider2_container');
+            jssor_slider1_starter('slider3_container','child_slider3_container');
+            jssor_slider1_starter('slider4_container','child_slider4_container');
+            jssor_slider1_starter('slider5_container','child_slider5_container');
+        });
+        jssor_slider1_starter = function (containerId,childId) {
+            var options = {
+                $AutoPlay: false,                                    //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
+                $AutoPlaySteps: 4,                                  //[Optional] Steps to go for each navigation request (this options applys only when slideshow disabled), the default value is 1
+                $AutoPlayInterval: 4000,                            //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
+                $PauseOnHover: 1,                               //[Optional] Whether to pause when mouse over if a slider is auto playing, 0 no pause, 1 pause for desktop, 2 pause for touch device, 3 pause for desktop and touch device, 4 freeze for desktop, 8 freeze for touch device, 12 freeze for desktop and touch device, default value is 1
+
+                $ArrowKeyNavigation: false,                         //[Optional] Allows keyboard (arrow key) navigation or not, default value is false
+                $SlideDuration: 160,                                //[Optional] Specifies default duration (swipe) for slide in milliseconds, default value is 500
+                $MinDragOffsetToSlide: 20,                          //[Optional] Minimum drag offset to trigger slide , default value is 20
+                $SlideWidth: 150,                                   //[Optional] Width of every slide in pixels, default value is width of 'slides' container
+                //$SlideHeight: 150,                                //[Optional] Height of every slide in pixels, default value is height of 'slides' container
+                $SlideSpacing: 3,                                   //[Optional] Space between each slide in pixels, default value is 0
+                $DisplayPieces: 4,                                  //[Optional] Number of pieces to display (the slideshow would be disabled if the value is set to greater than 1), the default value is 1
+                $ParkingPosition: 0,                              //[Optional] The offset position to park slide (this options applys only when slideshow disabled), default value is 0.
+                $UISearchMode: 1,                                   //[Optional] The way (0 parellel, 1 recursive, default value is 1) to search UI components (slides container, loading screen, navigator container, arrow navigator container, thumbnail navigator container etc).
+                $PlayOrientation: 1,                                //[Optional] Orientation to play slide (for auto play, navigation), 1 horizental, 2 vertical, 5 horizental reverse, 6 vertical reverse, default value is 1
+                $DragOrientation: 1,                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $DisplayPieces is greater than 1, or parking position is not 0)
+
+                $BulletNavigatorOptions: {                                //[Optional] Options to specify and enable navigator or not
+                    $Class: $JssorBulletNavigator$,                       //[Required] Class to create navigator instance
+                    $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+                    $AutoCenter: 0,                                 //[Optional] Auto center navigator in parent container, 0 None, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
+                    $Steps: 1,                                      //[Optional] Steps to go for each navigation request, default value is 1
+                    $Lanes: 1,                                      //[Optional] Specify lanes to arrange items, default value is 1
+                    $SpacingX: 0,                                   //[Optional] Horizontal space between each item in pixel, default value is 0
+                    $SpacingY: 0,                                   //[Optional] Vertical space between each item in pixel, default value is 0
+                    $Orientation: 1                                 //[Optional] The orientation of the navigator, 1 horizontal, 2 vertical, default value is 1
+                },
+
+                $ArrowNavigatorOptions: {
+                    $Class: $JssorArrowNavigator$,              //[Requried] Class to create arrow navigator instance
+                    $ChanceToShow: 1,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+                    $AutoCenter: 2,                                 //[Optional] Auto center navigator in parent container, 0 None, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
+                    $Steps: 1                                       //[Optional] Steps to go for each navigation request, default value is 1
+                }
+            };
+
+            var jssor_slider1 = new $JssorSlider$(containerId, options);
+            function ScaleSlider() {
+                var bodyWidth = document.body.clientWidth - 20;
+                if (bodyWidth)
+                    jssor_slider1.$ScaleWidth(Math.min(bodyWidth, 600));
+                else
+                    window.setTimeout(ScaleSlider, 30);
+            }
+            var options1 = {
+                $AutoPlay: false,                                    //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
+                $AutoPlaySteps: 1,                                  //[Optional] Steps to go for each navigation request (this options applys only when slideshow disabled), the default value is 1
+                $AutoPlayInterval: 4000,                            //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
+                $PauseOnHover: 1,                               //[Optional] Whether to pause when mouse over if a slider is auto playing, 0 no pause, 1 pause for desktop, 2 pause for touch device, 3 pause for desktop and touch device, 4 freeze for desktop, 8 freeze for touch device, 12 freeze for desktop and touch device, default value is 1
+
+                $ArrowKeyNavigation: false,                          //[Optional] Allows keyboard (arrow key) navigation or not, default value is false
+                $SlideDuration: 500,                                //[Optional] Specifies default duration (swipe) for slide in milliseconds, default value is 500
+                $MinDragOffsetToSlide: 20,                          //[Optional] Minimum drag offset to trigger slide , default value is 20
+                //$SlideWidth: 600,                                 //[Optional] Width of every slide in pixels, default value is width of 'slides' container
+                //$SlideHeight: 300,                                //[Optional] Height of every slide in pixels, default value is height of 'slides' container
+                $SlideSpacing: 0,                                   //[Optional] Space between each slide in pixels, default value is 0
+                $DisplayPieces: 1,                                  //[Optional] Number of pieces to display (the slideshow would be disabled if the value is set to greater than 1), the default value is 1
+                $ParkingPosition: 0,                                //[Optional] The offset position to park slide (this options applys only when slideshow disabled), default value is 0.
+                $UISearchMode: 1,                                   //[Optional] The way (0 parellel, 1 recursive, default value is 1) to search UI components (slides container, loading screen, navigator container, arrow navigator container, thumbnail navigator container etc).
+                $PlayOrientation: 1,                                //[Optional] Orientation to play slide (for auto play, navigation), 1 horizental, 2 vertical, 5 horizental reverse, 6 vertical reverse, default value is 1
+                $DragOrientation: 3,                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $DisplayPieces is greater than 1, or parking position is not 0)
+                $StartIndex : -1,
+                $DisableDrag:false,
+                $BulletNavigatorOptions: {                                //[Optional] Options to specify and enable navigator or not
+                    $Class: $JssorBulletNavigator$,                       //[Required] Class to create navigator instance
+                    $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+                    $AutoCenter: 0,                                 //[Optional] Auto center navigator in parent container, 0 None, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
+                    $Steps: 1,                                      //[Optional] Steps to go for each navigation request, default value is 1
+                    $Lanes: 1,                                      //[Optional] Specify lanes to arrange items, default value is 1
+                    $SpacingX: 10,                                   //[Optional] Horizontal space between each item in pixel, default value is 0
+                    $SpacingY: 10,                                   //[Optional] Vertical space between each item in pixel, default value is 0
+                    $Orientation: 1                                 //[Optional] The orientation of the navigator, 1 horizontal, 2 vertical, default value is 1
+                },
+
+                $ArrowNavigatorOptions: {
+                    $Class: $JssorArrowNavigator$,              //[Requried] Class to create arrow navigator instance
+                    $ChanceToShow: 2                                //[Required] 0 Never, 1 Mouse Over, 2 Always
+                }
+            };
+            ScaleSlider();
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+
+            $Jssor$.$AddEvent(window, "resize", $Jssor$.$WindowResizeFilter(window, ScaleSlider));
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            
+            var child_jssor_slider1 = new $JssorSlider$(childId, options1);
+            function ScaleSlider1() {
+                var parentWidth = child_jssor_slider1.$Elmt.parentNode.clientWidth;
+                if (parentWidth)
+                    child_jssor_slider1.$ScaleWidth(Math.min(parentWidth, 390));
+                else
+                    window.setTimeout(ScaleSlider1, 30);
+            }
+            ScaleSlider1();
+            $(window).bind("load", ScaleSlider1);
+            $(window).bind("resize", ScaleSlider1);
+            $(window).bind("orientationchange", ScaleSlider1);
+            jssor_slider1.$On($JssorSlider$.$EVT_PARK, function(slideIndex, fromIndex){
+                child_jssor_slider1.$PlayTo(slideIndex - 1);
+            });
+        };
+    </script>
+</html>

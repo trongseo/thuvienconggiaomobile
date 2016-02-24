@@ -1,0 +1,8306 @@
+*{margin: 0; padding: 0}
+#main {
+    width: 960px;
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+}
+.clr{clear: both;}
+.clr8{clear: both;padding-top: 8px;}
+.clr10{clear: both;padding-top: 10px;}
+.clr15{clear: both;padding-top: 15px;}
+.clr20{clear: both;padding-top: 20px;}
+.margin-r12{margin-right: 12px;}
+#header {
+    /*		background: url(../images/bg-header.jpg) no-repeat 254px top;*/
+    width: 100%;
+    height: 114px;
+}
+#header h1 {
+    font-size: 3.4em;
+    font-weight: normal;
+    padding: 18px 0 10px 3px;
+    float: left;
+    width: 160px;
+}
+#header h1 a:link,
+#header h1 a:visited {
+    color: #000;
+}
+#header h1 a:hover {	
+    text-decoration: none;
+}
+#header h1 a span {
+    display: block;
+    font-size: 11px;
+    color: #292929;
+    line-height: 5px;
+}
+.ads-header{
+    float: left;
+    height: 96px;
+    margin-right: 10px;
+    margin-top: 8px;
+    width: 516px;
+}
+.ads-header .bg-header{
+    width:516px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.LoginBox {
+    float: right;
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-login.jpg) no-repeat left top;
+    width: 237px;
+    height: 104px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.LoginBox h4 {
+    font-size: 11px;
+    font-weight: normal;
+    color: #40587e;
+    padding: 8px 0 7px 30px;
+}
+.LoginBox h4 span {
+    font-weight: bold;
+}
+.LoginBox .Row {
+    color: #7f7f7f;
+    overflow: hidden;
+    padding: 3px 0 0 6px;
+}
+.LoginBox .Row label {
+    font-size: 11px;
+    float: left;
+    width: 53px;
+    padding: 2px 0 0 0;
+    color: #9a9a9a;
+    margin-left: 5px;
+}
+.LoginBox .Row .InputText {
+    /*background: url(../images/bg-login-textbox.gif) no-repeat left top;*/
+    float: left;
+    width: 97px;
+    height: 15px;
+    margin: 2px 4px 0 0;
+}
+.LoginBox .Row .InputText input {
+    border: 1px solid #9a9a9a;
+    padding: 0 5px;
+    margin: 0;
+    font-size: 11px;
+    color: #9a9a9a;
+    background: none;
+    width: 90px;
+    height: 15px;
+}
+.LoginBox .Row .rememberBox {
+    float: left;
+    height: 15px;
+    padding: 4px 0 0 5px;
+    width: 60px;
+}
+.LoginBox .Row .rememberBox .Checkbox {
+    float: left;
+    /*margin: 4px 0 0 0;*/
+    width: 13px;
+    height: 13px;
+    border: 0;
+}
+.LoginBox .Row .rememberBox .CheckboxLabel {
+    float: left;
+    font-size: 10px;
+    width: auto;
+    padding-top: 0;
+}
+.LoginBox .Row .SubmitBtn {
+    background: url(http://www.ybook.vn/themes/newclassic/images/btn-login-submit.png) no-repeat left top;
+    border: none;
+    padding: 0;
+    margin: 2px 0 0 5px;
+    width: 56px;
+    height: 17px;
+    cursor: pointer;
+    float: left;
+    font-size: 0;
+    text-indent: -1000em;
+}
+.ForgotPassLink:link,
+.ForgotPassLink:visited {
+    white-space: nowrap;
+    color: #3a537a;
+    font-size: 11px;
+    background: url(http://www.ybook.vn/themes/newclassic/images/icon-question.png) no-repeat left top;
+    margin: 5px 0 0 10px;
+    padding: 2px 14px 0 20px;
+    float: left;
+}
+.CreateNewLink:link,
+.CreateNewLink:visited {
+    white-space: nowrap;
+    color: #3a537a;
+    font-size: 11px;
+    padding: 7px 0 0 21px;
+    float: left;
+    background: url(http://www.ybook.vn/themes/newclassic/images/icon-create.png) no-repeat left 5px;
+    height: 17px;
+    border: none;
+}
+.FacebookLogin:link,
+.FacebookLogin:visited {
+    background: url(http://www.ybook.vn/themes/newclassic/images/btn-login-facebook.jpg) no-repeat left top;
+    position: absolute;
+    width: 152px;
+    height: 17px;
+    text-indent: -1000em;
+    right: 0;
+    top: 6px;
+}
+#menu {
+    height: 30px;
+    width: 100%;
+    list-style-type:none; 
+    position: relative;
+    z-index: 100;
+    text-transform: uppercase;
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-menu-normal2.jpg) repeat-x;
+    font-family: "Myriad Pro","Arial";
+    float: left;
+}
+#menu li {
+    float: left;
+    background: url(http://www.ybook.vn/themes/newclassic/images/border-menu2.jpg) no-repeat left top;
+    height: 30px;
+    position: relative;
+}
+#menu .Home {
+    /*			background: url(../images/icon-home1.jpg) no-repeat left top;*/
+    margin: 0px;
+    /*                        padding-top: 1px;*/
+    /*                        width:160px; */
+    height:30px;
+}
+#menu li img.deadline{
+    position: absolute;
+    right: -11px;
+    bottom: -23px;
+    display: block !important;
+    z-index: 1;
+}
+#menu li span.deadline-span{
+    position: absolute;
+    right: -7px;
+    bottom: -21px;
+    display: block !important;
+    color: #df3811;
+    width: 30px;
+    height: 25px;
+    text-align: center;
+    font-size: 11px;
+    font-weight: bolder;
+    z-index: 2;
+    -webkit-transform: rotate(-14deg);
+    -moz-transform: rotate(-14deg);
+    -ms-transform: rotate(-14deg);
+    -o-transform: rotate(-14deg);
+    transform: rotate(-14deg);
+}
+#menu li.IcoHome:hover{
+    padding: 0 !important;
+}
+#menu li.IcoHome a{
+    padding: 6px 24px !important;
+}
+#menu li.IcoHome {
+    background: url(http://www.ybook.vn/themes/newclassic/images/icon-home.jpg) no-repeat;
+    width: 48px;
+    height: 30px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 0;
+    border: none;
+    padding: 0;
+}
+#menu .IcoHome a:hover,
+#menu .IcoHome a.Active {
+    background: url(http://www.ybook.vn/themes/newclassic/images/icon-home-active.jpg) no-repeat !important;
+    width: 48px;
+    height: 30px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 0;
+    border: none;
+    padding: 0 !important;
+}
+#menu .IcoBook {
+    margin: 0;
+}
+#menu li a:link, #menu li a:visited{
+    font-size: 1.4em;
+    color: #354e75;
+    padding: 6px 10px;
+    float: left;
+    height: 18px;
+    text-transform: uppercase;
+}
+#menu li a:visited {
+    background: none;				
+}
+#menu .Home a:link,
+#menu .Home a:visited {
+    margin-left: 35px;
+}
+#menu li:hover,
+#menu li.Active {
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-menu-active.jpg) repeat-x left top;
+}
+#menu li a:hover{
+    background: url(http://www.ybook.vn/themes/newclassic/images/border-menu2.jpg) no-repeat left top;
+    padding: 6px 10px;
+    font-size: 1.4em;
+    height: 18px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#menu li.Active a:link,
+#menu li.Active a:visited,
+#menu li.Active a:hover {
+    background: url(http://www.ybook.vn/themes/newclassic/images/border-menu2.jpg) no-repeat left top;
+    height: 18px;
+    padding: 6px 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.4em;
+    float: left;
+}
+/*			#menu li a.Hover:link,
+                        #menu li a.Hover:visited {
+                                background: url(../images/bg-menu-hover.gif) repeat-x left top;
+                                text-decoration: none;
+                                text-transform: uppercase;
+                        }*/
+/*			#menu li a.Active:hover {
+                                color: #354e75;
+                                background: url(../images/bg-menu-normal.gif) repeat-x left top;
+                                text-transform: uppercase;
+                        }		*/
+#menu .IcoBook img {
+    display: block;
+}
+.SubMenuLevel2 {
+    position: absolute;
+    width: 138px;
+    left: 0; 
+    top: 30px;
+    display: none;
+}
+.SubMenuLevel2Top {
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-submenu-top.png) no-repeat left top;
+    width: 138px;
+    height: 7px;
+}
+.SubMenuLevel2Bottom {
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-submenu-bottom.png) no-repeat left top;
+    width: 138px;
+    height: 11px;
+}
+.SubMenuLevel2Content {
+    /*					background: url(../images/bg-submenu-loop.png) repeat-y left top;*/
+    width: 138px;
+    background-color: #fafafa;
+}
+#menu .SubMenuLevel2Content li {
+    width: 126px;
+    background: url(http://www.ybook.vn/themes/newclassic/images/border-submenu.gif) no-repeat 3px top;
+    margin: 0;
+    padding: 0 0 0 13px;
+    float: none;
+}
+#menu .SubMenuLevel2Content li.First {
+    background: none;
+}
+#menu .SubMenuLevel2Content a{
+    color: #787979;
+    font-size: 12px;
+}
+#menu .SubMenuLevel2Content a:link,
+#menu .SubMenuLevel2Content a:visited {
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-menu-arrow.gif) no-repeat 105px 12px;
+    padding: 8px 0 0 0;
+    margin: 0;
+    width: 115px;
+    font-size: 12px;
+    height: 22px;
+    float: none;
+    text-transform: uppercase;
+}
+#menu .SubMenuLevel2Content a.Active:link,
+#menu .SubMenuLevel2Content a.Active:visited, 
+#menu .SubMenuLevel2Content a.Active:hover,
+#menu .SubMenuLevel2Content a.Active:link{
+    color: #008bc8;
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-menu-arrow.gif) no-repeat 105px 12px;
+    text-transform: uppercase;
+}
+#menu .SubMenuLevel2Content a.Hover:link,
+#menu .SubMenuLevel2Content a.Hover:visited {
+    color: #008bc8;
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-menu-arrow.gif) no-repeat 105px 12px;
+    text-transform: uppercase;
+}
+#menu .SubMenuLevel2Content a.no-submenu.Active:link,
+#menu .SubMenuLevel2Content a.no-submenu.Active:visited,
+#menu .SubMenuLevel2Content a.no-submenu:hover,
+#menu .SubMenuLevel2Content a.no-submenu:link{
+    color: #008bc8;
+    background: none no-repeat 105px 12px;
+    text-transform: uppercase;
+}
+/*					#menu .SubMenuLevel2Content a.Hover:link,
+                                        #menu .SubMenuLevel2Content a.Hover:visited {
+                                                color: #A0FB79;
+                                                background: none no-repeat 105px 12px;
+                                                text-transform: uppercase;
+                                        }*/
+.SubMenuLevel3 {
+    position: absolute;
+    width: 131px;
+    left: 128px; 
+    top: -5px;
+    z-index: 1000;
+    display: none;
+}
+.SubMenuLevel3Top {
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-submenu-top-02.png) no-repeat left top;
+    width: 131px;
+    height: 7px;
+}
+.SubMenuLevel3Bottom {
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-submenu-bottom-02.png) no-repeat left bottom;
+    width: 131px;
+    height: 7px;
+}
+.SubMenuLevel3Content {
+    /*					background: url(../images/bg-submenu-loop-02.png) repeat-y left top;*/
+    width: 131px;
+    overflow: hidden;
+    background-color: #fafafa;
+}
+#menu .SubMenuLevel3Content li {
+    width: 126px;
+    background: url(http://www.ybook.vn/themes/newclassic/images/border-submenu.gif) no-repeat 1px top;
+    margin: 0;
+    padding: 0 0 0 13px;
+    float: left;
+}
+#menu .SubMenuLevel3Content a{
+    color: #787979;
+    font-size: 12px;
+}
+#menu .SubMenuLevel3Content li.First {
+    background: none;
+}
+#menu .SubMenuLevel3Content a:link,
+#menu .SubMenuLevel3Content a:visited {
+    background: none;
+    padding: 8px 0 0 0;
+    margin: 0;
+    width: 110px;
+    font-size: 12px;
+    height: 22px;
+    text-transform: uppercase;
+}
+#menu .SubMenuLevel3Content a.Active:link,
+#menu .SubMenuLevel3Content a.Active:visited, 
+#menu .SubMenuLevel3Content a:hover {
+    color: #008bc8;
+    text-transform: uppercase;
+}
+#menu .SubMenuLevel3Content a.Hover:link,
+#menu .SubMenuLevel3Content a.Hover:visited {
+    /*						color: #A0FB79;*/
+    color: #008bc8;
+    background: none;
+    text-transform: uppercase;
+}
+.SearchBox {
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+.SearchBox label {
+    font-size: 1.4em;
+    font-weight: bolder;
+    color: #3d5997;
+    float: left;
+    padding: 2px 11px 0 3px;
+}
+.SearchBox .Support{
+    font-size: 1em;
+    color: #7f7f7f;
+    float: left;
+    margin: 5px 0 0 0px;
+}
+.SearchBox select {
+    width: 124px;
+    height: 20px;
+    font-size: 1.2em;
+    color:#7f7f7f;
+    float: left;
+    border: 1px solid #e3e3e3;
+}
+.SearchTextBox {
+    width: 316px;
+    border: 1px solid #e3e3e3;
+    float: left;
+    height: 18px;
+    padding: 0 5px;
+    margin: 0 0 0 3px;
+    font-size: 1.2em;
+    color:#7F7F7F;
+}
+input:focus:-moz-placeholder{
+    color: #ccc;
+}
+.SearchSubmit {
+    background: url(http://www.ybook.vn/themes/newclassic/images/btn-search.jpg) no-repeat left top;
+    width: 72px;
+    height: 20px;
+    border: none;
+    text-indent: -9999px;
+    float: left;
+    margin: 0px 10px;
+    cursor: pointer;
+    font-size: 0px;
+    color: #FFF;
+    line-height: 1000px;
+}
+.BasketLink:link,
+.BasketLink:visited {
+    background: url(http://www.ybook.vn/themes/newclassic/images/btn-cart.jpg) no-repeat left top;
+    width: 72px;
+    height: 17px;
+    color: #ffffff;
+    padding: 4px 0 0 40px;
+    text-decoration: none;
+    float: left;
+    margin-top: -1px;
+    /*margin: 10px 8px 0px 0;*/
+}
+.RechargeBtn:link,
+.RechargeBtn:visited {
+    background: url(http://www.ybook.vn/themes/newclassic/images/naptien.png) no-repeat right top;
+    width: 127px;
+    height: 41px;
+    float: right;
+    text-decoration: none;
+    font-size: 0;
+}
+#content {
+    width: 100%;
+    overflow: hidden;
+    /*                border: 1px solid black;*/
+    /*		padding: 5px 0 0 0;*/
+}
+.ForumLink:link,
+.ForumLink:visited {
+    background: url(http://www.ybook.vn/themes/newclassic/images/icon-forum.gif) no-repeat left top;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    width: 32px;
+    height: 14px;
+    text-indent: -1000em;
+}
+.SideContentWrapper {
+    width: 180px;
+    float: left;
+    margin-right: 8px;
+}
+.NewsLetter{
+    background: url(http://www.ybook.vn/themes/newclassic/images/newsletter-loop.gif) repeat-y left top;
+    width: 180px;
+    margin-bottom: 8px;
+}
+.NewsLetter .NewsLetter01{
+    background: url(http://www.ybook.vn/themes/newclassic/images/newsletter-bottom.gif) no-repeat left bottom;}
+.NewsLetter .NewsLetter02{
+    background: url(http://www.ybook.vn/themes/newclassic/images/newsletter.gif) no-repeat left top; 
+    margin-top: 8px;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+.NewsLetter .NewsLetter02 h4{font-size: 1.2em; color: #4b4b4b;margin: 10px 0 0 5px; font-weight: normal;width: 35%;float: left;}
+.NewsLetter .NewsLetter02 label{font-size: 1.2em; color: #4b4b4b;margin: 6px 0 0 5px; font-weight: normal;float: left;}
+.Email {
+    /*                                width: 167px;*/
+    width: 55%;
+    border: 1px solid #e3e3e3;
+    float: left;
+    height: 18px;
+
+    margin: 5px 0 0 5px;
+    font-size: 1.2em;
+    color:#7F7F7F;
+}
+.Imgverify{
+    width: 92%;
+    border: 1px solid #e3e3e3;
+    float: left;
+    height: 18px;
+    margin: 5px 0 0 5px;
+    font-size: 1.2em;
+    color:#7F7F7F;
+}
+.TextCaution{
+    clear: both;font-size:12px; color:#3d599a;
+    margin: 35px 0 0 5px;
+}
+.NewsLetter02 div.SubmitRow {
+    background: transparent url('http://www.ybook.vn/themes/newclassic/images/bg_button_a1.gif') no-repeat scroll top right;
+    display: block;
+    float: left;
+    height: 18px;
+    margin-right: 6px;
+    padding-right: 18px; /* sliding doors padding */
+    text-decoration: none;
+    border: none;
+}
+.NewsLetter02 input.SubmitBtn {
+    background: transparent url('http://www.ybook.vn/themes/newclassic/images/bg_button_span1.gif') no-repeat;
+    font: normal 12px arial, sans-serif;
+    display: block;
+    line-height: 14px;
+    padding: 3px 0 4px 18px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    margin: 0;
+}
+.ButtonSend {
+    background: url(http://www.ybook.vn/themes/newclassic/images/btn-gui.gif) no-repeat left top;
+    width: 51px;
+    height: 18px;
+    border: none;
+    text-indent: -9999px;
+    float: right;
+    margin: 10px 5px 0px 4px;
+    cursor: pointer;
+    font-size: 0px;
+    color: #FFF;
+    line-height: 1000px;
+}
+.NavWrapper02 {
+    /*background: url(../images/bg-nav-loop.gif) repeat-y left top;*/
+    width: 180px;
+    margin-bottom: 8px;
+}
+.NavWrapper02 .NavWrapper01 {
+    /*background: url(../images/bg-nav-bottom.gif) no-repeat left bottom;*/
+    background-color: #ddd;
+    border: 1px solid #CDCDCC;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.NavWrapper02 .Nav {
+    /*background: url(../images/bg-nav-top.gif) no-repeat left top;*/
+    background-color: #ddd;
+}
+.NavWrapper02 .Nav ul {
+
+}
+.NavWrapper02 .Nav ul li {
+    position: relative;
+}
+.NavWrapper02 .Nav ul li h4 {
+    font-size: 12px;
+    color: #3a537a;
+    letter-spacing: -1px;
+    background: url(http://www.ybook.vn/themes/newclassic/images/border-nav.gif) no-repeat center bottom;
+    padding: 6px 0 6px 12px;
+    text-transform: uppercase;
+    font-weight: normal;
+    word-spacing:2px;
+    cursor: pointer;
+}
+.NavWrapper02 .Nav ul li ul {
+    padding: 0 0 12px 0;
+    zoom: 1;
+
+}
+.NavWrapper02 .Nav ul li ul li {
+    padding: 5px 0 0 17px;
+    width: 145px;
+}
+.NavWrapper02 .Nav ul li ul li a:link,
+.NavWrapper02 .Nav ul li ul li a:visited {
+    color: #787979;
+    font-size: 12px;
+    font-weight: bolder;
+    background: url(http://www.ybook.vn/themes/newclassic/images/icon-list.gif) no-repeat 150px 4px;
+    display: block;
+    width: 155px;
+}
+.NavWrapper02 .Nav ul li ul li.non-arrow a:link,
+.NavWrapper02 .Nav ul li ul li.non-arrow a:visited {
+    color: #787979;
+    font-size: 12px;
+    font-weight: bolder;
+    background: none no-repeat 150px 4px;
+    display: block;
+    width: 155px;
+}
+.NavWrapper02 .Nav ul li ul li a.Active{color: #005caf;}
+.NavWrapper02 .Nav ul li ul li a.Hover:link,
+.NavWrapper02 .Nav ul li ul li a.Hover:visited,                                                                             
+.NavWrapper02 .Nav ul li ul li a:hover {
+    color: #005caf;
+    text-decoration: none;
+    background: url(http://www.ybook.vn/themes/newclassic/images/icon-list-active.gif) no-repeat 150px 4px;
+}
+.NavWrapper02 .Nav ul li ul li.non-arrow a.Active{color: #005caf;}
+.NavWrapper02 .Nav ul li ul li.non-arrow a.Hover:link,
+.NavWrapper02 .Nav ul li ul li.non-arrow a.Hover:visited,
+.NavWrapper02 .Nav ul li ul li.non-arrow a:hover {
+    color: #005caf;
+    text-decoration: none;
+    background: none no-repeat 150px 4px;
+}
+.NavWrapper02 .NavLevel2 {
+    position: absolute;
+    width: 182px;
+    left: 170px;
+    top: 0px;
+    z-index: 2000;
+    display: none;
+}
+.NavWrapper02 .NavLevel2Top {
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-submenu-top-03.png) no-repeat left top;
+    width: 182px;
+    height: 4px;
+}
+.NavWrapper02 .NavLevel2Bottom {
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-submenu-bottom-03.png) no-repeat left top;
+    width: 182px;
+    height: 4px;
+}
+.NavWrapper02 .NavLevel2Content {
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-submenu-loop-03.png) repeat-y left top;
+    width: 182px;
+    padding-bottom: 4px !important;
+}
+.NavWrapper02 .NavLevel2Content li {
+    padding:5px 0 0 15px !important;
+    width:165px !important;
+}
+.NavWrapper02 .NavLevel2Content li a:link,
+.NavWrapper02 .NavLevel2Content li a:visited {
+    background-position: 150px 4px !important;
+}
+.NavWrapper02 .NavLevel3 a:link,
+.NavWrapper02 .NavLevel3 a:visited {
+    background: none !important;
+}
+.NavWrapper03 {
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-nav-loop.gif) repeat-y left top;
+    width: 180px;
+    margin-bottom: 8px;
+}
+.NavWrapper03 .NavWrapper01 {
+    /*					background: url(../images/bg-nav-bottom.gif) no-repeat left bottom;*/
+    background-color: #ddd;
+    border: 1px solid #CDCDCC;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.NavWrapper03 .Nav {
+    /*						background: url(../images/bg-nav-top-a.gif) no-repeat left top;*/
+}
+.NavWrapper03 .Nav ul {
+
+}
+.NavWrapper03 .Nav ul li {
+    position: relative;
+}
+.NavWrapper03 .Nav ul li h4 {
+    font-size: 12px;
+    color: #3a537a;
+    letter-spacing: -1px;
+    background: url(http://www.ybook.vn/themes/newclassic/images/border-nav.gif) no-repeat center bottom;
+    padding: 6px 0 6px 12px;
+    text-transform: uppercase;
+}
+.NavWrapper03 .Nav ul li ul {
+    padding: 0 0 12px 0;
+    zoom: 1;
+}
+.NavWrapper03 .Nav ul li ul li {
+    padding: 5px 0 0 17px;
+    width: 145px;
+}
+.NavWrapper03 .Nav ul li ul li a:link,
+.NavWrapper03 .Nav ul li ul li a:visited {
+    color: #787979;
+    font-size: 12px;
+    font-weight: bolder;
+    background: url(http://www.ybook.vn/themes/newclassic/images/icon-list.gif) no-repeat 150px 4px;
+    display: block;
+    width: 155px;
+}
+.NavWrapper03 .Nav ul li ul li a.Active{color: #005caf;}
+.NavWrapper03 .Nav ul li ul li a.Hover:link,
+.NavWrapper03 .Nav ul li ul li a.Hover:visited,
+.NavWrapper03 .Nav ul li ul li a:hover {
+    color: #005caf;
+    text-decoration: none;
+    background: url(http://www.ybook.vn/themes/newclassic/images/icon-list-active.gif) no-repeat 150px 4px;
+}
+.NavWrapper03 .NavLevel2 {
+    position: absolute;
+    width: 182px;
+    left: 170px;
+    top: 0px;
+    z-index: 2000;
+    display: none;
+}
+.NavWrapper03 .NavLevel2Top {
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-submenu-top-03.png) no-repeat left top;
+    width: 182px;
+    height: 4px;
+}
+.NavWrapper03 .NavLevel2Bottom {
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-submenu-bottom-03.png) no-repeat left top;
+    width: 182px;
+    height: 4px;
+}
+.NavWrapper03 .NavLevel2Content {
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-submenu-loop-03.png) repeat-y left top;
+    width: 182px;
+    padding-bottom: 4px !important;
+}
+.NavWrapper03 .NavLevel2Content li {
+    padding:5px 0 0 15px !important;
+    width:165px !important;
+}
+.NavWrapper03 .NavLevel2Content li a:link,
+.NavWrapper03 .NavLevel2Content li a:visited {
+    background-position: 150px 4px !important;
+}
+.NavWrapper03 .NavLevel3 a:link,
+.NavWrapper03 .NavLevel3 a:visited {
+    background: none !important;
+}
+.BoxWrapper {
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-loop.jpg) repeat-y left top;
+    border-top: 1px solid #dedede;
+    margin-bottom: 8px;
+}
+.Box {
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-bottom.jpg) no-repeat left bottom;
+}		
+.Box h4 {
+    font-size: 14px;
+    color: #818181;
+    letter-spacing: -1px;
+    background: url(http://www.ybook.vn/themes/newclassic/images/border-02.gif) no-repeat center bottom;
+    padding: 6px 0 6px 12px;
+}		
+.ListStyle01 {
+    padding: 0 0 12px 0;
+    overflow: hidden;
+    zoom: 1;
+}		
+.ListStyle01 li {
+    padding: 5px 8px 0 8px;
+    float: left;
+    width: 164px;
+}		
+.ListStyle01 a:link,
+.ListStyle01 a:visited {
+    color: #354E75;
+    font-size: 12px;
+    background: url(http://www.ybook.vn/themes/newclassic/images/icon-list.gif) no-repeat left 4px;
+    display: block;
+    padding-left: 8px;
+}
+.ListStyle03 {
+    overflow: hidden;
+    zoom: 1;
+    padding: 0 0 6px 0;
+}
+.ListStyle03 li {
+    float: left;
+    padding: 6px 0 0 6px;
+}		
+.ListStyle03 a:link,
+.ListStyle03 a:visited {
+
+}
+.ListStyle03 li a img {
+    display: block;
+}
+.TabStyle01 {
+    padding: 5px 0 0 0;
+}
+.TabControl {
+    overflow: hidden;
+    border-bottom: 2px solid #005caf;
+}	
+.TabControl li {
+    float: left;
+}
+.TabControl li a:link,
+.TabControl li a:visited {
+    display: block;
+    text-indent: -1000em;
+    height: 25px;
+}
+.TabControl li .TabCommunity {
+    background: url(http://www.ybook.vn/themes/newclassic/images/tab-community-normal.gif) no-repeat left top;
+    width: 88px;
+}
+.TabControl li .TabMember {
+    background: url(http://www.ybook.vn/themes/newclassic/images/tab-member-normal.gif) no-repeat 1px top;
+    width: 93px;
+}
+.TabControl li.Active .TabCommunity {
+    background: url(http://www.ybook.vn/themes/newclassic/images/tab-community-active.gif) no-repeat left top;
+}
+.TabControl li.Active .TabMember {
+    background: url(http://www.ybook.vn/themes/newclassic/images/tab-member-active.gif) no-repeat left top;
+}
+.TabContent {
+    display: none;
+}
+.TabContent .BoxWrapper {
+    margin: 0;
+}
+#tabContent01 {
+    display: block;
+}
+.ListStyle02 {
+
+}
+.ListStyle02 li {
+    overflow: hidden;
+    padding: 3px 0;
+}	
+.Img {
+    float: left;
+    width: 98px;
+    padding-left: 7px;
+}
+.Intro {
+    float: right;
+    width: 67px;
+    padding: 3px 6px 0 2px;
+    /*                                                clear:both;*/
+}
+.Intro h6 {
+    font-size: 1.3em;
+    letter-spacing: -1px;
+    color: #777;
+    max-height: 50px;
+    overflow: hidden;
+}
+.Intro h6 a{
+    font-size: 1.3em;
+    letter-spacing: -1px;
+    color: #777;
+}
+.Intro .Intro-description {
+    color: #a1a1a1;
+    font-size: 1em;
+    max-height: 97px;
+    overflow: hidden;
+    line-height: 12px;
+}
+.Intro span.dots{line-height: 2px;}
+.Intro .Price {
+    color: #f7941d;
+    font-size: 1.2em;
+    font-weight: bolder;
+    padding-top: 8px;
+}
+.Buy-Form{
+    overflow: visible;
+    float: left;
+    width: 70px;
+    padding-top: 3px;
+    padding-left: 0;
+    height: 50px;
+}
+.Buy-Form .BuyBtn1{
+    background: url(http://www.ybook.vn/themes/newclassic/images/btn-buy.gif) no-repeat left top;
+    text-indent: -1000em;
+    width: 39px;
+    height: 14px;
+    bottom: 2px;
+    border: 0;
+    cursor: pointer;
+}
+.MainContentWrapper {
+    width: 772px;
+    float: right;
+    /*background: #fff url(../images/bg-main-bottom.gif) no-repeat left bottom;*/
+    /*			margin-top: 7px;*/
+}
+.MainContent {
+    /*				background: url(../images/bg-main-top.gif) no-repeat left top;*/
+}
+
+.TabStyle02 {
+    padding: 3px 3px 0 3px;
+    position: relative;
+    zoom: 1;
+    border: 1px solid #c0c0c0;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    margin-bottom: 8px;                              
+}
+.TabStyle02 h4{
+    color: #354e75;
+    font-size: 14px;
+    padding: 7px 0 5px 10px;
+    font-weight: normal;
+}
+.TabStyle02 h5{
+    color: #015aad;
+    font-size: 13px;
+    /*                                    padding: 7px 0 5px 0;*/
+    font-weight: normal;
+}
+.TabControl02 {
+    /*						border-bottom: 2px solid #005caf;*/
+    /*height: 27px;*/
+    margin: 0 0 0 5px;
+    overflow: hidden;
+    padding: 0 0 0 27px;
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-tab-manga1.jpg) no-repeat left top;
+}
+.TabControl03 {
+    /*						border-bottom: 2px solid #005caf;*/
+    /*height: 27px;*/
+    margin: 0 0 0 5px;
+    overflow: hidden;
+    /*padding: 0 0 0 5px;*/
+    /*						background: url(../images/bg-tab-manga1.jpg) no-repeat left top;*/
+}
+.Border-Bottom{
+    background: url(http://www.ybook.vn/themes/newclassic/images/shadows.png) no-repeat bottom center;
+    background-position: 80% 100%;
+    height: 11px;
+    margin: 0 auto;
+    clear: both;
+    width: 751px;
+}
+.Border-Bottom1{
+    background: url(http://www.ybook.vn/themes/newclassic/images/borderH3.png) no-repeat bottom center;
+    width: 100%;
+    height: 11px;
+    clear: both;
+}
+.TabControl02 li {
+    padding: 0 3px 0 0;
+    float: left;
+}
+.TabControl02 li a:link,
+.TabControl02 li a:visited {
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-left-normal1.gif) no-repeat left top;
+    cursor: pointer;
+    float: left;
+    height: 27px;
+    margin: 0;
+    padding: 0 0 0 10px;
+    text-decoration: none;
+}
+.TabControl02 li a.feature-book-title{
+    white-space: nowrap;
+    height: auto;
+    color: #354E75;
+}
+.TabControl02 li.First a{background: none;}
+.TabControl02 li span {
+    white-space: nowrap;
+    /*									background: #ADADAD url(../images/bg-right-normal.gif) no-repeat right top;*/
+    color: #354e75;
+    display: block;
+    float: left;
+    font-size: 14px;
+    padding: 4px 14px 5px 5px;
+    text-transform: uppercase;
+}
+.TabControl02 li h2 {
+    /*									background: #ADADAD url(../images/bg-right-normal.gif) no-repeat right top;*/
+    color: #354e75;
+    display: block;
+    float: left;
+    font-size: 1.8em;
+    padding: 3px 0px 5px 0px;
+    /*									font-weight: bolder;*/
+}
+
+.TabControl02 li.Active a:link,
+.TabControl02 li.Active a:visited {
+
+    /*								background: url(../images/bg-left-active-01.gif) no-repeat left top;							*/
+}
+.TabControl02 li.Active a span {
+    /*									background: #005caf url(../images/bg-right-active-01.gif) no-repeat right top;*/
+}
+/*                                                       tab         */
+.TabControl03 li {
+    padding: 0 3px 0 0;
+    float: left;
+}
+.TabControl03 li a:link,
+.TabControl03 li a:visited {
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-left-normal1.gif) no-repeat left top;
+    cursor: pointer;
+    float: left;
+    /*height: 27px;*/
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.TabControl03 li.First a{background: none;}
+.TabControl03 li.First h2{background: none;}
+.TabControl03 li span {
+    /*									background: #ADADAD url(../images/bg-right-normal.gif) no-repeat right top;*/
+    color: #354e75;
+    white-space: nowrap;
+    display: block;
+    float: left;
+    font-size: 14px;
+    padding: 4px 14px 5px 5px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.NewsTags h4{
+    color: #354e75;
+    display: block;
+    float: left;
+    font-size: 14px;
+    padding: 4px 0 5px 0;
+    font-weight: normal;
+}
+.TabControl03 li h2{
+    /*									background: #ADADAD url(../images/bg-right-normal.gif) no-repeat right top;*/
+    color: #354e75;
+    /*display: block;*/
+    float: left;
+    font-size: 16px;
+    padding: 3px 0px 5px 5px;
+    font-weight: normal;
+}
+h2.Info-Author{
+    float: left;
+    font-size: 16px;
+    padding: 3px 0px 5px 10px;
+    font-weight: normal;
+    color: #354e75;
+}
+h2.Info-Library{
+    float: left;
+    font-size: 16px;
+    padding: 3px 0px 5px 10px;
+    font-weight: normal;
+    color: #354e75;
+}
+.TabControl03 li h2 a{
+    color: #354e75;
+    float: left;
+    font-size: 16px;
+    margin: 3px 0px 5px 0px;
+    font-weight: normal;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.TabControl03 li h2 a.author-title{
+    color: #354e75;
+    float: none !important;
+    font-size: 16px;
+    margin: 3px 0px 5px 0px;
+    font-weight: normal;
+    cursor: pointer;
+    text-transform: none !important;
+}
+.TabControl03 li h2 a.author-title:hover{
+    text-decoration: underline;
+}
+
+.TabControl03 li.Active a:link,
+.TabControl03 li.Active a:visited {
+
+    /*								background: url(../images/bg-left-active-01.gif) no-repeat left top;							*/
+}
+.TabControl03 li.Active a span {
+    /*									background: #005caf url(../images/bg-right-active-01.gif) no-repeat right top;*/
+}
+/*                                                                endtab*/
+.TabStyle03 {
+    padding: 3px 3px 0;
+    position: relative;
+    zoom: 1;
+    border: 1px solid #c0c0c0;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+}			
+.TabStyle03 .TabControl02 { 	
+    /*						border-bottom: 2px solid #158807;*/
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-tab-manga1.jpg) no-repeat left top;
+}		
+.TabStyle03 .TabControl02 li.Active a:link,
+.TabStyle03 .TabControl02 li.Active a:visited {
+    /*								background: url(../images/bg-left-active-02.gif) no-repeat left top;							*/
+}
+.TabStyle03 .TabControl02 li.Active a span {
+    /*									background: #158807 url(../images/bg-right-active-02.gif) no-repeat right top;*/
+}
+.TabStyle04 {
+    padding: 3px 3px 0;
+    position: relative;
+    zoom: 1;
+    border: 1px solid #c0c0c0;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+}			
+.TabStyle04 .TabControl02 { 	
+    /*						border-bottom: 2px solid #fd9b02;*/
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-tab-manga1.jpg) no-repeat left top;
+}		
+.TabStyle04 .TabControl02 li.Active a:link,
+.TabStyle04 .TabControl02 li.Active a:visited {
+    /*								background: url(../images/bg-left-active-03.gif) no-repeat left top;							*/
+}
+.TabStyle04 .TabControl02 li.Active a span {
+    /*									background: #fd9b02 url(../images/bg-right-active-03.gif) no-repeat right top;*/
+}		
+.StarWrapper {
+    overflow: hidden;
+    width: 100%;
+}
+.StarWrapper p {
+    float: left;
+}
+.TabContent02 {                                       
+    background: #FFF url(http://www.ybook.vn/themes/newclassic/images/bg-tabcontent-bottom.gif) no-repeat left bottom;
+    padding: 0 5px 0 10px;
+    overflow: hidden;
+    /*					display: none;*/
+    zoom: 1; 
+}
+.TabContent03 {
+    /*background: #FFF url(../images/bg-tabcontent-bottom.gif) no-repeat left bottom;*/
+    padding: 0;
+    overflow: hidden;
+    display: block;
+    zoom: 1;
+}
+.TabContent03 h3 {
+    font-size: 1.6em;
+    color: #394d6e;
+    padding: 0;
+    font-weight: normal;
+}
+h3.BookofAuthor{
+    font-size: 16px;
+    color: #394d6e;
+    padding: 3px 0;
+    font-weight: normal;
+    border-bottom: 1px solid #c0c0c0;
+    width: 96%;
+    margin-left: 15px;
+}
+h3.BookofLibrary{
+    font-size: 16px;
+    color: #394d6e;
+    padding: 3px 0;
+    font-weight: normal;
+    border-bottom: 1px solid #c0c0c0;
+    width: 96%;
+    margin-left: 15px;
+}
+.Img02 {
+    /*						background: url(../images/bg-manga.jpg) no-repeat left top;*/
+    width: 100px;
+    height: auto;
+    max-height: 150px;
+    -moz-box-shadow: 0px 3px 8px 0px #5f5f5f,0px 3px 8px #ababab;
+    -webkit-box-shadow: 0px 3px 8px 0px #5f5f5f,0px 3px 8px #ababab;
+    box-shadow: 0px 3px 8px 0px #5f5f5f,0px 3px 8px #ababab;
+}
+Img02 img{
+    max-height: 150px;
+    height: 100%;
+}
+.Img03 {
+    width: 100px;
+    /*height: 150px;*/
+    position: absolute;
+    bottom: 0;
+    -moz-box-shadow: 0px 3px 8px 0px #5f5f5f,0px 3px 8px #ababab;
+    -webkit-box-shadow: 0px 3px 8px 0px #5f5f5f,0px 3px 8px #ababab;
+    box-shadow: 0px 3px 8px 0px #5f5f5f,0px 3px 8px #ababab;/*
+}
+    .Img03 img {
+/*							padding-left: 12px;*/
+}
+.Img04 {
+    position: relative;
+}
+.Img04 img {
+    display: block;
+}
+.Img04 .EbookIcon {
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+}
+.ListViewMore {
+    overflow: hidden;
+    float: left;
+    width: 100%;
+}
+.ListViewMore li {
+    float: left;
+    padding: 0;
+    width: 100px;
+    height: 150px;
+    margin: 10px;                                   
+    position: relative;
+}
+.ListViewMore li span.ratingmark-span{
+    position: absolute;
+    right: -9px;
+    top: 7px;
+    display: block !important;
+    color: #fff;
+    width: 43px;
+    height: 39px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bolder;
+}
+.ListViewMore li img.ratingmark{
+    position: absolute;
+    right: -8px;
+    top: -4px;
+    display: block !important;
+}
+.ListViewMore li .cmtmark-all{
+    position: absolute;
+    right: -7px;
+    top: 140px;
+    display: block !important;
+}
+.ListViewMore li .cmtmark-all .cmtmark-left{
+    background: url(http://www.ybook.vn/themes/newclassic/images/cmtmark-left.png) no-repeat;
+    width: 8px; height: 19px;
+    float: left;
+}
+.ListViewMore li .cmtmark-all .cmtmark-loop{
+    z-index:1;
+    background: url(http://www.ybook.vn/themes/newclassic/images/cmtmark-loop.png) repeat-x;
+    height: 19px;
+    float: left;
+}
+.ListViewMore li .cmtmark-all .cmtmark-right{
+    background: url(http://www.ybook.vn/themes/newclassic/images/cmtmark-right.png) no-repeat;
+    width: 8px; height: 19px;
+    float: left;
+}
+.ListViewMore li span.cmtmark-span{
+    /*                                                        position: absolute;
+                                                            right: -9px;
+                                                            top: 142px;*/
+    display: block !important;
+    color: #354E75;
+    /*                                                        width: 27px;
+                                                            height: 19px;*/
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+    padding-top: 2px
+}
+.ListPacketBook a.preview-img{
+    position: relative;
+}
+.ListPacketBook a.preview-img span.ratingmark-span{
+    position: absolute;
+    right: 11px;
+    top: 7px;
+    display: block !important;
+    color: #fff;
+    width: 43px;
+    height: 39px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bolder;
+}
+.ListPacketBook a.preview-img img.ratingmark{
+    position: absolute;
+    width: 43px;
+    height: 39px;
+    right: 12px;
+    top: -4px;
+    display: block !important;
+}
+
+/*                                                .ListPacketBook a.preview-img img.cmtmark{
+                                                        position: absolute;
+                                                        right: 12px;
+                                                        top: 140px;
+                                                        width: 27px;
+                                                        height: 19px;
+                                                        display: block !important;
+                                                }*/
+.ListPacketBook a.preview-img span.cmtmark-span{
+    /*                                                        position: absolute;
+                                                            right: 12px;
+                                                            top: 142px;*/
+    display: block !important;
+    color: #354E75;
+    /*                                                        width: 27px;
+                                                            height: 19px;*/
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.ListManga {
+    overflow: hidden;
+    float: left;
+    width: 100%;
+}
+.ListManga h3 {
+    font-size: 1.6em;
+    color: #394d6e;
+    padding: 0;
+    font-weight: normal;
+}
+.ListManga li {
+    float: left;
+    padding: 0;
+    width: 120px;
+    height: 240px;
+    margin: 10px 5px 0 23px;                                   
+    position: relative;
+}
+.ListManga li img.watermark{
+    position: absolute;
+    right: 45px;
+    bottom: 0px;
+    display: block !important;
+}
+.ListManga li span.ratingmark-span{
+    position: absolute;
+    right: -8px;
+    top: 7px;
+    display: block !important;
+    color: #fff;
+    width: 43px;
+    height: 39px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bolder;
+}
+.ListManga li img.ratingmark{
+    position: absolute;
+    right: -7px;
+    top: -4px;
+    display: block !important;
+}
+.ListManga li .cmtmark-all{
+    position: absolute;
+    right: -6px;
+    bottom: -9px;
+    display: block !important;
+}
+.ListManga li .cmtmark-all .cmtmark-left{
+    background: url(http://www.ybook.vn/themes/newclassic/images/cmtmark-left.png) no-repeat;
+    width: 8px; height: 19px;
+    float: left;
+}
+.ListManga li .cmtmark-all .cmtmark-loop{
+    background: url(http://www.ybook.vn/themes/newclassic/images/cmtmark-loop.png) repeat-x;
+    height: 19px;
+    float: left;
+}
+.ListManga li .cmtmark-all .cmtmark-right{
+    background: url(http://www.ybook.vn/themes/newclassic/images/cmtmark-right.png) no-repeat;
+    width: 8px; height: 19px;
+    float: left;
+}
+/*                                                .ListManga li img.cmtmark{
+                                                        position: absolute;
+                                                        right: 12px;
+                                                        top: 140px;
+                                                        display: block !important;
+                                                }*/
+.ListManga li span.cmtmark-span{
+    /*                                                        position: absolute;
+                                                            right: 12px;
+                                                            top: 142px;
+                                                            width: 27px;
+                                                            height: 19px;*/
+    display: block !important;
+    color: #354E75;
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+    padding-top: 2px;
+}
+.ListManga li h6 {
+    font-size: 13px;
+    color: #354E75;
+    padding: 9px 0 0 0;
+    font-weight: normal;
+    float: left;
+}
+.ListManga li h6 a{
+    font-size: 13px;
+    color: #354E75 !important;
+    /*padding: 9px 0 0 0;*/
+}
+.ListManga li p {
+    color: #000;
+    font-size: 11px;
+    padding: 1px 0;
+    float: left;
+    clear: left;
+    width: 100%;
+}
+.ListManga li p strong {
+    color: #7f7f7f;
+}
+.ListManga li .Price {
+    color: #f18d36;
+    font-weight: normal;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    font-size: 13px;
+}
+.ListEbook {
+    overflow: hidden;
+}
+.ListEbook li {
+    float: left;
+    padding: 0;
+    width: 120px;
+    height: 240px;
+    margin: 10px 5px 0 23px;                                   
+    position: relative;
+}
+.ListEbook li img.watermark{
+    position: absolute;
+    bottom: 0;
+    right: 45px;
+    display: block !important;
+}
+.ListEbook li span.ratingmark-span{
+    position: absolute;
+    right: -7px;
+    top: 7px;
+    display: block !important;
+    color: #fff;
+    width: 43px;
+    height: 39px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bolder;
+}
+.ListEbook li img.ratingmark{
+    position: absolute;
+    right: -7px;
+    top: -4px;
+    display: block !important;
+}
+.ListEbook li .cmtmark-all{
+    position: absolute;
+    right: -7px;
+    bottom: -9px;
+    display: block !important;
+}
+.ListEbook li .cmtmark-all .cmtmark-left{
+    background: url(http://www.ybook.vn/themes/newclassic/images/cmtmark-left.png) no-repeat;
+    width: 8px; height: 19px;
+    float: left;
+}
+.ListEbook li .cmtmark-all .cmtmark-loop{
+    background: url(http://www.ybook.vn/themes/newclassic/images/cmtmark-loop.png) repeat-x;
+    height: 19px;
+    float: left;
+}
+.ListEbook li .cmtmark-all .cmtmark-right{
+    background: url(http://www.ybook.vn/themes/newclassic/images/cmtmark-right.png) no-repeat;
+    width: 8px; height: 19px;
+    float: left;
+}
+.ListEbook li span.cmtmark-span{
+    display: block !important;
+    color: #354E75;
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+    padding-top: 2px;
+}
+.ListEbook li h6 {
+    font-size: 13px;
+    color: #354E75;
+    padding: 9px 0 0 0;
+    font-weight: normal;
+    float: left;
+}
+.ListEbook li h6 a{
+    font-size: 13px;
+    color: #354E75;
+    /*padding: 9px 0 0 0;*/
+}
+.ListEbook li p {
+    color: #000;
+    font-size: 11px;
+    padding: 1px 0;
+    float: left;
+    clear: left;
+}
+.ListEbook li p strong {
+    color: #7f7f7f;
+}
+.ListEbook li .Price {
+    color: #f18d36;
+    font-weight: normal;
+    padding: 0;
+    width: 100px;
+    overflow: hidden;
+    font-size: 13px;
+}
+.BuyBtn
+{
+    background: url(http://www.ybook.vn/themes/newclassic/images/btn-buy.gif) no-repeat left top;
+    text-indent: -1000em;
+    width: 39px;
+    height: 14px;
+    border: 0;
+    cursor: pointer;
+    float: right;
+    margin-right: 20px;
+    margin-top: 1px;
+}
+.PagingWrapper {
+    position: relative;
+    right: -50%;
+    float: left;
+    padding: 0 0 10px;
+    clear: both;
+}
+.pager {
+    position: relative;
+    right: 50%;
+    padding-right: 15px;
+    overflow: hidden;
+}
+.pager li{
+    margin: 0;
+    height: 25px;
+}
+.pager li.first{
+    float: left;
+    width: 20px;
+}
+.pager li.first a{
+    background: url(http://www.ybook.vn/themes/newclassic/images/icon-paging1.gif) no-repeat left top;
+    float: left;
+    width: 20px;
+    height: 19px;
+    text-indent: -1000em;
+    margin: 0;
+    position: relative;
+    border: none;
+}
+.pager li.previous{
+    float: left;
+    width: 30px;
+}
+.pager li.previous a{
+    background: url(http://www.ybook.vn/themes/newclassic/images/icon-paging1.gif) no-repeat left top;
+    float: left;
+    width: 10px;
+    height: 19px;
+    text-indent: -1000em;
+    margin: 0px 20px 0 10px;
+    position: relative;
+    border: none;
+}
+.pager li.next{
+    float: left;
+    width: 20px;
+}
+.pager li.next a{
+    background: url(http://www.ybook.vn/themes/newclassic/images/icon-paging1.gif) no-repeat -36px top;
+    float: left;
+    width: 10px;
+    height: 19px;
+    text-indent: -1000em;
+    margin: 0px 25px 0 14px;
+    position: relative;
+    border: none;
+}
+.pager li.last{
+    float: left;
+    width: 35px;
+    /*                                                    border: 1px solid black;*/
+}
+.pager li.last a{
+    background: url(http://www.ybook.vn/themes/newclassic/images/icon-paging1.gif) no-repeat -36px top;
+    float: left;
+    width: 20px;
+    height: 19px;
+    text-indent: -1000em;
+    margin: 0px 0 0 12px;
+    position: relative;
+    border: none;
+}
+.News-Pager .pager li.first{
+    float: left;
+    width: 20px;
+}
+.News-Pager .pager li.first a{
+    background: url(http://www.ybook.vn/themes/newclassic/images/icon-paging1.gif) no-repeat left top;
+    float: left;
+    width: 20px;
+    height: 19px;
+    text-indent: -1000em;
+    margin: 0;
+    position: relative;
+}
+.News-Pager .pager li.previous{
+    float: left;
+    width: 30px;
+}
+.News-Pager .pager li.previous a{
+    background: url(http://www.ybook.vn/themes/newclassic/images/icon-paging1.gif) no-repeat left top;
+    float: left;
+    width: 10px;
+    height: 19px;
+    text-indent: -1000em;
+    margin: 0px 20px 0 10px;
+    position: relative;
+}
+.News-Pager .pager li.next{
+    float: left;
+    width: 20px;
+}
+.News-Pager .pager li.next a{
+    background: url(http://www.ybook.vn/themes/newclassic/images/icon-paging1.gif) no-repeat -36px top;
+    float: left;
+    width: 10px;
+    height: 19px;
+    text-indent: -1000em;
+    margin: 0px 25px 0 14px;
+    position: relative;
+}
+.News-Pager .pager li.last{
+    float: left;
+    width: 35px;
+    /*                                                    border: 1px solid black;*/
+}
+.News-Pager .pager li.last a{
+    background: url(http://www.ybook.vn/themes/newclassic/images/icon-paging1.gif) no-repeat -36px top;
+    float: left;
+    width: 20px;
+    height: 19px;
+    text-indent: -1000em;
+    margin: 0px 0 0 12px;
+    position: relative;
+}
+.RelateNews-Pager .pager li.first{
+    float: left;
+    width: 20px;
+}
+.RelateNews-Pager .pager li.first a{
+    background: url(http://www.ybook.vn/themes/newclassic/images/icon-paging1.gif) no-repeat left top;
+    float: left;
+    width: 20px;
+    height: 19px;
+    text-indent: -1000em;
+    margin: 0;
+    position: relative;
+}
+.RelateNews-Pager .pager li.previous{
+    float: left;
+    width: 30px;
+}
+.RelateNews-Pager .pager li.previous a{
+    background: url(http://www.ybook.vn/themes/newclassic/images/icon-paging1.gif) no-repeat left top;
+    float: left;
+    width: 10px;
+    height: 19px;
+    text-indent: -1000em;
+    margin: 0px 20px 0 10px;
+    position: relative;
+}
+.RelateNews-Pager .pager li.next{
+    float: left;
+    width: 20px;
+}
+.RelateNews-Pager .pager li.next a{
+    background: url(http://www.ybook.vn/themes/newclassic/images/icon-paging1.gif) no-repeat -36px top;
+    float: left;
+    width: 10px;
+    height: 19px;
+    text-indent: -1000em;
+    margin: 0px 25px 0 14px;
+    position: relative;
+}
+.RelateNews-Pager .pager li.last{
+    float: left;
+    width: 35px;
+    /*                                                    border: 1px solid black;*/
+}
+.RelateNews-Pager .pager li.last a{
+    background: url(http://www.ybook.vn/themes/newclassic/images/icon-paging1.gif) no-repeat -36px top;
+    float: left;
+    width: 20px;
+    height: 19px;
+    text-indent: -1000em;
+    margin: 0px 0 0 12px;
+    position: relative;
+}
+.UserBook .pager li.first{
+    float: left;
+    width: 20px;
+}
+.UserBook .pager li.first a{
+    background: url(http://www.ybook.vn/themes/newclassic/images/icon-paging1.gif) no-repeat left top;
+    float: left;
+    width: 20px;
+    height: 19px;
+    text-indent: -1000em;
+    margin: 0;
+    position: relative;
+}
+.UserBook .pager li.previous{
+    float: left;
+    width: 20px;
+}
+.UserBook .pager li.previous a{
+    background: url(http://www.ybook.vn/themes/newclassic/images/icon-paging1.gif) no-repeat left top;
+    float: left;
+    width: 10px;
+    height: 19px;
+    text-indent: -1000em;
+    margin: 0px 20px 0 10px;
+    position: relative;
+}
+.UserBook .pager li.next{
+    float: left;
+    width: 20px;
+}
+.UserBook .pager li.next a{
+    background: url(http://www.ybook.vn/themes/newclassic/images/icon-paging1.gif) no-repeat -36px top;
+    float: left;
+    width: 10px;
+    height: 19px;
+    text-indent: -1000em;
+    margin: 0px 25px 0 14px;
+    position: relative;
+}
+.UserBook .pager li.last{
+    float: left;
+    width: 35px;
+    /*                                                    border: 1px solid black;*/
+}
+.UserBook .pager li.last a{
+    background: url(http://www.ybook.vn/themes/newclassic/images/icon-paging1.gif) no-repeat -36px top;
+    float: left;
+    width: 20px;
+    height: 19px;
+    text-indent: -1000em;
+    margin: 0px 0 0 12px;
+    position: relative;
+}
+.pager ul {
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+
+.pager ul li.page {
+    float: left;
+    padding: 0 0 0 10px;
+    width: 19px;
+}
+.pager ul li.page a{color: #666;padding-top: 2px;}
+.pager ul li.page a:link,
+.pager ul li.page a:visited {
+    background: url(http://www.ybook.vn/themes/newclassic/images/icon-paging-item1.gif) no-repeat right top;
+    width: 19px;
+    height: 19px;
+    display: block;
+    text-align: center;
+    font-size: 11px;
+    border: none;
+}
+.pager ul li.selected a:link,
+.pager ul li.selected a:visited,
+.pager ul li.page a:hover {
+    background-position: left top;
+    text-decoration: none;
+    color: #FFF;
+}
+#borderr{border: 2px solid #f2f2f2;border-left-width: 770px;float: right;margin-top: 2px;}
+#AdFooter{
+    margin-top: 8px;
+    overflow: hidden;
+    display: block;
+    /*padding-bottom: 5px;*/
+    /*            border: 1px solid #c0c0c0;
+                -webkit-border-radius: 5px;
+                -moz-border-radius: 5px;
+                border-radius: 5px;*/
+}
+#footer-menu{
+    border-top: 1px solid #c0c0c0;
+    border-bottom: 1px solid #c0c0c0;
+}
+#bg-footer-menu-top{
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-footer-menu-top.jpg) no-repeat center top;
+    width: 769px;
+    height: 23px;
+    margin: 0 auto;
+}
+#bg-footer-menu-bottom{
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-footer-menu-bottom.jpg) no-repeat center top;
+    width: 769px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+#menu02 {
+    display: table;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+#menu02 ul {
+    width: 100%;
+    /*			border-top: solid 1px #bcbcbc;*/
+    padding-bottom: 10px;
+    padding-left: 20px;
+    overflow: hidden;
+}
+#menu02 ul li {
+    float: left;
+    padding: 0 20px 0 0;
+    width: 100%;
+    margin-bottom: 7px;
+}
+#menu02 ul li h4{
+    font-size: 14px;
+}
+#menu02 ul li a:link,
+#menu02 ul li a:visited {
+    font-size: 11px;
+    color: #354E75;
+    text-decoration: none;
+    /*text-transform: uppercase;*/
+    /*font-weight: bold;*/
+}
+#menu02 ul li a.Active:link,
+#menu02 ul li a.Active:visited,
+#menu02 ul li a:hover {
+    /*				font-weight: bold;*/
+    /*				text-decoration: underline;*/
+    color: #354e75;
+}
+.PartnerList {
+    /*width: 948px;*/
+    /*margin: 0 auto;*/
+    height: 77px;
+    /*padding-left: 72px;*/
+}
+.PartnerList ul {
+    overflow: hidden;
+    display: table;
+    margin: 0 auto;
+}
+.PartnerList ul li {
+    list-style-type:none;
+    padding-right: 20px;
+    float: left;
+}
+.PartnerList ul li img {
+    display: block;
+    border: none;
+}
+#footer {
+    font-size: 12px;
+    color: #666666;
+    padding: 30px 0 20px;
+    text-align: center;
+    overflow: hidden;
+}
+#footer address {
+    font-style: normal;
+}
+#footer a:link, 
+#footer a:visited {
+    color: #666666;
+}
+/*.Tooltip {
+    text-align: center;
+    font-size: 1.2em;
+    border: 1px solid #CCC;
+    padding: 5px;
+    position: absolute;
+    left: 0;
+    top: -999em;
+    background: #FFF;
+    z-index:9999;
+}
+.Tooltip p {
+    padding: 5px 0 0 0;
+}*/
+
+/* tintuc */
+.LoginFunc {
+    width: 100%;
+    overflow: hidden;
+    padding: 5px 0 0 0;
+}
+.UserImg {
+    width: 230px;
+    /*    text-align: center;*/
+    float: left;
+    position: relative;
+    margin-left: 7px;
+}
+.UserImg .LinkStyle01 {
+    color: #40587e;
+    font-size: 11px;
+    display: block;
+    margin-left: 5px;
+}
+.UserImg .LinkStyle01:link, 
+.UserImg .LinkStyle01:visited{
+    background: none;
+}
+.UserImg .LinkStyle02 {
+    color: #40587e;
+    font-size: 11px;
+    display: block;
+    padding-top: 7px;
+    margin-left: 5px;
+}
+.UserImg .LinkStyle02:link, 
+.UserImg .LinkStyle02:visited{
+    background: none;
+}
+.UserImg .LinkStyle03 {
+    color: #40587e;
+    font-size: 11px;
+    position: absolute;
+    right: 5px;
+    bottom: 0;
+    margin-left: 5px;
+}
+.UserImg .LinkStyle03:link, 
+.UserImg .LinkStyle03:visited{
+    background: none;
+}
+.UserImg .LinkStyle04 {
+    color: #40587e;
+    font-size: 11px;
+    display: block;
+    padding-top: 7px;
+    margin-left: 5px;
+    width: 55px;
+    float: left;
+}
+.UserImg .LinkStyle04:link, 
+.UserImg .LinkStyle04:visited{
+    background: none;
+}
+.DetailLoginFunc {
+    float: right;
+    width: 116px;
+    position: relative;
+}
+.DetailLoginFunc .LinkStyle01 {
+    color: #7fa2cf;
+    font-size: 1.1em;
+    display: block;
+}
+.DetailLoginFunc .LinkStyle02 {
+    color: #7fa2cf;
+    font-size: 1.1em;
+    display: block;
+    padding-top: 6px;
+}
+.DetailLoginFunc .LinkStyle03 {
+    color: #7fa2cf;
+    font-size: 1.1em;
+    position: absolute;
+    right: 5px;
+    bottom: 0;
+}
+.Username {
+    position: absolute;
+    left: 95px;
+    top: 9px;
+    color: #7f7f7f;
+    font-size: 12px;
+}
+.NewsHightlight{
+    float: left;
+    width: 390px;
+    padding: 0 8px;
+}
+.NewsHightlight h3{
+    margin-bottom: 3px;
+}
+.NewsHightlight h3 a{
+    color: #354e75;
+    font-size: 15px;
+    font-weight: bold;
+}
+.NewsHightlight span{
+    color: #354e75;
+    font-size: 12px;
+    /*float: left;*/
+}
+.NewsHightlight p{
+    color: #4d4d4d;
+    font-size: 12px;
+}
+ul.NewsRelatedCats {
+    float: right;
+    width: 340px;
+    margin-top: 2px;
+}
+ul.NewsRelatedCats  li{
+    float: right;
+    background: url(http://www.ybook.vn/themes/newclassic/images/icon-tinnoibat.png) no-repeat left 5px;
+    width: 320px;
+    border: none;
+    list-style-type: none;
+    padding-left: 13px;
+    margin: 0 10px 15px 0;
+    color: #4a4a4a;
+}
+.NewsRelatedCats span{
+    color: #4c4c4c;
+    font-size: 12px;
+}
+.NewsRelatedCats a:link,
+.NewsRelatedCats a:visited
+{
+    color: #354E75;
+    font-size: 12px;
+    text-decoration: none;
+}
+.NewsRelatedCats a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.ListNews {
+    overflow: hidden;
+    padding: 0 15px 0 10px;
+}
+.ListNews li {
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    padding: 15px 0;
+}
+.ListNews li.NewsEnd{border-bottom: none;}
+
+.ListNewsTags {
+    overflow: hidden;
+    /*padding: 0 15px 0 10px;*/
+}
+.ListNewsTags li.newsitem {
+    overflow: hidden;
+    width: 47%;
+    padding: 15px 0px;
+    float: left;
+    height: 116px;
+    /*min-height: 107px;*/
+    margin: 0 20px 10px 0;
+}
+.ListNewsTags li.NewsEnd{border-bottom: none;}
+
+.ImgNews {
+    /*    width: 100%;*/
+    float: left;
+    margin-right: 7px;
+}
+.ImgNews img{float: left;border: 1px solid #a3a3a3;}
+.ReadNext{
+    float: right;
+}
+.ReadNext a{
+    background: url('http://www.ybook.vn/themes/newclassic/images/readnext.jpg') no-repeat left 3px;
+    color: #354e75;
+    font-size: 12px;
+    cursor: pointer;
+    padding-left: 20px;
+    margin-top: 5px;
+}
+.ReadNext a:hover{text-decoration: underline;}
+.DetailNews {
+    float: none;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
+.DetailNews h4 {
+    font-size: 1.3em;
+    padding: 0 0 5px 0;
+}
+.DetailNews h4 a{
+    color: #354E75;
+    font-size: 14px;
+    font-weight: bold;
+}
+.DetailNews h4 span {
+    font-size: 12px;
+    font-weight: normal;
+}
+.DetailNews p {
+    font-size: 12px;
+}
+.ListCategory {
+    height: 326px;
+    width: 700px;
+    padding: 0 0 0 10px;
+}	
+.ListCategory li {
+    float: left;
+    width: 350px !important;
+    height: auto !important;
+}
+.ListCategory h4 {
+    color: #056fbb;
+    font-size: 1.2em;
+    padding: 8px 0 0 0;
+}
+.ListDetailCategory li {
+    overflow: hidden;
+    padding: 10px 5px 0 0;
+    width: 350px;
+    /*    height: 38px;*/
+}
+.ListDetailCategory li img {
+    float: left;
+    padding: 0 10px 0 0;
+}
+.ListDetailCategory li h5 {
+    font-size: 12px;
+    /*    height: 38px;*/
+}
+.ListDetailCategory li h5 a:link,
+.ListDetailCategory li h5 a:visited {
+    color: #354E75;
+}
+.ListDetailCategory li h5 span {
+    /*    display: block;*/
+    font-weight: normal;
+    color: #000;
+    font-size: 11px;
+}
+.DetailNewsContent {
+    padding: 5px 5px 0 10px;
+    /*overflow: hidden;*/
+    float:left;
+    width:730px;
+}
+.ContentNews ul{
+    margin-left: 30px;
+}
+.ContentNews ul li{
+    list-style-type: disc;
+    font-size: 13px;
+    color: #000;
+}
+.ContentNews ul, 
+.ContentNews ul li, 
+.ContentNews ol, 
+.ContentNews ol li{
+    font-size: 13px;
+    margin-left: 10px;
+    list-style-type: decimal;
+    padding: 2px 0;
+}
+.ContentNews p{
+    overflow:hidden;
+}
+.DetailAuthorContent {
+    padding: 5px 5px 0 10px;
+    /*overflow: hidden;*/
+    float:left;
+    /*    width:740px;*/
+}
+.DetailAuthorContent .img-block{
+    float:left;
+    padding: 10px;
+    width: 100px;
+}
+.DetailAuthorContent .img-block span.caption-image-block{
+    float:left;
+    width: 100%;
+    text-align: center;
+}
+.DetailLibraryContent {
+    padding: 5px 5px 0 10px;
+    /*overflow: hidden;*/
+    float:left;
+    /*    width:740px;*/
+}
+.DetailLibraryContent .img-block{
+    float:left;
+    padding: 10px;
+    width: 100px;
+}
+.DetailLibraryContent .img-block span.caption-image-block{
+    float:left;
+    width: 100%;
+    text-align: center;
+}
+.DetailNewsContent h2 {
+    font-size: 18px;
+    color: #354E75;
+    padding: 0;
+    font-weight: bold;
+    float: left;
+    margin-bottom: 5px;
+}
+.DetailNewsContent .sub-title h2 {
+    font-size: 13px;
+    color: #000;
+    padding: 0;
+    font-weight: bold;
+    float: left;
+    margin-bottom: 5px;
+    width: 100%;
+}
+.DetailAuthorContent ul{
+    margin-left: 30px;
+}
+.DetailAuthorContent ul li{
+    list-style-type: disc;
+    font-size: 13px;
+    color: #000;
+}
+/*.DetailAuthorContent ol{
+    margin-left: 30px;
+}
+.DetailAuthorContent ol li{
+    list-style-type: number;
+    font-size: 12px;
+    color: #000;
+}*/
+.DetailAuthorContent h2 {
+    font-size: 1.6em;
+    color: #394d6e;
+    padding: 0;
+    font-weight: normal;
+}
+.ImgStyle01 {
+    float: left;
+    position:relative;
+    z-index:100;
+    /*margin-right: 15px;*/
+}
+.DetailNewsContent .CaptionNews{
+    width:220px ;
+    font-size: 12px;
+    color: #333;
+    text-align: center;
+    font-style:italic;
+    font-weight: normal;
+    display: block;
+    float: right;
+    clear: both;
+}
+.DetailAuthorContent span{
+    font-size: 12px;
+    color: #333;
+    text-align: center;
+    font-style:italic;
+    font-weight: normal;
+}
+.DetailNewsContent label.DateNews {
+    font-size: 12px;
+    color: #5b5c5f;
+    display: block;
+    float: left;
+    padding-top: 4px;
+}
+.DetailAuthorContent em {
+    font-size: 12px;
+    color: #5b5c5f;
+    /*    display: block;*/
+}
+.DetailNewsContent p {
+    font-size: 13px;
+    padding-bottom: 11px;
+    line-height: 18px;
+    position: relative;
+    overflow: visible;
+}
+.DetailNewsContent blockquote p{
+    font-weight: bold;
+    color: #4b4b4b;
+    font-size: 13px;
+    padding: 0px 25px 5px 0px;
+    /*            float: left;*/
+    background: url(http://www.ybook.vn/themes/newclassic/images/quote_down.png) bottom right no-repeat;
+}
+.DetailNewsContent blockquote{
+    color: #4b4b4b;
+    font-size: 12px;
+    padding: 20px 20px 0;
+    /*            float: left;*/
+    background: url(http://www.ybook.vn/themes/newclassic/images/quote_up.png) top left no-repeat;
+    clear: both;
+    width: 98%
+}
+.DetailNewsContent cite{
+    color: #4b4b4b;
+    font-size: 0.9em;
+    font-style: italic;
+    position: absolute;
+    right: 20px;
+    margin-top: 0px;
+    text-align: right;
+}
+.DetailNewsContent td cite{
+    color: #4b4b4b;
+    font-size: 0.9em;
+    font-style: italic;
+    position: absolute;
+    right: 0;
+    margin-top: 0;
+}
+.DetailAuthorContent p {
+    font-size: 13px;
+    padding: 3px 0;
+    line-height: 18px;
+}
+.DetailAuthorContent table p {
+    font-size: 13px;
+    padding: 0;
+}
+.DetailLibraryContent p {
+    font-size: 13px;
+    padding: 3px 0;
+    line-height: 18px;
+}
+.DetailLibraryContent table p {
+    font-size: 13px;
+    padding: 0;
+}
+.Video {
+    text-align: center;
+    padding: 15px 0;
+}
+.DiscussBox {
+    overflow: hidden;
+    width: 740px;
+    display: block;
+    float: left;
+    padding: 3px 3px 6px 3px;
+    /*    position: relative;*/
+    zoom: 1;
+    /*    border: 1px solid #c0c0c0;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;*/
+}
+.DiscussBox h4{
+    font-size: 13px;
+    color: #595959;
+    font-weight: bolder;
+}
+.DiscussBox span{
+    display: block;
+    /*            width: 100%;*/
+    text-align: left;
+}
+.MainContent .Label-Discuss {
+    font-size: 18px;
+    color: #354e75;
+    margin: 5px 10px;
+    font-weight: normal;
+    float: left;
+    clear: both;
+}
+.MainContent .Text-Discuss {
+    white-space: nowrap;
+    font-size: 14px;
+    color: #354e75;
+    font-weight: normal;
+    float: left;
+    clear: both;
+    margin-bottom: 5px;
+}
+/*.DiscussWrapper02 {
+    background: url(../images/bg-discus-loop.gif) repeat-y left top;
+    width: 749px;
+    overflow: hidden;
+}
+.DiscussWrapper01 {
+    background: url(../images/bg-discus-bottom.gif) no-repeat left bottom;
+}*/
+.Discuss {
+
+}
+.UserInfo {
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-discus-user.jpg) no-repeat right bottom;
+    width: 721px;
+    height: 29px;
+    padding: 1px 0 0 0;
+}
+.UserInfo img {
+    float: left;
+    padding: 8px 10px 0 10px;
+}
+.UserInfoDetail {
+    float: left;
+    width: 400px;
+    padding-top: 6px;
+    margin-left: 10px; 
+}
+.UserInfoDetail a:link,
+.UserInfoDetail a:visited {
+    color: #5997c6;
+    font-size: 11px;
+    text-decoration: underline;
+    font-weight: bold;
+    float: left;
+}
+.UserInfoDetail p {
+    font-size: 11px;
+    color: #797979;
+    /*    padding-top: 7px;*/
+    float: left;margin-left: 5px;
+}
+.UserInfoDetail .block-icon-ebook {
+    background: url(http://www.ybook.vn/themes/newclassic/images/icon-ebook.png) no-repeat left top;
+    width: 40px;
+    height: 12px;
+    float: left;
+    margin: 2px 0 0 10px;
+}
+.UserInfoDetail label.Cment {
+    font-size: 11px;
+    color: #797979;
+    margin-left: 5px;
+    float: left;
+}
+.UserComment {
+    width: 94%;
+    padding: 10px 0 10px 15px;
+}
+.UserComment p {
+    color: #4c4c4c;
+    font-size: 11px;
+}
+.CommentInputBox {
+    /*    border-top: 1px solid #ccc;*/
+    width: 760px;
+    float: left;
+    margin-left:-10px;
+}
+.CommentInputBox h4 {
+    font-size: 13px;
+    color: #595959;
+    padding: 5px 20px;
+}
+.CommentInputBox label{
+    color: #595959;
+}
+.CommentInputBox span.required{
+    display: inline;
+}
+/*.CommentInputBox .SubmitBtn {
+    background: url(../images/bg-submit-btn.gif) no-repeat left top;
+    float: left;
+    border: none;
+    color: #7d7d7d;
+    font-size: 12px;
+    width: 54px;
+    height: 18px;
+    text-align: center;
+    padding: 0;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.CommentInputBox .SubmitBtn:link,
+.CommentInputBox .SubmitBtn:visited {
+    padding: 2px 0 0 0;
+    height: 16px;
+    margin: 0 0 0 15px;
+}
+.CommentInputBox .SubmitBtn:hover {
+    text-decoration: none;
+}
+.SubmitRow {
+    padding: 15px 0 15px 215px;
+    overflow: hidden;
+}*/
+.CommentInputBox a.buttonComment {
+    background: transparent url(http://www.ybook.vn/themes/newclassic/images/bg_button_a1.gif) no-repeat scroll top right;
+    color: #fff;
+    display: block;
+    font: bold 12px arial, sans-serif;
+    height: 21px;
+    margin: 15px 0 15px 215px;
+    padding-right: 18px; /* sliding doors padding */
+    text-decoration: none;
+}
+
+.CommentInputBox a.buttonComment span {
+    background: transparent url(http://www.ybook.vn/themes/newclassic/images/bg_button_span1.gif) no-repeat;
+    display: block;
+    line-height: 14px;
+    padding: 4px 0 5px 18px;
+}
+.CommentInputBox a.buttonComment:active {
+    color: #fff;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+.CommentInputBox a.buttonComment:active span {
+    padding: 4px 0 5px 18px; /* push text down 1px */
+}
+
+.Row {
+    padding: 8px 0 0 120px;
+    overflow: hidden;
+}
+.Row label {
+    float: left;
+    width: 90px;
+    font-size: 13px;
+    padding: 0 5px 0 0;
+}
+.Row .LabelStyle01 {
+    float: none;
+    color: #c2c2c2;
+}
+.Row .ratingBox {
+    color: #818181;
+    font-size: 12px;
+    float: left;
+}
+.Row input {
+    background:  none;
+    border: 1px solid #d7d7d7;
+    font-size: 12px;
+    width: 100px;
+}
+
+.Row textarea {	
+    background: none;
+    border: 1px solid #d7d7d7;
+    font-size: 12px;
+    width: 430px;
+    height: 100px;
+}
+.Row .CodeImg {
+    float: left;
+}
+.Row .RefreshBtn {
+    white-space: nowrap;
+    float: left;
+    padding: 15px 0 0 0px;
+}
+.Row .RefreshLink, .row .RefreshLink {
+    white-space: nowrap;
+    float: left;
+    padding: 19px 0 0 0;
+    font-size: 13px;
+    margin-left: 5px;
+    color: #354e75;
+}
+.RefreshLink {
+    white-space: nowrap;
+    float: left;
+    padding: 19px 0 0 0;
+    font-size: 13px;
+    margin-left: 5px;
+    color: #354e75;
+}
+.RelationNews {
+    border-top: 1px solid #ccc;
+    width: 750px;
+    padding: 0 0 10px 0;
+    float: left;
+}
+.RelationNews h4 {
+    font-size: 13px;
+    color: #595959;
+    padding: 5px 0;
+}
+.RelationNews .ListDetailCategory {
+    padding: 0 0 8px 20px;
+}
+.RelationNews .ViewOlderLink {
+    color: #056fbb;
+    font-size: 13px;
+    font-weight: bolder;
+    padding: 0 0 0 20px;
+}
+
+/* sieuthisach_chitiet */
+.ListStyle04 {
+    text-align: center;
+}
+.ListStyle04 li {
+    text-align: center;
+    width: 181px !important;
+    padding: 3px 0;
+}
+.ListStyle04 li strong {
+    color: #575757;
+    font-size: 12px;
+    display: block;
+}
+.BookNoteWrapper {
+    background: #fffabd none;
+    border: 1px solid #e9e6ba;
+    width: 747px;
+    margin-bottom: 10px;
+}
+.BookNote {
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-booknote-top.gif) no-repeat left top;
+    margin: -1px -1px 0 -1px;
+    font-size: 12px;
+    padding: 10px 10px 20px 10px;
+    color: #595742;
+}
+.BookNote h4 {
+    padding-bottom: 5px;
+}
+.BookNote ul li {
+    background: url(http://www.ybook.vn/themes/newclassic/images/icon-dot.gif) no-repeat left 8px;
+    padding-left: 10px;
+}
+.BookDetail {
+    overflow: hidden;
+    width: 750px;
+    padding: 10px 0 0 0;
+}
+.BookImg {
+    /*    background: url(../images/bg-manga-big.jpg) no-repeat left top;*/
+    float: left;
+    width: 120px;
+    padding-left: 50px;
+    margin-bottom: 20px;
+    position: relative;
+    height: 191px;
+}
+.BookImg .Link-BookImg{
+    /*    position: relative;
+        overflow: hidden;*/
+}
+.BookImg img{
+    margin: 0 30px 10px 0;
+    border: none;
+    -moz-box-shadow: 0px 3px 5px 0px #5f5f5f,0px 3px 5px #ababab;
+    -webkit-box-shadow: 0px 3px 5px 0px #5f5f5f,0px 3px 5px #ababab;
+    box-shadow: 0px 3px 5px 0px #5f5f5f,0px 3px 5px #ababab;
+    float:left;
+    position: absolute;
+    bottom: 31px;
+}
+.BookImg img.watermark{
+    position: absolute;
+    left: 50px;
+    top: 95px;
+    bottom: 31px;
+    border: none;
+    box-shadow: none;
+}
+/*.BookImg h6 a{
+    font-size: 12px;
+    color: #444343;
+    padding: 0;
+    font-weight: normal;
+    float: left;
+}
+.BookImg .Author{
+    color: #015279;
+    font-size: 12px;
+    padding: 3px 0;
+    float: left;
+    width: 100%;
+}
+.BookImg p{
+    color: #9a9a9a;
+    font-size: 12px;
+    padding: 3px 0;
+    float: left;
+    width: 100%;
+}
+.BookImg b{color:#000; font-weight:bolder;}
+.BookImg .Rating{
+    float:left;
+    padding:5px 0;
+}
+.BookImg p strong{color: #008bc8;font-weight: bold;float: left;font-size:18px;}
+.BookImg p .Price{
+    color: #008bc8;
+    font-weight: bold;
+    padding: 0 0 0 6px;
+    float: left;
+    font-size:18px;
+}*/
+.DetailBook{
+    width:380px;
+    float:left;
+    margin: 0;
+}
+.DetailBook h6 a{
+    font-size: 12px;
+    color: #444343;
+    padding-bottom: 3px;
+    font-weight: normal;
+    float: left;
+    width: 100%;
+}
+.DetailBook .Author label{
+    font-size: 11pt;
+    color: #015279;
+    /*    float: left;*/
+}
+.DetailBook .Author span{
+    color: #9a9a9a;
+    font-weight: bold;
+    font-size: 11pt;
+    /*    padding: 3px 0;*/
+    float: left;
+    /*    width: 100%;*/
+}
+.DetailBook .Author a,.DetailBook .Author a.visited{
+    color: #015279;
+    font-size: 12px;
+    /*    padding-top: 3px;*/
+    float: left;
+    /*    width: 100%;*/
+}
+.DetailBook p{
+    color: #9a9a9a;
+    font-size: 11pt;
+    padding-bottom: 8px;
+    float: left;
+    width: 100%;
+}
+.DetailBook p a{
+    color: #3A6D0F;
+    float: left;
+    white-space: nowrap;
+    /*            width: 100%;*/
+}
+.DetailBook b{color:#000; font-weight:bolder;}
+.DetailBook .Rating{
+    float:left;
+    padding-bottom: 6px;
+    width:100%;
+}
+.DetailBook .Rating span{
+    color: #9a9a9a;
+    font-size: 11pt;
+    float: left;
+}
+.DetailBook p strong{color: #9a9a9a;font-weight: bold;float: left;}
+.DetailBook p .Price{
+    color: #1F497D;
+    float: left;
+    font-size: 15pt;
+    font-weight: bold;
+    padding: 0;
+}
+.DetailBook p .Price-Cover{
+    white-space: nowrap;
+    color: #000000;
+    float: left;
+    font-size: 11pt;
+    padding: 4px 0 0 0;
+
+}
+.DetailBook p .Price-Discount{
+    white-space: nowrap;
+    color: #F79646;
+    padding-top: 4px;
+    float: left;
+    font-size:11pt;
+}
+.DetailBook p a.partner-bookdetail{
+    color: #354E75 !important;
+}
+.author-bookdetail span{
+    color: #9A9A9A !important;
+    font-weight: bold;
+}
+.author-bookdetail label{
+    color: #354E75 !important;
+}
+a.publisher-bookdetail{
+    color: #354E75 !important;
+}
+.showLink{
+    background: url(http://www.ybook.vn/themes/newclassic/images/down.gif) no-repeat scroll left 6px;
+    color: #3A537A;
+    font-size: 10pt;
+    text-decoration: none;
+    float: left;
+    margin-top: 5px;
+    padding-left: 12px;
+}
+.hideLink{
+    background: url(http://www.ybook.vn/themes/newclassic/images/up.gif) no-repeat scroll left 6px;
+    color: #3A537A;
+    font-size: 10pt;
+    text-decoration: none;
+    float: left;
+    margin-top: 5px;
+    padding-left: 12px;
+}
+.more {
+    display: none; 
+}
+.TabContent03 table.Bg-Buy{
+    float:right; 
+    width:77%;
+    margin: 15px 0 20px 0;
+    border: none;
+    border-collapse: collapse;
+    border-radius: inherit;
+}
+table.Bg-Buy td.BuyBook{
+    /*width: 130px;*/
+}
+td.BuyBook a.buttonViewBook {
+    background: transparent url(http://www.ybook.vn/themes/newclassic/images/bg_button_a1.gif) no-repeat scroll top right;
+    color: #fff;
+    display: block;
+    font: bold 12px arial, sans-serif;
+    height: 21px;
+    margin: 0 70px 10px 0;
+    padding-right: 18px; /* sliding doors padding */
+    text-decoration: none;
+    /*float: left;*/
+}
+
+.Bg-Buy a.buttonViewBook span {
+    background: transparent url(http://www.ybook.vn/themes/newclassic/images/bg_button_span1.gif) no-repeat;
+    display: block;
+    line-height: 14px;
+    padding: 4px 0 5px 18px;
+}
+.Bg-Buy a.buttonViewBook:active {
+    color: #fff;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+.Bg-Buy a.buttonViewBook:active span {
+    padding: 4px 0 5px 18px; /* push text down 1px */
+}
+
+
+/*.Btn-Mua{
+    background: url(../images/btn-mua.gif) no-repeat;
+    background: url(../images/btn.jpg) no-repeat left top;
+    width: 114px; height: 30px;
+    border: none;
+    float: left;
+    cursor: pointer;
+    margin: 0 20px 10px 0;
+    clear:both;
+    text-align: center;
+    font-size: 18px;
+    color: #354e75;
+}*/
+.Btn-XemOnline{
+    /*    background: url(../images/btn-docthu.jpg) no-repeat;*/
+    background: url(http://www.ybook.vn/themes/newclassic/images/btn.jpg) no-repeat left top;
+    width: 114px; height: 30px;
+    border: none;
+    float: left;
+    cursor: pointer;
+    margin: 0 0 10px 0px;
+    padding: 4px 0 0 0;
+    text-align: center;
+    font-size: 18px;
+
+
+}
+.Btn-XemOnline a{
+    text-decoration: none;
+    color: #354e75;
+}
+.Btn-XemOnline a:link, .Btn-XemOnline a:visited {color: #354e75;}
+
+a.Btn-XemDemo{
+    /*    background: url(../images/btn-nghethu.jpg) no-repeat;*/
+    background: url(http://www.ybook.vn/themes/newclassic/images/btn.jpg) no-repeat left top;
+    width: 114px; height: 30px;
+    border: none;
+    float: left;
+    cursor: pointer;
+    margin: 0 0 10px 0px;
+    padding: 4px 0 0 0;
+    text-align: center;
+    font-size: 18px;
+    color: #354e75;
+    text-decoration: none;
+}
+.Border-Detail{
+    background: url(http://www.ybook.vn/themes/newclassic/images/border-detail.jpg) no-repeat right top;
+    float: left;
+    height: 194px;
+    width: 1px;
+}
+.BookDetailInfo {
+    float: left;
+    width: 740px;
+    padding: 0 5px;
+}
+/*.SubBoxWrapper02 {
+    background: url(../images/bg-bookdetail-loop.gif) repeat-y left top;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.SubBoxWrapper01 {
+    background: url(../images/bg-bookdetail-bottom.gif) no-repeat left bottom;
+}
+.SubBox {
+    background: url(../images/bg-bookdetail-top.gif) no-repeat left top;
+    overflow: hidden;
+}*/
+.SubBox .MainBookInfo {
+    font-size: 12px;
+    overflow: hidden;
+    padding: 0px 0 10px 5px;
+}
+.SubBox .MainBookInfo ul{
+    margin-left: 30px;
+}
+/*.SubBox .MainBookInfo ul li{
+    list-style-type: disc;
+    font-size: 13px;
+    color: #4b4b4b;
+}*/
+.SubBox .MainBookInfo ol li{
+    list-style-type: disc;
+    font-size: 13px;
+    color: #4b4b4b;
+}
+/*.SubBox .MainBookInfo blockquote br {
+    margin-top: 50px;
+}*/
+/*.SubBox .MainBookInfo dt {
+    float: left;
+    width: 86px;
+    line-height: 21px;
+}
+.SubBox .MainBookInfo dd {
+    line-height: 21px;
+}*/
+.SubBox .MainBookInfo h2{
+    color: #354e75;
+    font-weight:normal;
+}
+.SubBox .MainBookInfo p{
+    color: #4b4b4b;
+    font-size: 13px;
+    /*    margin-top: 7px;*/
+    padding: 15px 0 0;
+    position: relative;
+    line-height: 18px;
+}
+.SubBox .MainBookInfo p a{
+    color: #3A537A;
+    font-size: 13px;
+}
+.SubBox .MainBookInfo blockquote p{
+    font-weight: bold;
+    color: #4b4b4b;
+    font-size: 12px;
+    padding: 0px 25px 5px 0px;
+    /*            float: left;*/
+    background: url(http://www.ybook.vn/themes/newclassic/images/quote_down.png) bottom right no-repeat;
+}
+.SubBox .MainBookInfo blockquote{
+    color: #4b4b4b;
+    font-size: 12px;
+    padding: 20px 20px 0;
+    /*            float: left;*/
+    background: url(http://www.ybook.vn/themes/newclassic/images/quote_up.png) top left no-repeat;
+    clear: both;
+    width: 97%
+}
+.SubBox .MainBookInfo cite{
+    color: #4b4b4b;
+    font-size: 0.9em;
+    font-style: italic;
+    position: absolute;
+    right: 0;
+    margin-top: -15px;
+}
+/*                .SubBox .MainBookInfo blockquote cite{
+                    color: #4b4b4b;
+                    font-size: 0.9em;
+                    font-style: italic;
+                    font-weight: normal;
+                    position: absolute;
+                    right: 0;
+                    margin-bottome: -15px;
+                }*/
+.SubBox .MainBookInfo ul, 
+.SubBox .MainBookInfo ul li, 
+.SubBox .MainBookInfo ol, 
+.SubBox .MainBookInfo ol li{
+    font-size: 13px;
+    margin-left: 10px;
+    list-style-type: disc;
+    padding: 2px 0;
+    float: left;
+    width: 100%;
+}
+.SubBox .MainBookInfo hr{
+    border: none;
+    border-bottom: 1px solid;
+    padding: 15px 0 0;
+}
+.SubBox .MainBookInfo dd ul.StarRating {
+    margin: 4px 10px 0 0;
+    padding: 0 !important;
+}
+.MainBookInfo h3{
+    font-size: 15px;
+    color: #394D6E;
+}
+.MainBookInfo ul.listPacketBook{
+    float: left;
+    overflow: hidden;
+    width: 100%;
+    margin: 15px 0 0 0 !important;
+}
+.MainBookInfo ul.listPacketBook li{
+    float: left;
+    margin: 0 0 20px 5px;
+    padding: 0;
+    width: 240px;
+    list-style-type: none;
+    position: relative;
+}
+ul.listPacketBook a{
+    color: #3A537A;
+    position: relative;
+}
+ul.listPacketBook li a.img-listpacket{
+    display: block;
+    position: absolute;
+    bottom: 0;
+}
+ul.listPacketBook li img{
+    float: left;
+    border: medium none;
+    box-shadow: 0 3px 5px 0 #5F5F5F, 0 3px 5px #ABABAB;
+    margin-right: 10px;
+
+}
+ul.listPacketBook li img.watermark{
+    position: absolute;
+    left: 0px;
+    top: 95px;
+    border: none;
+    box-shadow: none;
+}
+ul.listPacketBook span.price-cover-mainInfo{
+    color: #000;
+    font-size: 9pt;
+    float: left;
+    padding: 2px 0 0;
+}
+ul.listPacketBook span.price-listpacket{
+    color: #1F497D;
+    float: left;
+    font-size: 11pt;
+    font-weight: bold;
+    padding: 0;
+}
+ul.listPacketBook span.price-discount-listpacket{
+    color: #F79646;
+    float: left;
+    font-size: 9pt;
+    margin-top: 6px;
+}
+
+.BookFunc {
+    margin: 0 20px;
+    background: url(http://www.ybook.vn/themes/newclassic/images/border-03.gif) repeat-x left top;
+    overflow: hidden;
+    padding: 10px 0;
+}
+.BookFunc .SubmitBtn:link,
+.BookFunc .SubmitBtn:visited {
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-submit-btn-02.gif) no-repeat left top;
+    float: left;
+    border: none;
+    color: #7d7d7d;
+    font-size: 11px;
+    width: 72px;
+    height: 19px;
+    text-align: center;
+    padding: 0;
+    cursor: pointer;
+    padding: 2px 0 0 0;
+    height: 17px;
+    margin: 0 0 0 15px;
+}
+.BookFunc .SubmitBtn:hover {
+    text-decoration: none;
+}
+.Share {	
+    /*							background: url(../images/bg-share.gif) no-repeat left top;
+    */							width: 140px;/*
+                                                            height: 13px;*/
+    float: right;
+    /*							padding: 3px 10px 0 75px;*/
+}
+.OrderBox {
+    font-size: 13px;
+    color: #4c4c4c;
+    overflow: hidden;
+    padding: 15px 0;
+}
+.OrderBox strong {
+    padding: 5px 0 0 25px;
+    float: left;
+}
+.OrderBox .Price {
+    color: #f89b00;
+    padding-left: 8px;
+}
+.OrderBox .QuantityTextBox {
+    width: 34px;
+    height: 17px;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    padding: 0;
+    margin: 5px 0 0 10px;
+    float: left;
+}
+.OrderBox .OrderBtn,
+.OrderBox .OrderBtn:visited {
+    background: url(http://www.ybook.vn/themes/newclassic/images/btn-buy-02.jpg) no-repeat left top;
+    width: 110px;
+    height: 26px;
+    display: block;
+    float: left;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: bolder;
+    padding: 2px 0 0 15px;
+    margin: 0 0 0 25px;
+    border: 0;
+    cursor: pointer;
+}
+.OrderBox .OrderBtn:hover {
+    text-decoration: none;
+}
+/* sachnoi_chitiet.html */
+.StoryDetail {
+    overflow: hidden;
+    width: 750px;
+    padding: 10px 0 0 0;
+}
+.StoryImg {
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-story-big.jpg) no-repeat left top;
+    float: left;
+    width: 178px;
+    padding-left: 12px;
+    margin-bottom: 10px;
+}
+.StoryImg .FlashInstall {
+    margin-left: -12px;
+}
+.FlashInstall p {
+    font-size: 12px;
+    padding: 0px 0;
+}
+
+.StoryDetailInfo {
+    float: right;
+    width: 547px;
+}
+.StoryDetailInfo .SubBoxWrapper02 {
+    margin-bottom: 5px;
+}
+.StoryDetailInfo .StoryVideo {
+    margin-bottom: 5px;
+}
+.EbookImg {
+    float: left;
+    width: 190px;
+    position: relative;
+    margin-bottom: 25px;
+}
+.EbookImg .EbookIcon {
+    position: absolute;
+    left: 7px;
+    top: 150px;
+}
+
+/* dangky_dangnhap */
+.SubContent01Wrapper {
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-login-register-loop.gif) repeat-y left top;
+    width: 960px;
+    margin-top: 5px;
+}
+.SubContent01 {
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-login-register-bottom.gif) no-repeat left bottom;
+}
+.SubContent01Inner {
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-login-register-top.gif) no-repeat left top;
+    overflow: hidden;
+    padding: 120px 0;
+}
+.LoginBlock {
+    width: 390px;
+    margin: 0 auto;
+    padding: 0;
+    color: #747474;
+}
+.LoginBlock h3 {
+    font-size: 15px;
+    padding-left: 98px;
+}
+.LoginBlock .Row {
+    padding: 10px 0 0 0;
+}
+.LoginBlock .Row label {
+    width: 95px;
+    padding: 0 8px 0 0;
+    text-align: right;
+    font-size: 12px;
+}
+.LoginBlock .Row input {
+    background: none;
+    width: 230px;
+    height: 20px;
+    padding: 0;
+    border: 1px solid #a2a2a2;
+}
+.LoginBlock .CheckboxRow {
+    padding: 10px 0 0 98px;
+    font-size: 12px;
+}
+.LoginBlock .CheckboxRow label {
+    border-right: 1px solid #000;
+    padding: 0 10px 0 5px;
+}
+.LoginBlock .CheckboxRow a{
+    padding: 0 0 0 5px;
+    color: #00457b;
+}
+.LoginBlock .Row02 {
+    padding: 8px 0 0 98px;
+    font-size: 12px;
+}
+.LoginBlock .Row02 a:link,
+.LoginBlock .Row02 a:visited {
+    color: #00457b;
+}
+
+/*Change Email*/
+.ChangeEmailBlock {
+    /*width: 730px;
+float: left;
+padding: 0 0 20px 0px;
+color: #000;
+border: 1px solid #ccc;
+margin: 0 0 10px 20px;*/
+}
+.ChangeEmailBlock h3 {
+    font-size: 15px;
+    color: #FFF;
+    background: #005caf;
+    padding: 5px 0 3px 10px;
+}
+.ChangeEmailBlock .note{
+    font-size: 13px;
+}
+.ChangeEmailBlock .Row {
+    padding: 10px 0 0 0;
+    float: left;
+}
+.ChangeEmailBlock .Row label {
+    width: 115px;
+    padding: 0 8px 0 0;
+    text-align: right;
+    font-size: 13px;
+}
+.ChangeEmailBlock .Row .errorMessage{margin-left: 123px;font-size: 12px}
+.ChangeEmailBlock .Row input {
+    background: none;
+    width: 230px;
+    height: 20px;
+    padding: 0;
+    border: 1px solid #a2a2a2;
+}
+/*        .ChangeEmailBlock .SubmitRow {
+            padding: 0 0 0 98px;
+        }
+        .ChangeEmailBlock .SubmitRow input {
+            background: url(../images/btn-luu.jpg) no-repeat left top;
+            width: 68px;
+            height: 30px;
+            border: none;
+            font-size: 0px;
+            color: #FFF;
+            cursor: pointer;
+            float: left;
+            margin-left: 188px;
+        }*/
+a.buttonUpdateAcc {
+    background: transparent url(http://www.ybook.vn/themes/newclassic/images/bg_button_a1.gif) no-repeat scroll top right;
+    color: #fff;
+    display: block;
+    font: bold 12px arial, sans-serif;
+    height: 21px;
+    /*            margin: 10px 16px 0 0px;*/
+    padding-right: 18px; /* sliding doors padding */
+    text-decoration: none;
+    /*            float: right;*/
+    position: absolute;
+    bottom: 0;
+}
+
+a.buttonUpdateAcc span {
+    background: transparent url(http://www.ybook.vn/themes/newclassic/images/bg_button_span1.gif) no-repeat;
+    display: block;
+    line-height: 14px;
+    padding: 4px 0 5px 18px;
+}
+a.buttonUpdateAcc:active {
+    color: #fff;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+a.buttonUpdateAcc:active span {
+    padding: 4px 0 5px 18px; /* push text down 1px */
+}
+
+a.buttonSend {
+    background: transparent url(http://www.ybook.vn/themes/newclassic/images/bg_button_a1.gif) no-repeat scroll top right;
+    color: #fff;
+    display: block;
+    font: bold 12px arial, sans-serif;
+    height: 21px;
+    /*            margin: 10px 16px 0 0px;*/
+    padding-right: 18px; /* sliding doors padding */
+    text-decoration: none;
+    /*            float: right;*/
+    /*position: absolute;*/
+    bottom: 0;
+}
+
+a.buttonSend span {
+    white-space: nowrap;
+    background: transparent url(http://www.ybook.vn/themes/newclassic/images/bg_button_span1.gif) no-repeat;
+    display: block;
+    line-height: 14px;
+    padding: 4px 0 5px 18px;
+}
+a.buttonSend:active {
+    color: #fff;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+a.buttonSend:active span {
+    padding: 4px 0 5px 18px; /* push text down 1px */
+}
+
+/*End*/
+/*Change Pass*/
+.UserWrapper .Row input{
+    background: none;
+    width: 230px;
+    height: 20px;
+    padding: 0;
+    border: 1px solid #a2a2a2;
+}
+.UserWrapper .Row label{
+    width: 115px;
+    padding: 3px 8px 0 0;
+    text-align: right;
+    font-size: 13px;
+}
+.UserWrapper .ForgotPass {
+    padding: 10px 0 0 45px;
+}
+a.buttonForgot {
+    background: transparent url(http://www.ybook.vn/themes/newclassic/images/bg_button_a1.gif) no-repeat scroll top right;
+    color: #fff;
+    display: block;
+    font: bold 12px arial, sans-serif;
+    height: 21px;
+    margin: 15px 0 0 449px;
+    padding-right: 18px; /* sliding doors padding */
+    text-decoration: none;
+    float: left;
+}
+
+a.buttonForgot span {
+    background: transparent url(http://www.ybook.vn/themes/newclassic/images/bg_button_span1.gif) no-repeat;
+    display: block;
+    line-height: 14px;
+    padding: 4px 0 5px 18px;
+}
+a.buttonForgot:active {
+    color: #fff;
+    outline: none; /* hide dotted outline in Firefox */
+}
+a.buttonForgot:active span {
+    padding: 4px 0 5px 18px; /* push text down 1px */
+}
+/*.UserWrapper .ForgotPass input {
+    background: url(../images/btn.jpg) no-repeat left top;
+    width: 114px; height: 30px;
+    border: none;
+    float: left;
+    cursor: pointer;
+    clear:both;
+    text-align: center;
+    font-size: 18px;
+    color: #354e75;
+    margin: 15px 0 0 345px;
+}*/
+.ChangePassBlock {
+    /*width: 730px;
+    float: left;
+    padding: 0 0 20px 0px;
+    color: #000;
+    border: 1px solid #ccc;
+    margin: 0 0 10px 20px;*/
+}
+.ChangePassBlock h3 {
+    font-size: 15px;
+    color: #FFF;
+    background: #005caf;
+    padding: 5px 0 3px 10px;
+}
+.ChangePassBlock .note{
+    font-size: 13px;
+}
+.ChangePassBlock .Row {
+    padding: 10px 0 0 0;
+    float: left;
+}
+.ChangePassBlock .Row label {
+    width: 145px;
+    padding: 0 8px 0 0;
+    text-align: right;
+    font-size: 13px;
+}
+.ChangePassBlock .Row .errorMessage{margin-left: 155px;font-size: 12px;}
+.ChangePassBlock .Row input {
+    background: none;
+    width: 230px;
+    height: 20px;
+    padding: 0;
+    border: 1px solid #a2a2a2;
+}
+.ChangePassBlock .SubmitRoww {
+    padding: 0 0 0 98px;
+}
+.ChangePassBlock .SubmitRoww input {
+    background: url(http://www.ybook.vn/themes/newclassic/images/btn-luu.jpg) no-repeat left top;
+    width: 68px;
+    height: 30px;
+    border: none;
+    font-size: 0px;
+    color: #FFF;
+    cursor: pointer;
+    float: left;
+    margin-left: 220px;
+}
+.ChangePassBlock .ForgotPass {
+    padding: 10px 0 0 45px;
+}
+
+/*End*/
+.RegisterBlock h3 {
+    background: url(http://www.ybook.vn/themes/newclassic/images/icon-note.gif) no-repeat left top;
+    padding-left: 25px;
+}
+.RegisterBlock h3 span {
+    color: #0064b5;
+}		
+.RegisterBlock .Row label {
+    width: 90px;
+}
+.RegisterBlock .Row .InputStyle01 {
+    width: 130px;
+    float: left;
+}
+.RegisterBlock .Row .BtnStyle01 {
+    border: 1px solid #c9d5e3;
+    color: #006fbd;
+    font-size: 10px;
+    background: #FFF;
+    padding: 1px 0 0 0;
+    margin-left: 3px;
+    cursor: pointer;
+    width: 47px;
+}
+.RegisterBlock .Row .InputStyle02 {
+    width: 101px;
+    float: left;
+}
+.ActivateBlock {
+    width:400px;
+    padding: 0;
+    margin: 0 auto;
+    clear: both;
+}
+.ActivateBlock .Row{
+    padding: 8px 0 0 0;
+    overflow: hidden;
+}
+.ActivateBlock .Row label {
+    width: 100px;
+    font-size: 12px;
+}
+.ActivateBlock .Row input {
+    width: 295px;
+    float: left;
+    border: 1px solid #ccc;
+}
+.ActivateBlock .errorMessage{
+    color: #ff0000;
+    font-size: 12px;
+    margin-left: 105px;
+    float: left;
+}
+
+.ContactBlock {
+    width:480px;
+    padding: 0;
+    margin: 0 auto;
+}
+.ContactBlock .Row{
+    padding: 8px 0 0 0;
+    overflow: hidden;
+}
+.ContactBlock .Row label {
+    width: 90px;
+    font-size: 12px;
+}
+.ContactBlock .Row input {
+    width: 375px;
+    float: left;
+    border: 1px solid #ccc;
+}
+.ContactBlock .Row .InputStyle02 {
+    width: 101px;
+    float: left;
+}
+.ContactBlock .Row .TextCaptcha {
+    background:  none;
+    border: 1px solid #d7d7d7;
+    font-size: 12px;
+    width: 100px;
+}
+.ContactBlock .Row textarea {
+    border: 1px solid #ccc;
+    background: none;
+    width: 375px;
+}
+
+.FAQBlock {
+    width:500px;
+    padding: 0;
+    margin:0 auto;
+}
+.FAQBlock .Row {
+    padding: 10px 0 0 0;
+}
+.FAQBlock .Row label {
+    width: 90px;
+}
+.FAQBlock .Row input {
+    width: 375px;
+    float: left;
+    border: 1px solid #ccc;
+}
+.FAQBlock .Row .InputStyle02 {
+    width: 101px;
+    float: left;
+}
+.FAQBlock .Row textarea {
+    border: 1px solid #ccc;
+    background: none;
+    width: 375px;
+}
+
+/* dangnhap */
+.SubContent02Wrapper {
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-login-loop.gif) repeat-y left top;
+    width: 960px;
+    /*    margin-top: 5px;*/
+}
+.SubContent02 {
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-login-bottom.gif) no-repeat left bottom;
+}
+.SubContent02 ul {
+    font-size: 13px;
+    margin-left: 10px;
+    /*list-style-type: circle;*/
+    padding: 2px 0;
+}
+.SubContent02 ul li {
+    /*list-style-type: circle;*/
+    /*margin: 5px 20px !important;*/
+}
+.SubContent02 ol {
+    font-size: 13px;
+    margin-left: 10px;
+    list-style-type: decimal;
+    padding: 2px 0;
+}
+.SubContent02 ol li {
+    list-style-type: decimal;
+    margin: 5px 20px !important;
+}
+
+.SubContent02Inner {
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-login-top.gif) no-repeat left top;
+    overflow: hidden;
+    padding: 10px 0 0 0;
+}
+/*.SubContent02Inner .LoginBlock {
+    margin: 0 auto;
+    float: none;
+}*/
+/*.SubContent02Inner .ChangeEmailBlock {
+    margin: 0 auto;
+    float: right;
+}*/
+/*.SubContent02Inner .ChangePassBlock {
+    margin: 0 auto;
+    float: none;
+}*/
+.SubContent02Inner .Note {
+    text-align: center;
+    font-size: 12px;
+    color: #747474;
+    padding: 20px 0 20px 0;
+}
+.SubContent02Inner .Note a:link,
+.SubContent02Inner .Note a:visited {
+    color: #0070be;
+}
+.SubContent02Inner .Label-DangNhap {
+    font-size: 14px;
+    color: #354e75;
+    font-weight: normal;  
+    margin-left: 15px;
+}
+/* lienhe */
+.ContactInfo {
+    padding: 7px 0 30px 0;
+}
+.ContactInfo h4 {
+    font-size: 14px;
+    color: #354e75;
+    padding: 7px 0 5px 15px;
+    font-weight: 100;
+}
+.ListAddress {
+    overflow: hidden;
+    /*    background: url(../images/border-04.gif) no-repeat left bottom;*/
+    padding: 10px 0 30px 15px;
+    /*    border: 1px solid #000;
+        width: 920px;*/
+}
+.ListAddress li {
+    float: left;
+    height: 316px;
+    font-size: 12px;
+    color: #666666;
+    margin-right: 10px;
+
+
+}
+.ListAddress li p{
+    font-size: 12px;
+    margin-bottom: 7px;
+}
+.ListAddress li h5 {
+    font-size: 14px;
+    color: #015aad;
+    padding: 5px 0;
+    float: left;
+    width: 100%;
+}
+.ListAddress li address {
+    font-style: normal;
+    float: left;
+    font-size: 15px;
+}
+.ListAddress li a:link, 
+.ListAddress li a:visited {
+    color: #666666;
+}
+
+/* faq */
+.SubContent03Wrapper {
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-faq-loop.gif) repeat-y left top;
+    width: 762px;
+    float: right;
+}
+.SubContent03 {
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-faq-bottom.gif) no-repeat left bottom;
+}
+.SubContent03Inner {
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-faq-top.gif) no-repeat left top;
+    overflow: hidden;
+    padding: 0 45px 30px 10px;
+}
+.SubContent03Inner h4 {
+    color: #354e75;
+    font-size: 18px;
+    padding: 7px 0 5px 0;
+    font-weight: normal;
+}
+.SubContent03Inner h5 {
+    color: #015aad;
+    font-size: 15px;
+    padding: 7px 0 5px 0;
+}
+.ListFAQ {
+    background: url(http://www.ybook.vn/themes/newclassic/images/border-05.gif) no-repeat left bottom;
+    width: 730px;
+    padding: 0 0 70px 0;
+    margin-left:15px;
+}
+.ListFAQ li {
+    margin-top: 10px;
+}
+.ListFAQ p {
+    padding-bottom: 10px;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: justify;
+}
+.ListFAQ li a:link,
+.ListFAQ li a:visited {
+    color: #015aad;
+}
+.YourQuestion {
+    overflow: hidden;
+    /*    padding: 0 0 0 90px;*/
+    color: #5c5c5b;
+    font-size: 12px;
+}
+.YourQuestion p {
+    padding: 10px 0 5px 0;
+}
+/* sachcuatoi */
+.MainContentWrapper02 {
+    width: 959px;
+    background: #f3f3f3 url(http://www.ybook.vn/themes/newclassic/images/bg-main-bottom-02.gif) no-repeat left bottom;
+}
+.MainContent02 {
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-main-top-02.gif) no-repeat left top;
+}
+.MainContent02 .TabStyle02 {
+    padding-bottom: 3px;
+}
+.MainContent02 .TabContent02 {
+    padding: 0px 0 3px 0;
+}
+.UserWrapper {
+    overflow: hidden;
+    width: 100%;
+}
+.UserFuncWrapper {
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-userfunc-loop.gif) repeat-y right top;
+    float: left;
+    /*padding: 0 0 0 10px;*/
+    width: 187px;
+    margin-left: 15px;
+}
+.UserFunc {
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-userfunc-bottom.gif) no-repeat left bottom;
+    text-align: center;
+}
+.UserFunc h3 {
+    font-size: 18px;
+    font-weight: normal;
+    color: #6d6d6d;
+    /*    background: #005caf;*/
+    padding: 5px 0 3px 10px;
+    border-bottom: 1px solid #dedede;
+    border-top: 1px solid #dedede;
+    text-align: left;
+}
+.UserFunc img {
+    border: 3px solid #ccc;
+    margin: 5px 0 0 0;
+}
+.UserFunc ul {
+    text-align: left;
+    padding: 0 0 10px 0;
+}
+.UserFunc ul li {
+    padding: 5px 0 0 10px;
+}
+.UserFunc ul li a:link,
+.UserFunc ul li a:visited {
+    color: #0d75b4;
+    font-size: 13px;
+}
+.UserFunc ul li a.Active:link,
+.UserFunc ul li a.Active:visited {
+    font-weight: bolder;
+}
+.UserBook {
+    float: left;
+    width: 720px;
+    padding: 0;
+    margin-left: 20px;
+}
+.TableStyle02 {
+    width: 720px; 
+    border: 1px solid #ccc;
+    border-top: none;
+    margin-left: 20px;
+    float: left;
+    padding-bottom: 30px;
+    /*height:295px;*/
+}
+.TableStyle02 h3 {
+    font-size: 15px;
+    color: #FFF;
+    background: #005caf;
+    padding: 5px 0 3px 10px;
+}
+.TableStyle02 .UpdateAcc{
+    font-size: 15px;
+    margin: 0 auto;
+    width: 400px;
+    padding-top: 20px;
+    /*    float: left;*/
+}
+.TableStyle02 .form-left .UpdateAcc{
+    font-size: 15px;
+    float: left;
+    width: 400px;
+    padding-top: 20px;
+    margin-left: 10px;
+    /*    float: left;*/
+}
+.formHandle .promotion-row{
+    float: left;
+    margin: 0 auto;
+    width: 100%;
+    text-align: left;
+    font-size: 12px;
+}
+.UpdateAcc .row .errorMessage{
+    color:#ff0000;
+    font-size: 12px;
+    font-weight: normal;
+    float: left;
+    margin: 5px 0 0 133px;
+}
+.UpdateAcc .row{
+    padding: 10px 0;
+    float: left;
+    font-size: 12px;
+}
+.UpdateAcc .row label{
+    font-size: 13px;
+    color: #000;
+    text-align: right;
+    width: 115px ;
+    float: left;
+    padding: 3px 18px 0 0;
+}
+.UpdateAcc .row input{
+    width: 250px;
+    height: 16px;
+    font-size: 13px;
+    /*    float: right;*/
+    border: 1px solid #a2a2a2;
+}
+.UpdateAcc select{
+    width: 250px;
+    height: 20px;
+    font-size: 13px;
+    /*    float: right;*/
+    border: 1px solid #a2a2a2;
+}
+.UpdateAcc textarea{
+    width: 250px;
+    height: 60px;
+    float: right;
+    font-size: 13px;
+    border: 1px solid #a2a2a2;
+}
+
+.UpdateAcc2{
+    font-size: 15px;
+    margin: 0 auto;
+    width: 400px;
+    padding-top: 20px;
+    /*    float: left;*/
+}
+.UpdateAcc2 .row .errorMessage{
+    color:#ff0000;
+    font-size: 12px;
+    font-weight: normal;
+    float: left;
+    margin: 5px 0 0 133px;
+}
+.UpdateAcc2 .row{
+    padding: 10px 0;
+    float: left;
+}
+.UpdateAcc2 .row label{
+    font-size: 13px;
+    color: #000;
+    text-align: right;
+    width: 115px ;
+    float: left;
+    padding: 3px 18px 0 0;
+}
+.UpdateAcc2 input{
+    /*    width: 250px;
+        height: 20px;*/
+    font-size: 13px;
+    /*    float: right;*/
+    border: 1px solid #a2a2a2;
+}
+.UpdateAcc2 select{
+    width: 250px;
+    height: 20px;
+    font-size: 13px;
+    /*    float: right;*/
+    border: 1px solid #a2a2a2;
+}
+.UpdateAcc2 textarea{
+    width: 250px;
+    height: 60px;
+    float: right;
+    font-size: 13px;
+    border: 1px solid #a2a2a2;
+}
+.UpdateAcc2 .button{
+    background: url(http://www.ybook.vn/themes/newclassic/images/btn-luu.jpg) no-repeat left top;
+    width: 68px; height: 30px;
+    border: none;
+    font-size: 0px;
+    margin: 10px 0 0 320px;
+    cursor: pointer;float: left;
+}
+.TableStyle01 {
+    width: 100%;
+    border: 1px solid #ccc;
+    /*border-top: none;*/
+    float: left;
+    background-color:#f8f8f8;
+    margin-bottom:10px;
+    /*    border-bottom-right-radius:5px;
+        border-bottom-left-radius:5px;*/
+}
+.TableStyle01 tr .odd{
+    height:50px;
+}
+.TableStyle01 th {
+    font-size: 14px;
+    color: #6d6d6d;
+    /*background: #008bc8;*/
+    padding: 10px 0;
+}
+.TableStyle01 td {
+    font-size: 13px;
+    color: #737373;
+    height: 45px;
+    padding: 10px 0;
+    background: url(http://www.ybook.vn/themes/newclassic/images/border-table.gif) repeat-x left top;
+}
+.TableStyle01 .First td {
+    background: none;
+}
+.TableStyle01 .Even td {
+    background: #f9f9f9 url(http://www.ybook.vn/themes/newclassic/images/border-table.gif) repeat-x left top;
+}
+.TableStyle01 .AlignCenter {
+    text-align: center;
+    margin: 0px 0;
+}
+.TableStyle01 .AlignLeft {
+    text-align: left;
+}
+.TableStyle01 .ValignTop {
+    vertical-align: middle;
+    padding: 10px 0 0 0;
+    height: 75px;
+    text-align: center;
+}
+.TableStyle01 td h6{
+    color: #000;
+    font-size: 13px;
+    float: left;
+    font-weight: normal;
+    /*    text-align: center;*/
+    width: 78%;
+    /*    padding: 0 0 5px 0;*/
+}
+.TableStyle01 td span {
+    float: left;
+    width: 22%;
+}
+
+.TableStyle01 td h6 a{color: #000;}
+.TableStyle01 td p {
+    padding: 2px 0 0 0;
+    float: left;
+    /*    text-align: center;*/
+    width: 100%;
+}
+.TableStyle01 td p span {
+    float: left;
+    width: 22%;
+}
+.TableStyle01 td p label {
+    float: left;
+    width: 75%;
+}
+.TableStyle01 td .DisscussLink {
+    margin: 0 10px 0 0;
+}
+.TableStyle01 td .EditLink {
+    margin: 0 10px 0 0;
+}
+.TableStyle01 .PriceStyle {
+    color: #008bc8;
+    font-weight: bolder;
+}
+.TableStyle01 td .QuantityInput {
+    background: #f8f8f8;
+    border: 1px solid #909090;
+    font-size: 13px;
+    text-align: center;
+    width: 50px;
+    vertical-align: middle;
+}
+.TableStyle01 td .QuantityInputDone {
+    background: none;
+    border: 1px solid #ccc;
+    font-size: 13px;
+    text-align: center;
+    width: 50px;
+}
+/*================*/
+.TableStyle03 {
+    width: 100%;
+    border: 1px solid #ccc;
+    /*border-top: none;*/
+    float: left;
+    background-color:#f8f8f8;
+    margin-bottom:10px;
+    /*    border-bottom-right-radius:5px;
+        border-bottom-left-radius:5px;*/
+}
+.TableStyle03 tr .odd{
+    height:50px;
+}
+.TableStyle03 th {
+    font-size: 14px;
+    color: #6d6d6d;
+    /*background: #008bc8;*/
+    padding: 10px 0;
+}
+.TableStyle03 td {
+    font-size: 13px;
+    color: #737373;
+    height: 45px;
+    background: url(http://www.ybook.vn/themes/newclassic/images/border-table.gif) repeat-x left top;
+}
+.TableStyle03 .First td {
+    background: none;
+}
+.TableStyle03 .Even td {
+    background: #f9f9f9 url(http://www.ybook.vn/themes/newclassic/images/border-table.gif) repeat-x left top;
+}
+.TableStyle03 .AlignCenter {
+    text-align: center;
+    margin: 10px 0;
+}
+.TableStyle03 .AlignLeft {
+    text-align: left;
+}
+.TableStyle03 .ValignTop {
+    vertical-align: middle;
+    padding: 10px 0 0 0;
+    height: 75px;
+    text-align: center;
+}
+.TableStyle03 td h6{
+    color: #000;
+    font-size: 13px;
+    /*    float: left;*/
+    font-weight: normal;
+    text-align: center;
+    width: 100%;
+    /*    padding: 0 0 5px 0;*/
+}
+.TableStyle03 td span {
+    /*    float: left;*/
+    width: 22%;
+}
+
+.TableStyle03 td h6 a{color: #000;}
+.TableStyle03 td p {
+    padding: 2px 0 0 0;
+    /*    float: left;*/
+    text-align: center;
+    width: 100%;
+}
+.TableStyle03 td p a{
+    color: #000;
+}
+.TableStyle03 td p span {
+    /*    float: left;*/
+    width: 22%;
+}
+.TableStyle03 td p label {
+    /*    float: left;*/
+    width: 75%;
+}
+.TableStyle03 td .DisscussLink {
+    margin: 0 10px 0 0;
+}
+.TableStyle03 td .EditLink {
+    margin: 0 10px 0 0;
+}
+.TableStyle03 .PriceStyle {
+    color: #008bc8;
+    font-weight: bolder;
+}
+.TableStyle03 td .QuantityInput {
+    background: #f8f8f8;
+    border: 1px solid #909090;
+    font-size: 13px;
+    text-align: center;
+    width: 50px;
+    vertical-align: middle;
+}
+.TableStyle03 td .QuantityInputDone {
+    background: none;
+    border: 1px solid #ccc;
+    font-size: 13px;
+    text-align: center;
+    width: 50px;
+}
+.BoxSaleCode{
+    float:left;
+    margin:10px 0 0 5px;
+    border:1px solid #d3d3d3;
+    background-color:#f8f8f8;
+    padding:10px;
+    border-bottom-right-radius:5px;
+    border-bottom-left-radius:5px;
+    clear: both;
+}
+#breadCum {
+    position: absolute;
+    background: url(http://www.ybook.vn/themes/newclassic/images/icon-list-02.gif) no-repeat left 4px;
+    color: #005caf;
+    font-size: 15px;
+    left: 230px;
+    top: 9px;
+    padding: 0 0 0 15px;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+
+/* giohang */
+.Basket {
+    padding: 5px 10px;
+    overflow: hidden;
+    float: left;
+}
+.Row03 {
+    text-align: right;
+    font-size: 12px;
+    padding: 0 0 25px 0;
+    overflow: hidden;
+}
+.Row03 span {
+    width: 85px;
+    float: right;
+}
+.Row03 .PriceStyle {
+    color: #008bc8;
+}
+.Row03 .PriceStyle strong {
+    color: #008bc8;
+}
+.Row03 .DiscountCode {
+    margin: 0 45px 0 10px;
+    background: #efefef;
+    border: 1px solid #d7d7d7;
+    font-size: 12px;
+    padding: 0;
+}
+.Row03 label {
+    color: #747474;
+}
+.Row03 strong {
+    font-size: 15px;
+}
+.BtnCNGH,
+.BtnCNGH:visited {
+    /*background: #005caf;*/
+    background: url(http://www.ybook.vn/themes/newclassic/images/btn-cngh.jpg) no-repeat right center;
+    font-size: 0px;
+    /*color: #FFF;*/
+    /*font-weight: bolder;*/
+    /*padding: 3px 15px 4px;*/
+    float: right;
+    border:0;
+    cursor: pointer;
+    height: 30px;width:123px;
+}
+.BtnCNGH:hover {
+    text-decoration: none;
+}
+.BtnTTMH,
+.BtnTTMH:visited {
+    background: url(http://www.ybook.vn/themes/newclassic/images/btn-ttmh.jpg) no-repeat right center;
+    font-size: 0px;
+    float: right;
+    border:0;
+    cursor: pointer;
+    height: 30px;width:123px;
+}
+.BtnTTMH:hover {
+    text-decoration: none;
+}
+.BtnTHTT,
+.BtnTHTT:visited {
+    background: url(http://www.ybook.vn/themes/newclassic/images/btn-thtt.jpg) no-repeat right center;
+    font-size: 0px;
+    float: right;
+    border:0;
+    cursor: pointer;
+    height: 30px;width:148px;
+}
+.BtnTHTT:hover {
+    text-decoration: none;
+}
+.ButtonPayment .BtnHTTT,
+.ButtonPayment .BtnHTTT:visited {
+    background: url(http://www.ybook.vn/themes/newclassic/images/btn-httt.jpg) no-repeat right center;
+    font-size: 0px;
+    float: right;
+    border:0;
+    cursor: pointer;
+    height: 30px;width:148px;
+}
+.ButtonPayment .BtnHTTT:hover {
+    text-decoration: none;
+}
+
+.paypal-checkout,
+.paypal-checkout:visited {
+    /*    background: #005caf;*/
+    /*    font-size: 15px;
+        color: #FFF;
+        font-weight: bolder;
+        padding: 3px 15px 4px;
+        float: right;
+        border:0;
+        cursor: pointer;
+        height: 28px;*/
+    background: url('https://www.paypal.com/en_US/i/btn/btn_xpressCheckout.gif');
+    width: 145px;
+    height: 42px;
+    border: 0;
+    text-indent: -9999px;
+    margin: 2px 5px;
+}
+.paypal-checkout:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+#newsletterReport2 {
+    background: #eff7ff none;
+    border: 1px solid #ccc;
+    width: 94%;
+    padding: 10px 0 10px 20px;
+    font-size: 13px;
+    float: left;
+    margin: 10px 0 0 15px;
+}
+.TransferInfo {
+    background: #eff7ff none;
+    border: 1px solid #ccc;
+    width: 94%;
+    padding: 10px 0 10px 20px;
+    /*    margin: 10px auto 10px auto;*/
+    margin: 10px;
+    font-size: 13px;
+    float: left;
+}
+.TransferInfo a:link {
+    color: #354E75;
+}
+.AnnounceInfo {
+    background: #eff7ff none;
+    border: 1px solid #ccc;
+    width: 94%;
+    padding: 10px 0 10px 20px;
+    /*    margin: 10px auto 10px auto;*/
+    margin: 10px;
+    font-size: 13px;
+    float: left;
+}
+.AnnounceInfo a:link {
+    color: #354E75;
+}
+.CartInfo {
+    background: #eff7ff none;
+    border: 1px solid #ccc;
+    width: 70%;
+    padding: 10px 0 10px 30px;
+    margin: 10px 0;
+    font-size: 13px;
+}
+
+.errorSummary{
+    border: 2px solid #cc0000;
+    padding: 5px 0 8px 8px;
+    font-size: 12px;
+    color: #000;
+    background-color: #ffeeee;
+    width: 400px !important;
+    margin: 0 auto;  /* cho site contact */
+    margin-bottom:10px;
+    margin-top:10px;
+}
+.errorSummary p{
+    margin-bottom: 5px;
+}
+.errorSummary li{
+    margin-left: 20px;
+}
+#payment-method .errorMessage{
+    float: left;
+    clear: both;
+}
+.errorMessage{
+    color:#ff0000;
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 2px;
+    /*float: left;*/
+}
+label.error{
+    color:#ff0000;
+    font-size: 12px;
+}
+input.error{
+    border: 1px red solid !important;
+    font-size: 12px;
+    color:#ff0000;
+}
+textarea.error{
+    border: 1px red solid !important;
+    font-size: 12px;
+    color:#ff0000;
+}
+select.error{
+    border: 1px red solid !important;
+    font-size: 12px;
+    color:#ff0000;
+}
+.CartInfo h4 {
+    font-size: 13px;
+    color: #595959;
+}
+.CartInfo .Row {
+    padding: 10px 0 0 0;
+}
+.CartInfo .Row input {
+    width: 166px;
+}
+.Required {
+    color: #ff0000;
+}
+span.required {
+    color: #ff0000;
+    font-size: 13px;
+}
+.CartInfo .Row select {
+    font-size: 12px;
+}
+.CartInfo .Row p {
+    font-size: 12px;
+    color: #a7acb2;
+}
+.CartInfo .Row .Note {
+    color: #000;
+}
+.Row04Wrapper {
+    float: left;
+    left: 50%;
+    position: relative;
+}
+.Row04 {
+    position: relative;
+    left: -50%;
+    overflow: hidden;
+}
+.Row04 .BtnStyle02:link,
+.Row04 .BtnStyle02:visited {
+    float: left;
+    margin: 0 9px;
+    position: relative;
+    border: 0;
+}
+.PaymentMethod {
+    padding: 0 0 0 30px;
+}
+.Note {
+    font-size: 12px;
+    color: #595959;
+}
+.PaymentMethodList {
+    overflow: hidden;
+}
+.PaymentMethodList li {
+    float: left;
+    padding: 20px 20px 20px 0;
+}
+.PaymentMethodList li a img {
+    display: block;
+}
+
+.ListCategory .Others-News-Parent{
+    /*    float: left;*/
+    height: 155px !important;
+    /*        border: 1px solid red;*/
+}
+
+.ListCategory .Others-News-Parent h4{
+    color: #354e75;
+    font-weight: bold;
+}
+
+.breadcrumbs {
+    width: 960px;
+    font-size: 1.2em;
+    float:left;
+    margin: -2px 0 8px 0;
+    font-family: Arial,'Courier New',Courier,monospace;
+}
+
+.breadcrumbs a:link {
+    color: #354e75;
+    background-color: #fbfbfb;
+    border: 1px solid #e0e0e0;
+    padding: 3px;
+    text-decoration: none;
+}
+.breadcrumbs span.Active {
+    color: #354e75;
+    background-color: #eaedf1;
+    border: 1px solid #e0e0e0;
+    padding: 3px;
+    text-decoration: none;
+    /*margin-bottom: 10px;*/
+    line-height: 27px;
+}
+.breadcrumbs .separator{
+    background: url('http://www.ybook.vn/themes/newclassic/images/sepa.jpg') no-repeat center;
+    width: 5px;height: 28px !important;
+    border: none;
+}
+.intro-content{
+    color: #696969;
+    font-size: 12px;
+    /*    background: url(../images/border-05.gif) no-repeat left bottom;*/
+    overflow: hidden;
+    padding: 10px 20px 0;
+}
+.intro-content ul{margin-left: 20px;}
+.intro-content ul li{
+    list-style-type: disc;
+    font-size: 13px;
+    color: #696969;
+}
+.intro-content ul li ul li{
+    list-style-type: circle;
+    font-size: 13px;
+    color: #696969;
+}
+.intro-content p{
+    font-size: 13px;
+    line-height: 18px;
+    padding-bottom: 10px;
+}
+
+#slideBox{
+    overflow: hidden;float: right;height: 235px;
+    width: 772px;
+    margin-bottom: 8px;
+    /*    background-color: #f2f2f4;*/
+
+}
+
+
+.ListStyle01 {
+    padding: 0 0 12px 0;
+    overflow: hidden;
+    zoom: 1;
+}		
+.ListStyle01 li {
+    padding: 5px 8px 0 8px;
+    float: left;
+    width: 164px;
+}		
+.ListStyle01 a:link,
+.ListStyle01 a:visited {
+    color: #354E75;
+    font-size: 12px;
+    background: url(http://www.ybook.vn/themes/newclassic/images/icon-list.gif) no-repeat left 4px;
+    display: block;
+    padding-left: 8px;
+    border: 0;
+}
+.form-subscribe{
+    width: 293px;
+    height: 223px;
+    float: right;
+    font-size: 14px;
+    font-family: arial;
+    color: #818181;
+    padding: 0 0 10px 0;
+    border: 1px solid #c0c0c0;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+.form-subscribe h3{color: #354e75;margin: 0px 0 0 14px; font-weight: normal;font-size: 14px; height: 18px;}
+.form-subscribe #ui-tabs-1 ul{width: 275px; height: 170px;}
+.form-subscribe #ui-tabs-1 ul li{
+    background: url(http://www.ybook.vn/themes/newclassic/images/icon-tinnoibat.png) no-repeat left 5px;
+    width: 275px;
+    border: none;
+    list-style-type: none;
+    padding-left: 10px;
+    margin: 0 0 5px 5px;
+}
+.form-subscribe a:link,
+.form-subscribe a:visited{
+    color: #354E75;
+    font-size: 13px;
+    text-decoration: none;
+    /*    padding-left: 10px;*/
+    display: block;
+}
+.form-subscribe ul li a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.Tin-Noi-Bat{
+    background: url(http://www.ybook.vn/themes/newclassic/images/tinnoibat.jpg) no-repeat;
+    width: 283px; height: 17px;
+    border: none;margin: 0 0 0 5px;
+}
+.BoxWrapper-subscribe {
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-loop-subscribe.gif) repeat-y left top;
+    border-top: 1px solid #dedede;
+    /*    margin-top: 5px;*/
+    width: 255px;
+}
+.Box-subscribe {
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-bottom-subscribe.gif) no-repeat left bottom;
+    height: 230px;
+}
+.Box-subscribe h4 {
+    font-size: 15px;
+    color: #818181;
+    letter-spacing: -1px;
+    background: url(http://www.ybook.vn/themes/newclassic/images/border-02.gif) no-repeat center bottom;
+    padding: 6px 0 6px 0px;
+    text-align: center;
+}		
+.ListStyle01-subscribe {
+    padding: 0 0 12px 0;
+    overflow: hidden;
+    zoom: 1;
+}
+.Box-subscribe .submit-subscribe {
+    background: url("http://www.ybook.vn/themes/newclassic/images/btn-login.jpg") no-repeat scroll left top transparent;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 12px;
+    height: 24px;
+    width: 86px;
+    margin-top: 2px;
+}
+.table-subscribe{
+    margin: 0 auto;
+    font-size: 0.9em;
+
+}
+.table-subscribe input[type=text] { font-size: .9em; width: 150px; }
+.table-subscribe #imgverify { width: 85px; }
+.guide-captcha{font-size: 12px; color: #a79d9b;}
+.ExSearchBox {overflow: hidden; width: 330px; padding-left: 5px;}
+a.ExsearchButton{
+    background: url(http://www.ybook.vn/themes/newclassic/images/exsearch.jpg) no-repeat;
+    float: left;
+    border: none;
+    font-size: 0;
+    margin-right: 10px;
+    width: 76px;
+    height: 20px;
+    text-decoration: none;
+}
+.LabelExSearch{
+    font-size: 18px;
+    color: #354e75;
+    font-weight: bolder;
+    margin: 0px 0 0 5px;
+}
+.ExSearchBox .row{
+    margin: 12px 0;
+}
+.ExSearchBox label {
+    font-size: 12px;
+    font-weight: bolder;
+    color: #6b6b6b;
+    /*	padding: 2px 11px 0 3px;*/
+}
+.ExSearchBox select {
+    width: 221px;
+    height: 20px;
+    font-size: 1.2em;
+    color:#7f7f7f;
+    float: right;
+    border: 1px solid #9f9f9f;
+}
+.ExSearchBox .bookcase{margin-left: 32px;}
+.ExSearchBox input{border: 1px solid #9f9f9f;}
+.SearchTextBoxaa {
+    width: 210px;
+    border: 1px solid #9f9f9f;
+    height: 18px;
+    padding: 0 5px;
+    margin: 0 0 0 3px;
+    font-size: 1.2em;
+    color:#7F7F7F;
+    float: right;
+}
+.Year {
+    width: 53px;
+    height: 18px;
+    padding: 0 5px;
+    margin: 5px 0px 0 3px;
+    font-size: 1.2em;
+    color:#7F7F7F;
+}
+.SearchSubmitaa {
+    background: url(http://www.ybook.vn/themes/newclassic/images/btn-search.jpg) no-repeat left top;
+    width: 114px;
+    height: 30px;
+    border: none !important;
+    text-indent: -9999px;			
+    margin: 10px 4px 0 0;
+    cursor: pointer;
+    font-size: 0px;
+    color: #FFF;
+    line-height: 1000px;
+}
+.formaaa{
+    font-size: 13px;
+    margin: 0 auto;
+    width: 400px;
+}
+.formaaa .errorMessage{
+    margin-left: 123px;
+}
+.formaaa .Row{
+    padding: 8px 0 0 0;
+    overflow: hidden;
+}
+
+.SubContent04Inner {
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-login-top.gif) no-repeat left top;
+    overflow: hidden;
+    padding: 10px 15px 15px 0;
+}
+.SubContent04Inner .Label-DangKy {
+    font-size: 18px;
+    color: #354e75;
+    font-weight: normal;
+    margin-left: 15px;
+}   
+.SubContent04Inner select{
+    /*padding: 0 5px;*/
+    margin: 0;
+    font-size: 12px;
+    float: right;
+    width: 242px;
+    height: 20px;
+    border: 1px solid #a2a2a2;
+}
+
+.SubContent04Inner input{
+    padding: 0 5px;
+    margin: 0;
+    font-size: 11px;
+    float: right;
+    width: 230px;
+    height: 18px;
+    border: 1px solid #a2a2a2;
+}
+
+.SubContent04Inner .RefreshBtn {
+    float: left;
+    padding: 15px 0 0 0;
+}
+.SubContent04Inner .form{
+    margin-left: 30px;
+}
+.SubContent04Inner .row{
+    margin: 15px 0;
+}
+.SubContent04Inner label{
+    font-size: 13px;
+    color: #000;
+    /*float: left;*/
+    /*width: 130px;*/
+    /*margin-top: 3px;*/
+}
+.SubContent04Inner .errorMessage{
+    margin: 10px 0 0 138px;
+    font-size: 12px;
+    clear: both;
+}
+.SubContent04Inner .FormLeft{
+    float: left;
+    padding-right: 30px;
+    width: 380px;
+}
+.FormLeft .noteLeft{
+    font-size: 13px;
+}
+.SubContent04Inner .FormRight{
+    float: right;
+    text-align: left;
+    padding: 20px 0 60px 30px;
+    width: 450px;
+    border-left: 1px solid #ccc;
+}
+.FormRight .hint{
+    float: left; 
+    margin-top: 15px; 
+    padding-bottom: 15px;
+    font-size: 13px;
+}
+.FormRight .noteRight{
+    float: left; 
+    padding: 15px 0; 
+    border-top: 1px solid #ccc;
+    font-size: 13px;
+}
+.SubContent04Inner a.buttonRegister {
+    background: transparent url(http://www.ybook.vn/themes/newclassic/images/bg_button_a1.gif) no-repeat scroll top right;
+    color: #fff;
+    display: block;
+    font: bold 12px arial, sans-serif;
+    height: 21px;
+    /*                    margin: 10px 0 20px 98px;*/
+    padding-right: 18px; /* sliding doors padding */
+    text-decoration: none;
+    float: left;
+}
+
+.SubContent04Inner a.buttonRegister span {
+    background: transparent url(http://www.ybook.vn/themes/newclassic/images/bg_button_span1.gif) no-repeat;
+    display: block;
+    line-height: 14px;
+    padding: 4px 0 5px 18px;
+}
+.SubContent04Inner a.buttonRegister:active {
+    color: #fff;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+.SubContent04Inner a.buttonRegister:active span {
+    padding: 4px 0 5px 18px; /* push text down 1px */
+}
+
+
+.SortSearch {
+    /*        background: url(../images/icon-forum.gif) no-repeat left top;*/
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    width: 330px;
+    float: right;
+    /*        height: 14px;*/
+    /*        text-indent: -1000em;*/
+}
+.SortSearch ul{
+    float: right;
+    right: 8px;
+    top: 20px;
+    list-style: none;
+}
+.SortSearch ul li{
+    float: left;
+    /*    top: -11px;*/
+    width: 70px;
+    height: 100%;
+    margin: 0;
+    text-align: center;
+}
+.SortSearch ul li a{
+    color: #000;
+}
+.SortSearch ul li a.asc{
+    background: url("http://www.ybook.vn/themes/newclassic/images/up.gif") no-repeat scroll right center transparent;
+    padding-right: 10px;
+    color: #000;
+}
+.SortSearch ul li a.desc{
+    background: url("http://www.ybook.vn/themes/newclassic/images/down.gif") no-repeat scroll right center transparent;
+    padding-right: 10px;
+    color: #000;
+}
+#img-block{
+    position: relative;
+    width: 100px;
+    height: 150px;
+    display: block;
+    float: left;
+    margin-right: 20px;
+}
+#img-block-accessories{
+    position: relative;
+    height: 157px;
+    display: block;
+    float: left;
+}
+#img-block-accessories .Price{
+    color: #f7941d;
+    font-size: 1.2em;
+    font-weight: bolder;
+    /*padding-top: 8px;*/
+    text-align: center;
+}
+.listPacketBook #img-block{
+    margin-right: 10px;
+}
+.listPacketBook #details-block{
+    float: left;
+    position: absolute;
+    width: 120px;
+    bottom: 0;
+    right: 10px;
+}
+.slider-item #img-block{
+    position: relative;
+    width: 75px;
+    height: 105px;
+    display: block;
+    float: left;
+    margin-left: 6px;
+    margin-top: 7px;
+    background: none;
+}
+a.atooltip{
+    display: block;
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+}
+.tooltip {
+    display:none;
+    /*	background:url(../images/tooltip.gif) no-repeat;*/
+    font-size:11px;
+    /*	height:79px;
+            width:133px;*/
+    color:#3a537a;
+    padding: 0;
+    z-index: 999999;
+    position: absolute;
+}
+
+/* a .label element inside tooltip */
+.tooltip .Top{
+    background:url(http://www.ybook.vn/themes/newclassic/images/tooltip-top.gif) no-repeat;
+    height:25px;
+    width:132px;
+    /*margin-top: 20px;*/
+}
+.tooltip .Loop{
+    background:url(http://www.ybook.vn/themes/newclassic/images/tooltip-loop.gif) repeat-y;
+    width:112px;
+    height: 100%;
+    padding: 0 5px 0 15px;
+    position: relative;
+    margin: -17px 0 0 0;
+    z-index: -9999;
+    overflow: hidden;
+}
+.tooltip .Bottom{
+    background:url(http://www.ybook.vn/themes/newclassic/images/tooltip-bottom.gif) no-repeat;
+    width:132px;
+    height: 10px;
+}
+.tooltip .TitleBook{
+    font-size: 13px;
+    font-weight: bolder;
+    color: #3a537a;
+}
+.tooltip .AuthorBook{
+    font-size: 13px;
+    font-weight: normal;
+    color: #747474;
+    height: 48px; overflow: hidden;
+    padding-bottom: 0;
+    float: left;
+}
+.tooltip span.dots{
+    line-height: 3px;
+    color: #747474;
+}
+.tooltip .PriceBook{
+    font-size: 13px;
+    font-weight: normal;
+    color: #f18d36;
+    padding-bottom: 4px;
+}
+.tooltip .label {
+    color: yellow;
+    width: 35px;
+    margin: 10px 0 0 10px;
+}
+
+.tooltip a {
+    color:#000;
+    font-size:11px;
+    font-weight:bold;
+}
+
+/*
+        Slideshow style
+*/
+.newBook {
+    /*	position:absolute;*/
+    top:10px;
+    left:4px;
+    /*        bottom: 10px;*/
+    z-index:100;
+    overflow: hidden;
+}
+
+.newBook .slide {
+    /*	padding:10px 20px 20px 20px;*/
+    width:750px;
+    height:520px;
+    display:block;
+}
+/*
+        Next/prev buttons
+*/
+.newBook a.next {
+    width:14px;
+    height:16px;
+    float: right;
+    z-index:101;
+    margin-right: 199px;
+    padding-top: 1px;
+}
+
+.newBook a.prev {
+    width:14px;
+    height:16px;
+    float: left;
+    z-index:101;
+    margin-left: 278px;
+    padding-top: 1px;
+}
+
+
+.bestSeller {
+    /*	position:absolute;*/
+    top:10px;
+    left:4px;
+    /*        bottom: 10px;*/
+    z-index:100;
+}
+
+.bestSeller .slide {
+    /*	padding:10px 20px 20px 20px;*/
+    width:750px;
+    height:520px;
+    display:block;
+}
+/*
+        Next/prev buttons
+*/
+.bestSeller a.next {
+    width:14px;
+    height:16px;
+    float: right;
+    z-index:101;
+    margin-right: 199px;
+    padding-top: 1px;
+}
+
+.bestSeller a.prev {
+    width:14px;
+    height:16px;
+    float: left;
+    z-index:101;
+    margin-left: 278px;
+    padding-top: 1px;
+}
+
+.bestSeller a.next {
+    left:450px;
+}
+
+.bestRating {
+    /*	position:absolute;*/
+    top:10px;
+    left:4px;
+    /*        bottom: 10px;*/
+    z-index:100;
+}
+
+.bestRating .slide {
+    /*	padding:10px 20px 20px 20px;*/
+    width:750px;
+    height:520px;
+    display:block;
+}
+
+/*
+        Next/prev buttons
+*/
+.bestRating a.next {
+    width:14px;
+    height:16px;
+    float: right;
+    z-index:101;
+    margin-right: 199px;
+    padding-top: 1px;
+}
+
+.bestRating a.prev {
+    width:14px;
+    height:16px;
+    float: left;
+    z-index:101;
+    margin-left: 278px;
+    padding-top: 1px;
+}
+
+.bestRating a.next {
+    left:450px;
+}
+
+.saleOff {
+    /*	position:absolute;*/
+    top:10px;
+    left:4px;
+    /*        bottom: 10px;*/
+    z-index:100;
+}
+
+.saleOff .slide {
+    /*	padding:10px 20px 20px 20px;*/
+    width:750px;
+    height:520px;
+    display:block;
+}
+/*
+        Next/prev buttons
+*/
+.saleOff a.next {
+    width:14px;
+    height:16px;
+    float: right;
+    z-index:101;
+    margin-right: 199px;
+    padding-top: 1px;
+}
+
+.saleOff a.prev {
+    width:14px;
+    height:16px;
+    float: left;
+    z-index:101;
+    margin-left: 278px;
+    padding-top: 1px;
+}
+
+.saleOff a.next {
+    left:450px;
+}
+
+.promotion-tab {
+    /*	position:absolute;*/
+    top:10px;
+    left:4px;
+    /*        bottom: 10px;*/
+    z-index:100;
+}
+
+.promotion-tab .slide {
+    /*	padding:10px 20px 20px 20px;*/
+    width:750px;
+    height:520px;
+    display:block;
+}
+/*
+        Next/prev buttons
+*/
+.promotion-tab a.next {
+    width:14px;
+    height:16px;
+    float: right;
+    z-index:101;
+    margin-right: 199px;
+    padding-top: 1px;
+}
+
+.promotion-tab a.prev {
+    width:14px;
+    height:16px;
+    float: left;
+    z-index:101;
+    margin-left: 278px;
+    padding-top: 1px;
+}
+
+.promotion-tab a.next {
+    left:450px;
+}
+
+.foreign {
+    /*	position:absolute;*/
+    top:10px;
+    left:4px;
+    /*        bottom: 10px;*/
+    z-index:100;
+}
+
+.foreign .slide {
+    /*	padding:10px 20px 20px 20px;*/
+    width:750px;
+    height:520px;
+    display:block;
+}
+/*
+        Next/prev buttons
+*/
+.foreign a.next {
+    width:14px;
+    height:16px;
+    float: right;
+    z-index:101;
+    margin-right: 199px;
+    padding-top: 1px;
+}
+
+.foreign a.prev {
+    width:14px;
+    height:16px;
+    float: left;
+    z-index:101;
+    margin-left: 278px;
+    padding-top: 1px;
+}
+
+.foreign a.next {
+    left:450px;
+}
+
+.specificTag {
+    /*	position:absolute;*/
+    top:10px;
+    left:4px;
+    /*        bottom: 10px;*/
+    z-index:100;
+    overflow: hidden;
+}
+
+.specificTag .slide {
+    /*	padding:10px 20px 20px 20px;*/
+    width:750px;
+    height:520px;
+    display:block;
+}
+/*
+        Next/prev buttons
+*/
+.specificTag a.next {
+    width:14px;
+    height:16px;
+    float: right;
+    z-index:101;
+    margin-right: 199px;
+    padding-top: 1px;
+}
+
+.specificTag a.prev {
+    width:14px;
+    height:16px;
+    float: left;
+    z-index:101;
+    margin-left: 278px;
+    padding-top: 1px;
+}
+
+.ebookslides {
+    /*	position:absolute;*/
+    top:10px;
+    left:4px;
+    /*        bottom: 10px;*/
+    z-index:100;
+}
+
+.EnewBook {
+    /*	position:absolute;*/
+    top:10px;
+    left:4px;
+    /*        bottom: 10px;*/
+    z-index:100;
+}
+
+.EnewBook .slide {
+    /*	padding:10px 20px 20px 20px;*/
+    width:750px;
+    height:520px;
+    display:block;
+}
+/*
+        Next/prev buttons
+*/
+.EnewBook a.next {
+    width:14px;
+    height:16px;
+    float: right;
+    z-index:101;
+    margin-right: 199px;
+    padding-top: 1px;
+}
+
+.EnewBook a.prev {
+    width:14px;
+    height:16px;
+    float: left;
+    z-index:101;
+    margin-left: 278px;
+    padding-top: 1px;
+}
+
+.EbestSeller {
+    /*	position:absolute;*/
+    top:10px;
+    left:4px;
+    /*        bottom: 10px;*/
+    z-index:100;
+}
+
+.EbestSeller .slide {
+    /*	padding:10px 20px 20px 20px;*/
+    width:750px;
+    height:520px;
+    display:block;
+}
+/*
+        Next/prev buttons
+*/
+.EbestSeller a.next {
+    width:14px;
+    height:16px;
+    float: right;
+    z-index:101;
+    margin-right: 199px;
+    padding-top: 1px;
+}
+
+.EbestSeller a.prev {
+    width:14px;
+    height:16px;
+    float: left;
+    z-index:101;
+    margin-left: 278px;
+    padding-top: 1px;
+}
+
+.EbestRating {
+    /*	position:absolute;*/
+    top:10px;
+    left:4px;
+    /*        bottom: 10px;*/
+    z-index:100;
+}
+
+.EbestRating .slide {
+    /*	padding:10px 20px 20px 20px;*/
+    width:750px;
+    height:520px;
+    display:block;
+}
+/*
+        Next/prev buttons
+*/
+.EbestRating a.next {
+    width:14px;
+    height:16px;
+    float: right;
+    z-index:101;
+    margin-right: 199px;
+    padding-top: 1px;
+}
+
+.EbestRating a.prev {
+    width:14px;
+    height:16px;
+    float: left;
+    z-index:101;
+    margin-left: 278px;
+    padding-top: 1px;
+}
+
+.EsaleOff {
+    /*	position:absolute;*/
+    top:10px;
+    left:4px;
+    /*        bottom: 10px;*/
+    z-index:100;
+}
+
+.EsaleOff .slide {
+    /*	padding:10px 20px 20px 20px;*/
+    width:750px;
+    height:520px;
+    display:block;
+}
+/*
+        Next/prev buttons
+*/
+.EsaleOff a.next {
+    width:14px;
+    height:16px;
+    float: right;
+    z-index:101;
+    margin-right: 199px;
+    padding-top: 1px;
+}
+
+.EsaleOff a.prev {
+    width:14px;
+    height:16px;
+    float: left;
+    z-index:101;
+    margin-left: 278px;
+    padding-top: 1px;
+}
+
+.EdateReleased {
+    /*	position:absolute;*/
+    top:10px;
+    left:4px;
+    /*        bottom: 10px;*/
+    z-index:100;
+}
+
+.EdateReleased .slide {
+    /*	padding:10px 20px 20px 20px;*/
+    width:750px;
+    height:520px;
+    display:block;
+}
+/*
+        Next/prev buttons
+*/
+.EdateReleased a.next {
+    width:14px;
+    height:16px;
+    float: right;
+    z-index:101;
+    margin-right: 199px;
+    padding-top: 1px;
+}
+
+.EdateReleased a.prev {
+    width:14px;
+    height:16px;
+    float: left;
+    z-index:101;
+    margin-left: 278px;
+    padding-top: 1px;
+}
+
+.Epromotion-tab {
+    /*	position:absolute;*/
+    top:10px;
+    left:4px;
+    /*        bottom: 10px;*/
+    z-index:100;
+}
+
+.Epromotion-tab .slide {
+    /*	padding:10px 20px 20px 20px;*/
+    width:750px;
+    height:520px;
+    display:block;
+}
+/*
+        Next/prev buttons
+*/
+.Epromotion-tab a.next {
+    width:14px;
+    height:16px;
+    float: right;
+    z-index:101;
+    margin-right: 199px;
+    padding-top: 1px;
+}
+
+.Epromotion-tab a.prev {
+    width:14px;
+    height:16px;
+    float: left;
+    z-index:101;
+    margin-left: 278px;
+    padding-top: 1px;
+}
+
+.EmagazineTag {
+    /*	position:absolute;*/
+    top:10px;
+    left:4px;
+    /*        bottom: 10px;*/
+    z-index:100;
+}
+
+.EmagazineTag .slide {
+    /*	padding:10px 20px 20px 20px;*/
+    width:750px;
+    height:520px;
+    display:block;
+}
+/*
+        Next/prev buttons
+*/
+.EmagazineTag a.next {
+    width:14px;
+    height:16px;
+    float: right;
+    z-index:101;
+    margin-right: 199px;
+    padding-top: 1px;
+}
+
+.EmagazineTag a.prev {
+    width:14px;
+    height:16px;
+    float: left;
+    z-index:101;
+    margin-left: 278px;
+    padding-top: 1px;
+}
+
+.EspecificTag {
+    /*	position:absolute;*/
+    top:10px;
+    left:4px;
+    /*        bottom: 10px;*/
+    z-index:100;
+}
+
+.EspecificTag .slide {
+    /*	padding:10px 20px 20px 20px;*/
+    width:750px;
+    height:520px;
+    display:block;
+}
+/*
+        Next/prev buttons
+*/
+.EspecificTag a.next {
+    width:14px;
+    height:16px;
+    float: right;
+    z-index:101;
+    margin-right: 199px;
+    padding-top: 1px;
+}
+
+.EspecificTag a.prev {
+    width:14px;
+    height:16px;
+    float: left;
+    z-index:101;
+    margin-left: 278px;
+    padding-top: 1px;
+}
+
+.sbookslides {
+    /*	position:absolute;*/
+    top:10px;
+    left:4px;
+    /*        bottom: 10px;*/
+    z-index:100;
+}
+
+.SnewBook {
+    /*	position:absolute;*/
+    top:10px;
+    left:4px;
+    /*        bottom: 10px;*/
+    z-index:100;
+}
+
+.SnewBook .slide {
+    /*	padding:10px 20px 20px 20px;*/
+    width:750px;
+    height:520px;
+    display:block;
+}
+
+.SbestSeller {
+    /*	position:absolute;*/
+    top:10px;
+    left:4px;
+    /*        bottom: 10px;*/
+    z-index:100;
+}
+
+.SbestSeller .slide {
+    /*	padding:10px 20px 20px 20px;*/
+    width:750px;
+    height:520px;
+    display:block;
+}
+
+.SbestRating {
+    /*	position:absolute;*/
+    top:10px;
+    left:4px;
+    /*        bottom: 10px;*/
+    z-index:100;
+}
+
+.SbestRating .slide {
+    /*	padding:10px 20px 20px 20px;*/
+    width:750px;
+    height:260px;
+    display:block;
+}
+
+.SsaleOff {
+    /*	position:absolute;*/
+    top:10px;
+    left:4px;
+    /*        bottom: 10px;*/
+    z-index:100;
+}
+
+.SsaleOff .slide {
+    /*	padding:10px 20px 20px 20px;*/
+    width:750px;
+    height:520px;
+    display:block;
+}
+.slidesnew {
+    /*	position:absolute;*/
+    top:10px;
+    left:4px;
+    z-index:100;
+    /*        bottom: 10px;*/
+}
+
+/*
+        Slides container
+        Important:
+        Set the width of your slides container
+        If height not specified height will be set by the slide content
+        Set to display none, prevents content flash
+*/
+
+.MainContent .slides_container {
+    width:750px;
+    height:510px;
+    overflow:hidden;
+    position:relative;
+    display:none;
+}
+
+.MainContent .slides_containera {
+    width:750px;
+    /*height:510px;*/
+    height: 100%;
+    overflow:hidden;
+    position:relative;
+    display:block;
+    /*        top: 10px;
+            left:20px;*/
+    z-index:0;
+}
+
+
+.viewMore .slides_container {
+    width:238px;
+    height:170px;
+    overflow:hidden;
+    position:relative;
+    display:none;
+    margin-left: 17px;
+}
+.viewMore {
+    /*	position:absolute;*/
+    top:10px;
+    left:4px;
+    /*        bottom: 10px;*/
+    /*	z-index:100;*/
+}
+
+.viewMore .slide {
+    /*	padding:10px 20px 20px 20px;*/
+    width:275px;
+    height:170px;
+    display:block;
+    z-index: 0 !important;
+}
+/*
+        Next/prev buttons
+*/
+.viewMore a.next,.viewMore a.prev {
+    position:absolute;
+    top: 110px;
+    left: 5px;
+    width:21px;
+    height:21px;
+    display:block;
+    /*	z-index:101; */
+}
+
+.viewMore a.next {
+    left:267px;
+}
+/*AdsBanner*/
+.Banner-Ads{
+    float: left;
+    width: 469px;
+    height: 235px;
+    border: 1px solid #c0c0c0;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    /*margin-right: 5px;*/
+    overflow: hidden;
+}
+
+.ListBanner {
+    overflow: hidden;
+    float: left;
+    width: 100%;
+}
+.ListBanner li {
+    float: left;
+    padding: 0;
+    width: 467px;
+    height: 235px;                           
+    position: relative;
+}
+
+#AdsBanner {
+    border: 1px solid #c0c0c0;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    width:770px;
+    height:233px;
+    /*padding: 8px;*/
+    position: relative;
+    z-index:0;
+}
+#AdsBanner .corner{
+    background: url(http://www.ybook.vn/themes/newclassic/images/corner-transparent.png) no-repeat;
+    height: 8px;width: 8px;
+    z-index: 99;
+    position: absolute;
+}
+#AdsBanner .tl{
+    background-position: left top !important;
+    left: -1px;
+    top: -1px;
+}
+#AdsBanner .tr{
+    background-position: right top !important;
+    right: -1px;
+    top: -1px;
+}
+#AdsBanner .br{
+    background-position: right bottom !important;
+    bottom: -1px;
+    right: -1px;
+}
+#AdsBanner .bl{
+    background-position: left bottom !important;
+    bottom: -1px;
+    left: -1px;
+}
+#AdsBanner .slides_container {
+    width:467px;
+    height:233px;
+    overflow:hidden;
+    position:relative;
+    display:none;
+    margin-left: 0px;
+    z-index: 0;
+    /*border: 1px solid #c0c0c0;*/
+}
+#AdsBanner .slide {
+    width:467px;
+    height:233px;
+    display:block;
+}
+#AdsBanner .slides_container a {
+    width:467px;
+    height:233px;
+    display:block;
+
+}
+#AdsBanner .slides_container a img {
+    display: block;
+    width:467px;
+    height:233px;
+}
+.slidesjs-pagination li a {
+    display:block;
+    width:12px;
+    height:0;
+    padding-top:14px !important;
+    background-image:url(http://www.ybook.vn/themes/newclassic/images/pagination2.png);
+    background-position:0 0;
+    float:left;
+    overflow:hidden;
+    margin-right: 8px;
+    z-index: 99;
+}
+.slidesjs-pagination {
+    float: right;
+    margin: -174px 5px 0;
+    display: table;
+    z-index: 99;
+    position: relative;
+}
+
+.slidesjs-pagination li {
+    float:left;
+    list-style:none;
+    margin: 0 !important;
+    position: inherit;
+    z-index: 99;
+}
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+    background-position:0 -14px;
+}
+
+.slidesjs-pagination li a:hover {
+    background-position:0 -14px;
+}
+#AdsBanner .pagination {
+    float: right;
+    margin: -22px 5px 0;
+    display: table;
+    z-index: 0;
+    position: relative;
+}
+
+#AdsBanner .pagination li {
+    float:left;
+    list-style:none;
+    margin: 0 !important;
+}
+
+#AdsBanner .pagination li a {
+    display:block;
+    width:12px;
+    height:0;
+    padding-top:14px !important;
+    background-image:url(http://www.ybook.vn/themes/newclassic/images/pagination2.png);
+    background-position:0 0;
+    float:left;
+    overflow:hidden;
+    margin-right: 8px;
+}
+
+#AdsBanner .pagination li.current a {
+    background-position:0 -14px;
+}
+#AdsBanner .pagination li a:hover{
+    background-position:0 -14px;
+}
+
+
+/*	Next/prev buttons*/
+
+#AdsBanner a.next,#AdsBanner a.prev {
+    position:absolute;
+    top: 110px;
+    left: 5px;
+    width:21px;
+    height:21px;
+    display:block;
+    z-index:101;
+}
+
+#AdsBanner a.next {
+    left:267px;
+}
+
+/*
+        Each slide
+        Important:
+        Set the width of your slides
+        Offeset for the 20px of padding
+        If height not specified height will be set by the slide content
+        Set to display block
+*/
+
+.sbookslides .slide {
+    /*	padding:10px 20px 20px 20px;*/
+    width:750px;
+    height:260px;
+    display:block;
+}
+
+/*
+        Next/prev buttons
+*/
+.sbookslides .next,#slides .prev {
+    position:absolute;
+    top:107px;
+    left:-39px;
+    width:24px;
+    height:43px;
+    display:block;
+    z-index:101;
+}
+
+.sbookslides .next {
+    left:585px;
+}
+
+
+
+/*
+        Next/prev buttons
+*/
+.bookslides .next,#slides .prev {
+    position:absolute;
+    top:107px;
+    left:-39px;
+    width:24px;
+    height:43px;
+    display:block;
+    z-index:101;
+}
+
+.bookslides .next {
+    left:585px;
+}
+
+.ebookslides .slide {
+    /*	padding:10px 20px 20px 20px;*/
+    width:750px;
+    height:260px;
+    display:block;
+}
+
+/*
+        Next/prev buttons
+*/
+.ebookslides .next,#slides .prev {
+    position:absolute;
+    top:107px;
+    left:-39px;
+    width:24px;
+    height:43px;
+    display:block;
+    z-index:101;
+}
+
+.ebookslides .next {
+    left:585px;
+}
+
+/*
+        Pagination
+*/
+.viewMore .pagination {
+    margin:0 auto;
+    display: table;
+}
+
+.viewMore .pagination li {
+    float:left;
+    margin:0 1px;
+    list-style:none;
+}
+
+.viewMore .pagination li a {
+    display:block;
+    width:16px;
+    height:0;
+    padding-top:17px;
+    background-image:url(http://www.ybook.vn/themes/newclassic/images/pagination1.png);
+    background-position:0 0;
+    float:left;
+    overflow:hidden;
+    margin: 0 10px 5px 0;
+}
+
+.viewMore .pagination li.current a {
+    background-position:0 -17px;
+}
+.viewMore .pagination li a:hover{
+    background-position:0 -17px;
+}
+/*==========================================================================*/
+.MainContent .pagination {
+    margin:0 auto;
+    /*width:150px !important;*/
+    display: table;
+    overflow: hidden;
+    padding-left: 10px;
+    height: 22px;
+}
+
+.MainContent .pagination li {
+    float:left;
+    /*margin:0 1px;*/
+    list-style:none;
+}
+
+.MainContent .pagination li a {
+    display:block;
+    width:16px;
+    height:0;
+    padding-top:17px;
+    background-image:url(http://www.ybook.vn/themes/newclassic/images/pagination1.png);
+    background-position:0 0;
+    float:left;
+    overflow:hidden;
+    margin: 0 10px 5px 0;
+}
+
+.MainContent .pagination li.current a {
+    background-position:0 -17px;
+}
+.MainContent .pagination li a:hover{
+    background-position:0 -17px;
+}
+#error{
+    text-align: center;
+}
+#error img{margin: 0 auto; border: none;}
+#error p{color: #354e75; font-size: 1.8em;}
+#error span{
+    color: #4c4c4c;
+    font-size: 18px;
+}
+#error a{color: #354e75; font-size: 18px;font-weight: bold;}
+
+label.cFieldRadio{
+    font-family: Arial;
+    height: 20px;
+    float: left;
+    padding-top: 8px;
+}
+.cFieldRadio input{
+    border: none;
+    margin-right: 5px;
+    float: left;
+}
+
+.FullContent{
+    width: 100% !important;
+}
+.ForAuthor{
+    padding-left: 20px;
+}
+.ForLibrary{
+    padding-left: 20px;
+}
+.MsgWarnAuthorSite{
+    background: #eff7ff none;
+    border: 1px solid #ccc;
+    width: 92%;
+    padding: 10px 0 10px 20px;
+    margin: 10px auto 10px auto;
+    font-size: 13px;
+    float: left;
+}
+.MsgWarnLibrarySite{
+    background: #eff7ff none;
+    border: 1px solid #ccc;
+    width: 92%;
+    padding: 10px 0 10px 20px;
+    margin: 10px auto 10px auto;
+    font-size: 13px;
+    float: left;
+}
+/********************************Style for ViewCart****************************/
+#Inf-Buyer{
+    width:100%;height:100%;
+    /*    float:left;*/
+    margin-left:15px;
+    margin-top: 5px;
+    float: left;
+}
+.ActiveTab{
+    border:1px solid #d3d3d3;
+    border-bottom-right-radius:5px;
+    border-bottom-left-radius:5px;
+    width:96.5%;
+    height:100%;
+    background-color:#f8f8f8;
+    float:left;
+    /*margin:5px 0 0 5px;*/
+}
+.ActiveTab .PaymentStep1{
+    width:95%;height:100%;
+    float:left;
+    padding: 20px 20px 0 20px;
+}
+.ActiveTab .PaymentStep2{
+    width:95%;height:100%;
+    /*float:left;*/
+    padding: 20px 20px 0 20px;
+}
+.ActiveTab .PaymentStep1{
+    width:100%;height:100%;
+    float:left;
+    padding: 20px 20px 0 0;
+}
+.ActiveTab .PaymentStep2 h2{
+    text-align: center;
+    color: #354E75;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.ActiveTab h2{
+    text-align: center;
+    color: #354E75;
+    font-size: 18px;
+    font-weight: normal;
+}
+.ActiveTab .status-bill{
+    border-left: 1px solid #D3D3D3;
+    border-bottom: 1px solid #D3D3D3;
+    float: right;
+    font-size: 12px;
+    color: #000;
+    padding: 2px 2px 2px 2px;
+    background-color: #EFF7FF;
+}
+.ActiveTab .PaymentStep2 p{
+    color: #000;
+    font-size: 12px;
+    margin: 5px 0;
+}
+.ActiveTab .PaymentStep2 b{
+    color: #000;
+    font-size: 12px;
+    margin: 0;padding: 0;
+    white-space: nowrap;
+}
+.ActiveTab .PaymentStep2 span{
+    color: #000;
+    font-size: 12px;
+    margin: 0;padding: 0;
+}
+.ActiveTab .PaymentStep2 table#listgift{
+    border-collapse: collapse;
+    border: 1px solid #000;
+    width: 100%;
+    height: 100%;
+    float: left;
+    margin: 20px 0;
+}
+.ActiveTab .PaymentStep2 .buyer-info{
+    width: 49%;
+    float: left;
+}
+.ActiveTab .PaymentStep2 .receiver-info{
+    width: 49%;
+    float: right;
+}
+
+.PaymentStep2 table tr th{
+    padding: 5px 10px;
+    font-size: 12px;
+    border: 1px solid #000;
+    text-align: left;
+    font-weight: bold;
+}
+.PaymentStep2 table tr td{
+    padding: 5px 10px;
+    font-size: 12px;
+    border: 1px solid #000;
+    text-align: left;
+    font-weight: bold;
+    vertical-align: top;
+}
+.PaymentStep2 ul{
+    float: left;
+    width: 40%;
+    font-size: 12px;
+    font-weight: bold;
+    color: #4a4a4a;
+    margin: 20px 0;
+}
+.PaymentStep2 ul li{
+    font-size: 12px;
+    color: #4a4a4a;
+    padding: 4px 0px;
+    font-weight: normal;
+    list-style-type: square;
+    margin-left: 17px;
+}
+ul li#giftModel-li input{
+    float: left;
+    width:16px; height:16px;
+    border:none;
+    float:left;margin:7px 7px 0 0;
+}
+ul li#giftModel-li label{
+    color:#7C7C7C;
+    float:left;
+    font-size:13px;
+    margin:7px 0;
+    width: 94%;
+}
+.PaymentStep2 ul li label{
+    color: #4a4a4a;
+    /*                font-weight: bold;*/
+    font-size: 12px;
+}
+.PaymentStep2 table#TotalPrice{
+    float: right;
+    border: none;
+}
+.PaymentStep2 table#TotalPrice tr td{
+    padding: 0 10px 5px 10px !important;
+    text-align: right;
+    border: none;
+    font-weight: normal;
+    white-space: nowrap;
+}
+.PaymentStep2 #GTGT{
+    width: 100%;
+    float: left;
+    margin:10px 0; 
+}
+.PaymentStep2 #GTGT input{
+    width: 15px;
+    height: 16px;
+    margin-right: 5px;
+}
+.PaymentStep2 #GTGT label{
+    color: #354E75;
+    font-weight: bold;
+    font-size: 15px;
+}
+#CompanyDetails{
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+.PaymentStep2 table#GTGT-Detail{
+    float: left;
+    border: none;
+    width: 54%;
+}
+.PaymentStep2 table#GTGT-Detail tr td{
+    padding: 3px 5px;
+    border: 0;
+}
+.PaymentStep2 table#GTGT-Detail td label{
+    color: #7c7c7c;
+    font-size: 12px;
+}
+.PaymentStep2 table#GTGT-Detail td input{
+    border:1px solid #b6b6b6;
+    background-color:#fff;
+    font-size: 12px;
+    height: 18px;
+    width: 100%
+}
+.PaymentStep2 table#GTGT-Detail select{
+    height: 20px;width: 120px !important;
+    font-size: 12px;
+    float: left;
+    border:1px solid #b6b6b6;
+}
+.ActiveTab .PaymentStep3{
+    width:97%;height:100%;
+    float:left;
+    padding: 15px;
+}
+.PaymentStep3 h2{
+    text-align: center;
+    color: #354E75;
+    font-size: 18px;
+    font-weight: normal;
+}
+#payment-method{
+    float: left;
+    width:100%;height:100%;
+    margin-top: 20px;
+}
+#payment-method .payment-method-note{
+    color: blue;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 10px;
+}
+#payment-method h3{
+    text-align: left;
+    color: #354E75;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.ActiveTab #payment-method input{
+    width: 15px;
+    height: 30px;
+    margin-right: 5px;
+    float: left;
+    clear: both;
+}
+.ActiveTab #payment-method label{
+    color: #7c7c7c;
+    font-size: 12px;
+    float: left;
+    line-height: 30px;
+}
+.ActiveTab #payment-method ul li{
+    padding: 3px 0;
+}
+table#GTGT-Detail td label span{
+    font-size:13px;
+    color:#ff0000;
+    margin-left: 2px;
+}
+.ActiveTab .Header{
+    float:left;
+    height:40px; width:97%;
+    border-bottom:1px solid #dedede;
+    margin-left:10px;
+}
+.ActiveTab .BoxNumber{
+    background-color:#fff;
+    float:left;
+    width:25px;height:22px;
+    border:1px solid #008bc8;
+    text-align:center;
+    font-size:18px;
+    color:#354e75;
+    margin:5px 0 0 0;
+    padding-top:3px;
+}
+.ActiveTab b{
+    float:left;
+    color:#6d6d6d;
+    font-size:15px;
+    margin:10px 0 0 10px;
+}
+.ActiveTab .ContentBuyer{
+    /*    float:left;*/
+    width:97%;
+    margin-left:10px;
+    /*border-bottom:1px solid #dedede;*/
+}
+.ActiveTab .ContentBuyer label{
+    font-size:13px;
+    color:#7c7c7c;
+    width: 100%;
+}
+.ActiveTab .ContentBuyer .ChkReceiver{
+    font-size:13px;
+    color:#7c7c7c;
+    padding: 2px 0;
+    width: 100%;
+}
+.ActiveTab .ContentBuyer label span{
+    font-size:13px;
+    color:#ff0000;
+    margin-left: 2px;
+}
+.ActiveTab .ContentBuyer .DdlCity{
+    width: 100%;
+    float: left;
+}
+.ActiveTab .ContentBuyer select{
+    height: 21px;
+    width: 250px;
+    font-size: 12px;
+    float: left;
+    margin-bottom: 5px;
+    border:1px solid #b6b6b6;
+    padding-top: 2px;
+}
+.ActiveTab .ContentBuyer input{
+    border:1px solid #b6b6b6;
+    background-color:#fff;
+    float:left;
+    font-size: 13px;
+    width: 100%;height: 19px;
+    /*    margin-bottom: 5px;*/
+}
+.ActiveTab .ContentBuyer .Btn-Back input{
+    background:url(http://www.ybook.vn/themes/newclassic/images/btn-back.jpg) no-repeat left top;
+    width:82px; height:30px;
+    border:none;
+    float:left;
+    margin: 0;
+    /*    margin:20px 55px;*/
+    font-size:0px;
+    color:#747474;
+    cursor: pointer;
+}
+.ActiveTab .ContentBuyer .InputEmail{
+    width:47%;
+    float: right;
+    margin-left:23px;
+}
+.ActiveTab .ContentBuyer .InputPhone{
+    width:47%;
+    float: left;
+}
+.ContentBuyer .RadShip{
+    float: left;width: 100%;margin: 4px 0;
+}
+.ContentBuyer .RadShip input{
+    /*    background-image:url(../images/radio.jpg);*/
+    width: 22px;
+    height: 20px;
+    padding: 0 5px 0 0;
+    background: url(http://www.ybook.vn/themes/newclassic/images/radio.png) no-repeat;
+    display: block;
+    clear: left;
+    border:none;
+    float:left;
+    margin:0px 7px 0 0;
+}
+/*Table Form ViewCart*/
+
+table#booking{
+    border-spacing: 2px;
+    margin: 0 0 7px 17px;
+}
+.Bor-booking1{
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-booking.jpg) repeat-x;
+    width: 410px;
+    height: 4px;
+    float: left;
+}
+.Bor-booking2{
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-booking2.jpg) repeat-x;
+    width: 410px;
+    height: 4px;
+    float: left;
+}
+.SubContent02Inner h5 {
+    font-size: 14px;
+    color: #354e75;
+    padding: 7px 0 5px 10px;
+    font-weight: 100;
+    white-space: nowrap;
+}
+h5.PaymentH5{width: 738px;float: left; text-align: center; margin-left: 15px;}
+h5.PaymentRight{float: right;margin-right: 10px;}
+.ContentBuyer table.Buyer-Infomation{
+    border-collapse: collapse;
+    border: 0;
+    margin-bottom: 20px;
+    float: left;
+    width: 500px;
+}
+.ContentBuyer table.Buyer-Infomation td{
+    vertical-align: top;
+    text-align: left;
+    padding: 2px 10px;
+}
+.ContentBuyer h4{
+    font-weight: bold;
+    padding: 0;margin: 0;
+    width: 250px;
+    padding-top: 5px;
+}
+
+.ContentShipping h4{
+    font-weight: bold;
+    padding: 0;
+}
+.ContentShipping .shipping-details{
+    float: left;
+    /*color: #7C7C7C;*/
+    font-size: 13px;
+    margin: 2px 0;
+    font-weight: normal;
+}
+/*End Table Form ViewCart*/
+.CheckGroupStepOne{
+    float: left;
+    width: 97%;
+}
+.ActiveTab .FieldRequire{
+    float:left;
+    width:100%;
+    font-size:13px;
+    color:#ff0000;
+    margin:10px 10px;
+    text-align: left;
+}
+
+.ContentBuyer .Btn-Cont input{
+    background:url(http://www.ybook.vn/themes/newclassic/images/btn-tieptuc.jpg) no-repeat right top;
+    width:82px; height:30px;
+    border:none;
+    float:right;
+    margin-bottom:20px;
+    font-size:0px;
+    cursor: pointer;
+}
+.ActiveTab .ContentShipping{
+    float:left;
+    height:100%; width:97%;
+    margin: 15px 0 15px 20px;
+}
+.ActiveTab .ContentShipping b{
+    font-size:13px;
+    color:#7c7c7c;
+    margin:5px 0;
+    float:left;
+    white-space: nowrap;
+}
+.ContentShipping .SavingShip{
+    float:left;
+    margin-bottom:10px;
+    width: 100%;
+}
+.ContentShipping .FastShip{
+    float:left;
+    margin-bottom:10px;
+    width: 100%;
+}
+.ContentShipping input{
+    /*    background-image:url(../images/radio.jpg);*/
+    width:16px; height:16px;
+    border:none;
+    float:left;margin:7px 7px 0 0;
+
+}
+
+.ContentShipping .ShipPrice{
+    font-size:13px;
+    font-weight:bold;
+    color:#008bc8;
+    margin:5px 0 0 10px;
+    float:left;
+}
+.ContentShipping .NoteShip{
+    font-size:13px;
+    color:#7c7c7c;
+    margin:0px 0 0 23px;
+    float:left;
+    width:95%;
+    line-height: 25px;
+}
+.ContentShipping .errorMessage{
+    float: left;
+    font-size: 12px;
+}
+.ActiveTab .ContentShipping input{
+    border:none;
+    float:left;
+    clear: both;
+}
+.ActiveTab .ContentPayment{
+    float:left;
+    height:100%; width:90%;
+    padding:10px 0 0 45px;
+    margin:0 0 10px 10px;
+}
+.ActiveTab .ContentPayment b{
+    font-size:13px;
+    color:#7c7c7c;
+    margin:5px 0;
+    float:left;
+    width: 95%;
+}
+.ActiveTab .ContentPayment input{
+    border:1px solid #b6b6b6;
+    background-color:#fff;
+    float:left;
+}
+.ActiveTab .CheckBill{
+    float:left;
+    height:100%; width:96%;
+    padding:0px 0 0 0;
+    margin:10px 0 15px 10px;
+    border: 1px solid #d0d0d0;
+    border-top: none;
+}
+.ActiveTab .CheckBill .ToTal table{
+    float: right;
+    margin: 10px 0;
+    width: 60%;
+}
+.ActiveTab .CheckBill .ToTal table td{
+    font-size:13px;
+    color:#7c7c7c;
+    text-align: right;
+    font-weight: bold;
+    padding-right: 20px;
+}
+.ActiveTab .CheckBill .CartDetail table {
+    font-size: 13px;
+    width: 100%;
+    color: #959595;
+    font-weight: bolder;
+}
+.ActiveTab .CheckBill .CartDetail table th{
+    background-color: #008bc8;
+    color: #fff;
+    border-left: 1px solid #d0d0d0;
+    padding: 8px 0;
+    /*    border-bottom: none;*/
+}
+.ActiveTab .CheckBill .CartDetail table tr{}
+.ActiveTab .CheckBill .CartDetail table td{
+    border: 1px solid #d0d0d0;
+    border-right: none;
+    border-top: none;
+    padding: 5px 0;
+    text-align: center;
+}
+.ActiveTab .Invoice {
+    float:left;
+    height:100%; width:93%;
+    padding:0px 0 0 0;
+    margin:0px 0 20px 30px;
+}
+.ActiveTab .Invoice input{
+    float: left;
+    width:16px; height:16px;
+    margin: 5px;
+}
+.ActiveTab .Invoice b{
+    font-size:13px;
+    color:#7c7c7c;
+    margin:5px 0;
+    float:left;
+    width: 93%;
+}
+.ActiveTab .Invoice label{
+    font-size:13px;
+    color:#7c7c7c;
+    margin:5px 0;
+    float:left;
+    width: 93%;
+}
+.ActiveTab .Invoice textarea{
+    width: 98%;height: 80px;
+    float: left;
+    border: 1px solid #d0d0d0;
+    font-size: 13px;
+}
+.ActiveTab .Invoice .Btn-Continue input{
+    background:url(http://www.ybook.vn/themes/newclassic/images/btn-tieptuc.jpg) no-repeat right top;
+    width:82px; height:30px;
+    border:none;
+    float:right;
+    margin:20px 10px 20px 0;
+    font-size:0px;
+    cursor: pointer;
+}
+.Btn-Continue input{
+    background:url(http://www.ybook.vn/themes/newclassic/images/btn-tieptuc.jpg) no-repeat right top;
+    width:82px; height:30px;
+    border:none;
+    float:right;
+    margin:20px 10px 20px 0;
+    font-size:0px;
+    cursor: pointer;
+}
+.ActiveTab .Payment{
+    float:left;
+    height:100%; width:90%;
+    padding:10px 0 10px 40px;
+    margin:10px 0 10px 10px;
+    border: 1px solid #d0d0d0;
+}
+.ActiveTab .Payment b{
+    font-size:13px;
+    color:#7c7c7c;
+    margin:5px 0;
+    float:left;
+    width: 65%;
+}
+.ActiveTab .Payment span{
+    color: #008bc8;
+    font-size:13px;
+    width:15%;
+    font-weight: bold;
+    float: right;
+    margin: 5px 20px;
+}
+.Btn-Back input{
+    background:url(http://www.ybook.vn/themes/newclassic/images/btn-back.jpg) no-repeat left top;
+    width:82px; height:30px;
+    border:none;
+    float:left;
+    margin:15px 10px;
+    font-size:0px;
+    color:#747474;
+    cursor: pointer;
+}
+.Btn-Payment input{
+    background:url(http://www.ybook.vn/themes/newclassic/images/btn-payment.jpg) no-repeat left top;
+    width:82px; height:30px;
+    border:none;
+    float:right;
+    margin:20px 10px 20px 0;
+    font-size:0px;
+    color:#747474;
+    cursor: pointer;
+}
+.Inactive{
+    height:30px; width:100%;
+    background-color:#c8c8c8;
+    margin-bottom:5px;
+    border:1px solid #c8c8c8;
+    float:left;
+}
+.Inactive .Header{
+    float:left;
+    height:30px; width:97%;
+    /*    border-bottom:1px solid #dedede;*/
+    /*    margin-left:10px;*/
+}
+.Inactive .BoxNumber{
+    float:left;
+    width:25px;height:22px;
+    border:1px solid #008bc8;
+    text-align:center;
+    font-size:18px;
+    color:#354e75;
+    margin:2px 0 0 10px;
+    padding-top:3px;
+}
+.Inactive b{
+    float:left;
+    color:#fff;
+    font-size:13px;
+    margin:7px 0 0 10px;
+}
+.Inactive .Corpo{
+    background-image:url(http://www.ybook.vn/themes/newclassic/images/cor.gif);
+    width:27px; height:14px;
+    float:right;
+    margin:8px 15px 0 0;
+}
+
+.StepRight{
+    float: right;
+    width: 25%;height: 100%;
+    margin-right:20px;
+}
+.StepRight .OpenTab{
+    width:100%;height:100%;
+    float:right;
+    border:1px solid #d3d3d3;
+    background-color:#f8f8f8;
+    border-bottom-right-radius:5px;
+    border-bottom-left-radius:5px;
+    padding: 10px 0;
+    margin-bottom: 5px;
+}
+.OpenTab .HeaderOpen{
+    float:left;
+    height:27px; width:95%;
+    border-bottom:1px solid #dedede;
+    margin-left:5px;
+}
+.OpenTab b{
+    float:left;
+    color:#6d6d6d;
+    font-size:15px;
+    margin:0px 0 0 5px;
+}
+.OpenTab .PaymentStep{
+    float:left;
+    height:100%; width:94%;
+    padding:5px 0 0 0;
+    margin-left: 10px;
+}
+.OpenTab .PaymentStep b{
+    font-size:13px;
+    color:#7c7c7c;
+    float:left;
+    width: 50%;
+    margin: 5px 0 0 0;
+}
+.OpenTab .PaymentStep span{
+    color: #008bc8;
+    font-size:13px;
+    width:45%;
+    font-weight: bold;
+    float: left;
+    margin-top: 5px;
+}
+.StepRight .CloseTab{
+    width:100%;height:100%;
+    float:right;
+    border:1px solid #d3d3d3;
+    background-color:#f8f8f8;
+    border-bottom-right-radius:5px;
+    border-bottom-left-radius:5px;
+    padding: 0px 0 10px 0;
+    margin-bottom: 5px;
+}
+.CloseTab .HeaderClose{
+    float:left;
+    height:18px; width:96%;
+    background-color: #c8c8c8;
+    font-size: 13px;
+    color: #fff;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.CloseTab .HeaderClose span{
+    color: #008bc8;
+    border-left: 1px solid #008bc8;
+    font-size: 13px;
+    font-weight: bold;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+.CloseTab .HeaderClose span a{
+    color: #008bc8;
+    font-size: 13px;
+    font-weight: bold;
+}
+.CloseTab .AddressBuyer{
+    float:left;
+    height:100%; width:93%;
+    padding:5px 0 0 0;
+    margin-left: 10px;
+}
+.CloseTab .AddressBuyer b{
+    font-size:13px;
+    color:#7c7c7c;
+    float:left;
+    width: 100%;
+}
+.CloseTab .AddressBuyer span{
+    font-size:13px;
+    color:#7c7c7c;
+    float:left;
+    width: 100%;
+    margin: 5px 0 0 0;
+}
+.StepRight .InactiveRight{
+    height:18px; width:100%;
+    background-color:#c8c8c8;
+    margin-bottom:5px;
+    border:1px solid #c8c8c8;
+    float:right;
+}
+.StepRight .InactiveRight b{
+    float:left;
+    color:#fff;
+    font-size:13px;
+    padding-left: 10px;
+}
+
+.RadCheckBokCart{
+    width:16px; 
+    height:16px;
+    margin:4px 7px 0 0;
+}
+.AddressBuyer span.PriceShip{
+    color: #008BC8;
+    font-size: 13px;
+    font-weight: bold;
+    float: none;
+}
+.CartInfo{
+    background: none repeat scroll 0 0 #EFF7FF;
+    border: 1px solid #CCCCCC;
+    float: left;
+    font-size: 13px;
+    margin: 10px auto;
+    padding: 10px 0 10px 20px;
+    width: 97.7%;
+    text-align: left;
+}
+.CartTabContent02{
+    padding: 0 5px 0 10px;
+}
+.Warning-Flash{
+    background: none repeat scroll 0 0 #EFF7FF;
+    border: 1px solid #CCCCCC;
+    float: left;
+    font-size: 13px;
+    margin: 10px 0;
+    padding: 10px 0 10px 20px;
+    width: 97%;
+}
+/********************************End Style for ViewCart****************************/
+/********************************Style for Catergory****************************/
+.accordion h4, .accordion h4:hover, .accordion h4.Active {
+    font-size:14px !important;
+    color:#3a537a !important;
+    text-transform: uppercase !important;
+    font-weight: bolder !important;
+    font-family: Arial;
+    cursor:pointer;
+}
+.accordion .ui-icon{
+    background: none !important;
+}
+.accordion .ui-corner-all{
+    border: none !important;
+}
+.accordion .ui-widget-content{
+    background:none !important;
+    border:none !important;
+}
+.accordion .ui-state-hover,.accordion .ui-widget-content .ui-state-hover,.accordion .ui-widget-header .ui-state-hover,.accordion .ui-state-focus,.accordion .ui-widget-content .ui-state-focus,.accordion .ui-widget-header .ui-state-focus { font-weight: normal; color: #354e75;  text-decoration: none !important;cursor:pointer;}
+.accordion .ui-state-hover a, .accordion .ui-state-hover a:hover { color: #354e75; text-decoration: none !important; cursor:pointer; }
+.accordion .ui-state-active,.accordion .ui-widget-content .ui-state-active,.accordion .ui-widget-header .ui-state-active { font-weight: bolder; color: #354e75; text-decoration:none !important;cursor:pointer; border:none;}
+.accordion .ui-state-active a,.accordion .ui-state-active a:link,.accordion .ui-state-active a:visited { color: #354e75;  text-decoration:none !important;cursor:pointer;}
+
+/********************************End Style for Catergory****************************/
+.Btn-Buy-Standard{
+    background: url(http://www.ybook.vn/themes/newclassic/images/btn-buy-standard.png) no-repeat;
+    width: 60px; height: 30px;
+    border: none;
+    cursor: pointer;
+    padding: 4px 0 0 0;
+    text-align: center;
+    font-size: 18px;
+    /*    float: left;*/
+}
+.Btn-Buy-Standard a{
+    text-decoration: none;
+    color: #354e75;
+}
+.Btn-Buy-Standard a:link, .Btn-Buy-Standard a:visited {color: #354e75;}
+
+.Buyer-Infomation .radio {
+    width: 22px;
+    height: 20px;
+    padding: 0 5px 0 0;
+    /*	background: url(../images/checkbox.png) no-repeat;*/
+    display: block;
+    clear: left;
+    float: left;
+}
+.Buyer-Infomation .radio {
+    background: url(http://www.ybook.vn/themes/newclassic/images/radio.png) no-repeat;
+}
+.ButtonViewCart{
+    width: 96%;
+    float: left;
+    margin: 20px;
+}
+.ButtonPayment{
+    width: 100%;
+    float: left;
+    margin: 20px 0;
+}
+
+.Bg-button-left{
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-button-left.jpg) no-repeat;
+    width: 6px;
+    height: 30px;
+    cursor: pointer;
+}
+.Bg-button-right{
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-button-right.jpg) no-repeat;
+    width: 6px;
+    height: 30px;
+    margin: 0; padding: 0;
+    cursor: pointer;
+}
+.Bg-button-float {
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-button-float.jpg) repeat-x;
+    height: 30px;
+    margin: 0;
+    cursor: pointer;
+    border: none;
+    color:#747474;
+    font-size: 12px;
+}
+.Bg-button-float a{
+    text-decoration: none;
+    background: none;
+    color:#747474;
+}
+.Bg-button-float input.BackViewCart{
+    background: url(http://www.ybook.vn/themes/newclassic/images/back.png) no-repeat left;
+    height: 30px;
+    color:#747474;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    padding-left: 30px;
+}
+.Bg-button-float input.NextViewCart{
+    background: url(http://www.ybook.vn/themes/newclassic/images/next.png) no-repeat right;
+    height: 30px;
+    color:#747474;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    padding-right: 30px;
+}
+
+.Bg-button-float img{
+    float: left;
+    margin: 6px 5px 0 0;
+}
+.Float-Left, .Float-Left img{float: left;}
+.Float-Right, .Float-Right img{float: right !important;}
+.Float-Right img{margin: 6px 0 0 5px;}
+
+.gift-block {
+    color: #4A4A4A;
+    float: left;
+    font-size: 12px;
+    width: 50%;
+    margin: 20px 0;
+}
+.gift-block span{
+    color: #4A4A4A;
+    float: left;
+    font-weight: bold;
+    width: 100%;
+}
+.gift-block span#gift span.gift-price{
+    color: #3e5797;
+    float: none;
+    font-weight: bold;
+    width: 100%;
+}
+.gift-block span#gift label{
+    float: left;
+    font-weight: normal;
+    height: 20px;
+    padding-top: 3px;
+    width: 94%;
+}
+.gift-block span#gift input{
+    float: left;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.clear-center{
+    display: table;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    clear: both;
+}               
+.clear { /* generic container (i.e. div) for floating buttons */
+    overflow: hidden;
+    /*clear: both;*/
+    margin-bottom: 10px;
+}
+#newsletterReport{
+    margin-left: 15px;
+    float: left;
+    width: 980px;
+}
+#newsletterReport p{
+    font-size: 18px;
+    color: #354e75;
+    float: left;
+    width: 94%;
+    margin: 10px 0 0;
+}
+a.button {
+    background: transparent url(http://www.ybook.vn/themes/newclassic/images/bg_button_a1.gif) no-repeat scroll top right;
+    color: #fff;
+    display: block;
+    font: bold 12px arial, sans-serif;
+    height: 21px;
+    margin-right: 6px;
+    padding-right: 18px; /* sliding doors padding */
+    text-decoration: none;
+}
+
+a.button span {
+    background: transparent url(http://www.ybook.vn/themes/newclassic/images/bg_button_span1.gif) no-repeat;
+    display: block;
+    line-height: 14px;
+    padding: 4px 0 5px 18px;
+    white-space: nowrap;
+}
+a.button:active {
+    /*    background-position: bottom right;*/
+    color: #fff;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+a.button:active span {
+    /*    background-position: bottom left;*/
+    padding: 4px 0 5px 18px; /* push text down 1px */
+}
+.LinkExSearch{
+    margin: 4px;float: left;
+}
+.LinkExSearch a{
+    font-size: 12px;
+    color: #354E75;
+}
+.share-widget{
+    float: right;
+    /*margin-bottom: 10px;*/
+    overflow: hidden;
+    width: 140px;
+    /*border: 1px solid black;*/
+    margin-top: 3px;
+}
+.tag-block{
+    font-size: 12px;
+    font-family: Arial;
+    color: #000;
+    margin-bottom: 10px;
+    float: left;
+}
+.tag-block img{
+    float: left;
+    margin-right: 3px;
+}
+.tag-block span{
+    float: left;
+    margin-top: 5px;
+}
+.tag-block a{
+    color: #354E75;
+    float: left;
+    margin: 5px 3px 0;
+}
+.tag-block a:hover{
+    text-decoration: underline;
+}
+
+.active-promotion{
+    color: #49a63a !important;
+}
+#saw-group{
+    background: url(http://www.ybook.vn/themes/newclassic/images/newsletter-loop.gif) repeat-y left top;
+    width: 180px;
+}
+#saw-group #saw-group01{
+    background: url(http://www.ybook.vn/themes/newclassic/images/newsletter-bottom.gif) no-repeat left bottom;}
+#saw-group #saw-group02{
+    background: url(http://www.ybook.vn/themes/newclassic/images/chamngon.jpg) no-repeat left top; 
+    margin-bottom: 8px;
+    overflow: hidden;
+    padding-bottom: 10px;
+    height: 225px;
+}
+/*#saw-group{
+    background: url("../images/menu.png") no-repeat scroll left top transparent;
+    padding: 21px 0 0;
+    float: left;
+    border-bottom: 1px solid #CCC;
+    margin-top: 8px;
+}*/
+#saw-group h2{
+    color: #FFFFFF;
+    font-size: 1.4em;
+    font-weight: normal;
+    margin: 0 0 17px;
+    padding: 0 0 0 15px
+}
+#saw-announce{
+    /*            background: url("../images/menu-body.png") repeat-y scroll left top transparent;*/
+    border-bottom: 1px solid #CCCCCC;
+}
+#saw-announce li{
+
+    font-size: 1.2em;
+    line-height: 18px;
+    margin: 6px 0;
+    padding: 0 0 8px;
+}
+#saw-announce li span{
+    color: #0175B2;
+    display: block;
+    font-style: italic;
+    text-align: right;
+    border-bottom: 1px dotted #0175B2;
+}
+
+
+
+#download-app-group{
+    background: url(http://www.ybook.vn/themes/newclassic/images/newsletter-loop.gif) repeat-y left top;
+    width: 180px;
+    margin-bottom: 8px;
+}
+#download-app-group #download-app-group01{
+    background: url(http://www.ybook.vn/themes/newclassic/images/newsletter-bottom.gif) no-repeat left bottom;}
+#download-app-group #download-app-group02{
+    background: url(http://www.ybook.vn/themes/newclassic/images/taiungdung.jpg) no-repeat left top; 
+    /*margin-bottom: 8px;*/
+    overflow: hidden;
+    padding-bottom: 10px;
+    /*height: 304px;*/
+}
+/*#saw-group{
+    background: url("../images/menu.png") no-repeat scroll left top transparent;
+    padding: 21px 0 0;
+    float: left;
+    border-bottom: 1px solid #CCC;
+    margin-top: 8px;
+}*/
+#download-app-group h2{
+    color: #FFFFFF;
+    font-size: 1.4em;
+    font-weight: normal;
+    margin: 0 0 17px;
+    padding: 0 0 0 15px
+}
+#download-app-announce{
+    /*            background: url("../images/menu-body.png") repeat-y scroll left top transparent;*/
+    /*border-bottom: 1px solid #CCCCCC;*/
+    padding-top: 8px;
+}
+#download-app-announce li{
+
+    font-size: 1.2em;
+    line-height: 18px;
+    /*margin: 6px 0;*/
+    padding: 0 0 8px;
+}
+#download-app-announce li span{
+    color: #0175B2;
+    display: block;
+    font-style: italic;
+    text-align: right;
+    border-bottom: 1px dotted #0175B2;
+}
+
+#fav-author-group{
+    background: url(http://www.ybook.vn/themes/newclassic/images/newsletter-loop.gif) repeat-y left top;
+    width: 180px;
+    margin-bottom: 8px;
+}
+#fav-author-group #fav-author-group01{
+    background: url(http://www.ybook.vn/themes/newclassic/images/newsletter-bottom.gif) no-repeat left bottom;}
+#fav-author-group #fav-author-group02{
+    background: url(http://www.ybook.vn/themes/newclassic/images/fav_author.jpg) no-repeat left top; 
+    /*margin-bottom: 8px;*/
+    overflow: hidden;
+    /*padding-bottom: 10px;*/
+}
+/*#saw-group{
+    background: url("../images/menu.png") no-repeat scroll left top transparent;
+    padding: 21px 0 0;
+    float: left;
+    border-bottom: 1px solid #CCC;
+    margin-top: 8px;
+}*/
+#fav-author-group h2{
+    color: #FFFFFF;
+    font-size: 1.4em;
+    font-weight: normal;
+    margin: 0 0 17px;
+    padding: 0 0 0 15px
+}
+#fav-author-announce{
+    /*            background: url("../images/menu-body.png") repeat-y scroll left top transparent;*/
+    /*border-bottom: 1px solid #CCCCCC;*/
+    padding-top: 8px;
+}
+#fav-author-announce li{
+
+    font-size: 1.2em;
+    /*margin: 6px 0;*/
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 1px solid #e3e3e3;
+}
+#fav-author-announce li.last{
+    border: 0;
+}
+#fav-author-announce li span{
+    color: #0175B2;
+    display: block;
+    font-style: italic;
+    text-align: right;
+    border-bottom: 1px dotted #0175B2;
+}
+
+#fav-author-announce li .widget-author-img{
+    float: left;
+    margin: 5px;
+    color: #354E75;
+}
+#fav-author-announce li .widget-author-name {
+    margin: 5px;
+    font-size: 14px;
+}
+#fav-author-announce li .widget-author-name a {
+    color: #354E75;
+}
+/*====================Recharge Success==========================*/
+.border-bg{
+    width: 958px;
+    float: left;
+    border: 1px solid #cfcfcf;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.border-bg span.accName{
+    color: #6d6d6d;
+    font-size: 16px;
+    padding: 7px 0 5px 5px;
+    margin: 3px 0;
+}
+.border-bg h4{
+    color: #354E75;
+    font-size: 16px;
+    font-weight: 100;
+    padding: 7px 0 5px 15px;
+    margin: 3px 0;
+    float: left;
+}
+.bg-detailHandle{
+    margin: 20px 0 25px 0;
+    width: 100%;
+    float: left;
+}
+.bg-detailHandle .listUserFunc{
+    float: left;
+    width: 200px;
+}
+.listUserFunc-top{
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-UserFunc-top.jpg) no-repeat top left;
+    width: 197px;height: 8px;
+    float: left;
+}
+.listUserFunc-loop{
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-UserFunc-loop.jpg) repeat-y center left;
+    width: 197px;
+    float: left;
+}
+.listUserFunc-bottom{
+    background: url(http://www.ybook.vn/themes/newclassic/images/bg-UserFunc-bottom.jpg) no-repeat bottom left;
+    width: 197px;height: 14px;
+    float: left;
+}
+.listUserFunc ul{
+    margin: 1px 0 5px;
+    padding-left: 15px;
+}
+.listUserFunc ul li{
+    list-style-type: none;
+    padding: 2px 0;
+}
+.listUserFunc ul li a,.listUserFunc ul li label{
+    padding-left: 10px;
+    background: url("http://www.ybook.vn/themes/newclassic/images/iconUserFunc.jpg") no-repeat scroll left 4px transparent;
+    color: #354E75;
+    display: block;
+    font-size: 12px;
+    padding: 1px 0 0 15px;
+    text-decoration: none;
+}
+.listUserFunc ul li a.Active{
+    color: #0d75b4;
+    font-weight: bold;
+}
+.listUserFunc ul li a:hover{
+    text-decoration: underline;
+}
+.listUserFunc ul li ul li{
+    list-style-type: square;
+    padding: 1px 0;
+    margin-left: 12px;
+}
+.listUserFunc ul li ul{
+    margin: 0;
+}
+.listUserFunc ul li ul li a{
+    background: none;
+    color: #354E75;
+    display: block;
+    font-size: 12px;
+    padding: 1px 0 0 0;
+    text-decoration: none;
+}
+.formHandle{
+    width: 722px;
+    float: right;
+    margin-right: 24px;
+}
+.formHandle .borderHandle-top{
+    float: right;
+    background: url(http://www.ybook.vn/themes/newclassic/images/borderHandle-top.jpg) no-repeat top right;
+    width: 722px; height: 8px;
+}
+.formHandle .borderHandle-bottom{
+    float: right;
+    background: url(http://www.ybook.vn/themes/newclassic/images/borderHandle-bottom.jpg) no-repeat bottom right;
+    width: 722px; height: 18px;
+}
+.formHandle .borderHandle-loop{
+    float: right;
+    background: url(http://www.ybook.vn/themes/newclassic/images/borderHandle-loop.jpg) repeat-y center right;
+    width: 722px;
+    padding: 4px 0;
+}
+.formHandle .totalAmount{
+    background-color: #fffed6;
+    border: 1px solid #e5e25f;
+    width: 100%;height: 14px;
+    padding: 4px;
+    margin-top: 1px;
+}
+.formHandle .totalAmount span{
+    font-size: 13px;
+    color: #000;
+}
+.formHandle .deAmount{
+    background-color: #fbfbfb;
+    border: 1px solid #fbfbfb;
+    width: 100%;height: 14px;
+    padding: 4px;
+    margin-top: 2px;
+}
+.formHandle .deAmount span{
+    font-size: 13px;
+    color: #646464;
+}
+.borderHandle-loop .promotion{
+    /*float: left; */
+    /*margin-left: 70px;*/
+    display: table;
+    margin: 0 auto;
+}
+.promotion span.codePro{
+    background-color: #ec1f26;
+    padding: 4px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 20px
+}
+.promotion span.codeProNum{
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+}
+.promotion .promotion-row{
+    float: left;
+    margin-bottom: 5px;
+}
+.promotion span.txtEnterCode{
+    font-size: 13px; 
+    color: #000; 
+    font-weight: bold;
+    vertical-align: top;
+    float: left;
+    width: 150px;
+}
+.promotion .inputEnterCode{
+    width: 200px; 
+    height: 18px; 
+    border:1px solid #e3e3e3;
+    background: #fff;
+    margin: 0 12px 0 0;
+    font-size: 12px;
+    float: left;
+}
+.promotion .infoProCode{
+    font-size: 13px; 
+    color: #ec1f26; 
+    font-weight: bold;
+}
+.borderHandle-loop h3{
+    white-space: nowrap;
+    font-family: Myriad Pro;
+    font-size: 18px;
+    margin: 0;
+    padding: 0 0 5px;
+    color: #6d6d6d;
+    font-weight: normal;
+    display: block;
+    border-bottom: 1px solid #c2c2c2;
+}
+.borderH3{
+    background: url(http://www.ybook.vn/themes/newclassic/images/borderH3.jpg) no-repeat;
+    background-position:center bottom;
+    width: 100px; height: 6px;
+    margin: 0 auto;
+}
+
+.error-report{
+    padding: 5px 0;
+    text-align: center;
+    background-color: #e0e0e0;
+    width: 100%;
+    font-style: italic;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.error-report label{color: #ff0000;}
+.success-report{
+    padding: 5px 0;
+    text-align: center;
+    background-color: #c4e5f5;
+    width: 100%;
+    /*font-style: italic;*/
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.formHandle table{
+    margin: 10px auto;
+}
+.formHandle table tr td{
+    white-space: nowrap;
+    padding: 10px 10px;
+    vertical-align: top;
+}
+.formHandle table tr td img{
+    float: left;
+}
+.formHandle table label{
+    color: #4c4c4c;
+    font-weight: bold;
+    font-size: 12px;
+}
+.formHandle table span.noteRecharge{
+    color: #4c4c4c;
+    font-size: 12px;
+    font-style: italic;
+    float: left;
+    margin-top: 2px;
+}
+.formHandle table input{
+    border: 1px solid #e3e3e3;
+    /*background-color: #fff;*/
+    padding-left: 3px;
+    height: 16px;
+    font-size: 12px;
+    color: #7f7f7f;
+    margin-bottom: 5px;
+}
+.formHandle table select{
+    border: 1px solid #e3e3e3;
+    background-color: #fff;
+    padding-left: 3px;
+    height: 18px;width: 134px;
+    font-size: 12px;
+    color: #7f7f7f;
+    margin-bottom: 5px;
+}
+input.btn-naptien{
+    background: url(http://www.ybook.vn/themes/newclassic/images/btn-naptien.jpg) no-repeat;
+    float: left;
+    font-size: 0;
+    cursor: pointer;
+}
+.formPopup table{
+    margin: 10px auto;
+}
+.formPopup table tr td{
+    padding: 10px 10px;
+    vertical-align: top;
+}
+.formPopup table tr td img{
+    float: left;
+}
+.formPopup table label{
+    color: #4c4c4c;
+    font-weight: bold;
+    font-size: 12px;
+}
+.formPopup table span.noteRecharge{
+    color: #4c4c4c;
+    font-size: 12px;
+    font-style: italic;
+    float: left;
+}
+.formPopup table input{
+    border: 1px solid #e3e3e3;
+    background-color: #fff;
+    padding-left: 3px;
+    height: 16px;
+    font-size: 12px;
+    color: #7f7f7f;
+    margin-bottom: 5px;
+    float: left;
+}
+.formPopup table select{
+    border: 1px solid #e3e3e3;
+    background-color: #fff;
+    padding-left: 3px;
+    height: 18px;width: 100px;
+    font-size: 12px;
+    color: #7f7f7f;
+    margin-bottom: 5px;
+}
+#filter-form-book{
+    float: right;
+    font-size: 13px;
+    margin-right: 3px;
+    margin-top: 2px;
+}
+#filter-form-book select{
+    border: 1px solid #E3E3E3;
+    color: #7F7F7F;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+#filter-form-ebook{
+    float: right;
+    font-size: 13px;
+    margin-right: 3px;
+    margin-top: 2px;
+}
+#filter-form-ebook select{
+    border: 1px solid #E3E3E3;
+    color: #7F7F7F;
+    font-size: 12px;
+    margin-bottom: 5px;
+    width: 135px;
+}
+
+#filter-form-packetbook{
+    float: right;
+    font-size: 13px;
+    margin-right: 3px;
+    margin-top: 2px;
+}
+#filter-form-packetbook select{
+    border: 1px solid #E3E3E3;
+    color: #7F7F7F;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+#filter-form-packetebook{
+    float: right;
+    font-size: 13px;
+    margin-right: 3px;
+    margin-top: 2px;
+}
+#filter-form-packetebook select{
+    border: 1px solid #E3E3E3;
+    color: #7F7F7F;
+    font-size: 12px;
+    margin-bottom: 5px;
+    width: 135px;
+}
+.facebook-like-box{
+    overflow: hidden;
+    margin: 0 auto;
+    display: block;
+    margin-top: 8px;
+    height: 155px;
+    width: 960px;
+}
+#bank-list{
+    float: left;
+    margin-left: 20px;
+    /*margin-bottom: 20px;*/
+}
+#bank-list span{
+    float: left;
+    color: #7C7C7C;
+    font-size: 12px;
+    clear: both;
+}
+#bank-list p{
+    float: left;
+    color: #7C7C7C;
+    font-size: 12px;
+    clear: both;
+    line-height: 25px;
+}
+/*#cod{*/
+    /*float: left;*/
+    /*margin-left: 20px;*/
+    /*margin-bottom: 20px;*/
+/*}*/
+/*#cod span{*/
+    /*float: left;*/
+    /*color: #7C7C7C;*/
+    /*font-size: 12px;*/
+    /*clear: both;*/
+/*}*/
+/*#cod p{*/
+    /*float: left;*/
+    /*color: #7C7C7C;*/
+    /*font-size: 12px;*/
+    /*clear: both;*/
+    /*line-height: 25px;*/
+/*}*/
+/*#cod table, tr, td{*/
+    /*border:1px solid !important;*/
+    /*color: #7C7C7C;*/
+    /*font-size: 12px;*/
+    /*clear: both;*/
+    /*line-height: 25px;  */
+/*}*/
+/*#cod td{*/
+    /*padding-left: 5px;*/
+/*}*/
+#bank-list span.error-select-bank{
+    color: red;
+}
+#bank-list-account, span#ChargeBanknetForm_bank_name{
+    float: left;
+    width: 100%;
+    /*    margin-left: 20px;
+        margin-bottom: 20px;*/
+}
+#ChargeBanknetForm_bank_name label{
+    float: left;
+    /*clear: right;*/
+    height: 80px;
+    line-height: 80px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    /*padding-top: 30px;*/
+}
+#ChargeBanknetForm_bank_name label img{
+    float: left;
+    padding-top: -30px;
+    height: 78px;
+    width: 123px;
+    /*border: 1px solid grey;*/
+}
+#ChargeBanknetForm_bank_name input{
+    float: left;
+    /*clear: both;*/
+    height: 80px;
+    padding-top: 20px;
+    margin-left: 10px !important;
+}
+span#AccountsBillsPaymentMethod_bankSelected{
+    float: left;
+    width: 100%;
+    margin-top: 8px;
+    /*    margin-left: 20px;
+        margin-bottom: 20px;*/
+}
+#AccountsBillsPaymentMethod_bankSelected label{
+    float: left;
+    /*clear: right;*/
+    height: 80px;
+    line-height: 40px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    /*padding-top: 30px;*/
+}
+#AccountsBillsPaymentMethod_bankSelected label img{
+    float: left;
+    padding-top: -30px;
+    height: 78px;
+    width: 124px;
+    /*border: 1px solid grey;*/
+}
+#AccountsBillsPaymentMethod_bankSelected input{
+    float: left;
+    /*clear: both;*/
+    height: 80px;
+    /*padding-top: 10px;*/
+    margin-left: 10px !important;
+    display: block;
+}
+.bank-select-item{
+    float: left;
+    margin-left: 15px;
+    padding-bottom: 5px;
+    height: 80px;
+}
+#charge-type-item{
+    overflow: hidden;
+}
+#charge-type-item label{
+    color: #7C7C7C !important;
+    font-size: 12px !important;
+    float: left;
+    line-height: 30px;
+    white-space: nowrap;
+}
+#charge-type-item input{
+    height: 30px !important;
+    margin-right: 5px !important;
+    width: 15px !important;
+    float: left;
+    clear: both;
+}
+#button-select-charge-type{
+    margin-top: 20px;
+}
+.menu-recuitment-hover{
+    background: url(http://www.ybook.vn/themes/newclassic/images/border-menu2.jpg) no-repeat left top;
+    color: #fff !important;
+}
+#news-tag{
+    overflow: hidden;
+}
+#news-tag-related{
+    overflow: hidden;
+    margin-left: 10px;
+}
+#news-comment{
+    overflow: hidden;
+    margin-left: 10px;
+}
+.like-block{
+    float: right;
+    padding: 7px 10px;
+    color: #797979;
+    font-size: 11px;
+}
+.like-block a{
+    float: left;
+    margin-left: 20px;
+    color: #5997C6;
+    font-size: 11px;
+}
+.like-block a.like-button{
+    background: url(http://www.ybook.vn/themes/newclassic/images/ybook_like_icon.png) no-repeat left top;
+    background-size: 15px 14px;
+    padding-left: 18px;
+}
+.like-block a.dislike-button{
+    background: url(http://www.ybook.vn/themes/newclassic/images/ybook_dislike_icon.png) no-repeat left top;
+    background-size: 15px 14px;
+    padding-left: 18px;
+}
+.like-block span{
+    float: left;
+    margin-left: 2px;
+}
+/* ================STATIC PAGE================== */
+
+.span9 {
+    width: 610px;
+    margin: 30px 0 30px 20px;
+    overflow: hidden;
+}
+.span9 p{
+    color: #696969;
+    font-size: 13px;
+    padding-bottom: 10px;
+    line-height: 20px;
+}
+.span9 p strong{
+    /*color: #696969;*/
+    font-size: 13px;
+    padding-bottom: 10px;
+    line-height: 20px;
+    font-weight: bold;
+}
+.span9 ul.listFAQ{
+    width: 610px;
+    overflow: hidden;
+}
+.span9 ul.listFAQ li{
+    margin-top: 10px;
+}
+.span9 ul.listFAQ li p{
+    text-align: justify;
+    color: #000;
+}
+.span9 ul.listFAQ li p strong{
+    text-align: justify;
+    color: #000;
+    font-weight: bold;
+}
+.span3{
+    float: left;
+    margin-left: 30px;
+    min-height: 1px;
+    width: 270px;
+}
+.bs-docs-sidenav {
+    background-color: #FFFFFF;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+    margin: 20px 0 20px;
+    padding: 0;
+    width: 258px;
+}
+.nav {
+    list-style: none outside none;
+}
+.bs-docs-sidenav > li.active{}
+.bs-docs-sidenav > li.active > a{
+    background: url(http://www.ybook.vn/themes/newclassic/images/arr-active.png) no-repeat 240px 13px;
+    background-color: #0088CC;
+}
+.bs-docs-sidenav > li > a {
+    border: 1px solid #E5E5E5;
+    display: block;
+    margin: 0 0 -1px;
+    padding: 8px 22px 8px 14px;
+}
+.nav-list > li > a {
+    padding: 3px 15px;
+    font-size: 13px;
+    color: #354E75;
+    text-decoration: none;
+}
+.nav-list > li > a, .nav-list .nav-header {
+    margin-left: -15px;
+    margin-right: -15px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+.bs-docs-sidenav > li:first-child > a {
+    border-radius: 6px 6px 0 0;
+}
+.bs-docs-sidenav > .active > a {
+    border: 0 none;
+    box-shadow: 1px 0 0 rgba(0, 0, 0, 0.1) inset, -1px 0 0 rgba(0, 0, 0, 0.1) inset;
+    padding: 9px 15px;
+    position: relative;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+    z-index: 2;
+}
+.nav-list > .active > a, .nav-list > .active > a:hover, .nav-list > .active > a:focus {
+
+    background-color: #0088CC;
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+}
+.bs-docs-sidenav > li > a:hover {
+    background-color: #f5f5f5;
+}
+.bs-docs-sidenav > li > a {
+    border: 1px solid #E5E5E5;
+    display: block;
+    margin: 0 0 -1px;
+    padding: 8px 14px;
+}
+#titleListCat {
+    margin: 8px 0; width: 300px;      border-radius: 8px 8px 0 0;
+}
+#titleListCat li {
+    border: 1px solid #E5E5E5;
+    border-width: 1px 1px 0 1px;
+    padding: 8px 16px;
+    margin: 0 !important;
+    list-style-type: none !important;
+
+}
+#titleListCat li.first {
+    border-width: 0 0 0 0; background: url(http://www.ybook.vn/themes/newclassic/images/top.png) left top no-repeat;
+}
+#titleListCat li.last {
+    border: 1px solid #E5E5E5;  border-radius: 0 0 8px 8px;
+}
+#titleListCat li:hover {
+    background: #f5f5f5;
+}
+#titleListCat li.first:hover {
+    background: url(http://www.ybook.vn/themes/newclassic/images/top.png) left top no-repeat;
+}
+#titleListCat li a {  
+    color: #354E75; text-decoration: none; font-size: 13px;
+}
+#titleListCat li.first a {  
+    color: #FFF;   border-radius: 8px 8px 0 0;
+}
+#titleListCat li.active {
+    background: url("http://www.ybook.vn/themes/newclassic/images/bg-selectedTop.png") no-repeat scroll 285px center #0088CC;
+}
+#titleListCat li.active a { color: #FFF; }
+
+a.view-more-tab{
+    float: right;
+    color: #354E75 !important;
+    font-size: 15px;
+    white-space: nowrap;
+    /*font-weight: bold;*/
+}
+#helpDiv ul li{
+    list-style-type: circle;
+    margin: 5px 20px !important;
+}
+#my-bank-acc-block{
+    width: 42%;
+    float: left;
+    padding: 5px 30px;
+    font-size: 13px;
+}
+#my-bank-acc-block #my-bank-list{
+    /*overflow: hidden;*/
+    float: left;
+    /*    width: 100px;
+        height: 100px;
+        border: 1px solid black;*/
+    width: 100%; 
+}
+#my-bank-acc-block #my-bank-list a{
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+#my-bank-acc-block #my-bank-list a.active{
+    background-position: left bottom !important;
+}
+#my-bank-acc-block #my-bank-list a#dong-a-bank{
+    background: url("http://www.ybook.vn/themes/newclassic/images/bank/DongA-Bank.png") no-repeat left top;
+    width: 84px;
+    height: 40px;
+    float: left;
+}
+#my-bank-acc-block #my-bank-list a#dong-a-bank:hover{
+    background: url("http://www.ybook.vn/themes/newclassic/images/bank/DongA-Bank.png") no-repeat left bottom;
+}
+#my-bank-acc-block #my-bank-list a#vietin-bank{
+    background: url("http://www.ybook.vn/themes/newclassic/images/bank/ViettinBank.png") no-repeat left top;
+    width: 130px;
+    height: 40px;
+    float: left;
+}
+#my-bank-acc-block #my-bank-list a#vietin-bank:hover{
+    background: url("http://www.ybook.vn/themes/newclassic/images/bank/ViettinBank.png") no-repeat left bottom;
+}
+#my-bank-acc-block #my-bank-list a#exim-bank{
+    background: url("http://www.ybook.vn/themes/newclassic/images/bank/eximbank.png") no-repeat left top;
+    width: 163px;
+    height: 40px;
+    float: left;
+}
+#my-bank-acc-block #my-bank-list a#exim-bank:hover{
+    background: url("http://www.ybook.vn/themes/newclassic/images/bank/eximbank.png") no-repeat left bottom;
+}
+#my-bank-acc-block #my-bank-list a#bidvbank{
+    background: url("http://www.ybook.vn/themes/newclassic/images/bank/bidv.png") no-repeat left top;
+    width: 120px;
+    height: 40px;
+    float: left;
+}
+#my-bank-acc-block #my-bank-list a#bidvbank:hover{
+    background: url("http://www.ybook.vn/themes/newclassic/images/bank/bidv.png") no-repeat left bottom;
+}
+#my-bank-acc-block #my-bank-list a#vietcom-bank{
+    background: url("http://www.ybook.vn/themes/newclassic/images/bank/Vietcombank.png") no-repeat left top;
+    width: 112px;
+    height: 40px;
+    float: left;
+}
+#my-bank-acc-block #my-bank-list a#vietcom-bank:hover{
+    background: url("http://www.ybook.vn/themes/newclassic/images/bank/Vietcombank.png") no-repeat left bottom;
+}
+#my-bank-acc-block #my-bank-list a#ac-bank{
+    background: url("http://www.ybook.vn/themes/newclassic/images/bank/ACB-Bank.png") no-repeat left top;
+    width: 86px;
+    height: 40px;
+    float: left;
+}
+#my-bank-acc-block #my-bank-list a#ac-bank:hover{
+    background: url("http://www.ybook.vn/themes/newclassic/images/bank/ACB-Bank.png") no-repeat left bottom;
+}
+#my-bank-acc-block p{
+    width: 100%;
+    line-height: 30px;
+}
+#my-bank-acc-block #my-bank-details{
+    /*overflow: hidden;*/
+    float: left;
+    /*    width: 100px;
+        height: 100px;
+        border: 1px solid black;*/
+    width: 100%; 
+}
+#your-bank-acc-block{
+    width: 43%;
+    float: left;
+    padding: 5px 30px;
+    font-size: 13px;
+    border-left: 1px solid #DEDEDE;
+    min-height: 205px;
+}
+#your-bank-acc-block p{
+    width: 100%;
+    line-height: 30px;
+}
+#your-bank-acc-block table td{
+    padding: 10px;
+    vertical-align: top;
+}
+
+#your-bank-acc-block label{
+    color: #4C4C4C;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#your-bank-acc-block input{
+    border: 1px solid #E3E3E3;
+    color: #7F7F7F;
+    font-size: 12px;
+    height: 16px;
+    margin-bottom: 5px;
+    padding-left: 3px;
+}
+.guide-tranfer{
+    font-size: 12px;
+}
+.guide-tranfer a{
+    color: red;
+}
+#menu02 ul.submenu-block{
+    float: left;
+    overflow: hidden;
+    width: 300px;
+}
+#promotion-ebook-register select{
+    border: 1px solid #e3e3e3;
+    background-color: #fff;
+    padding-left: 3px;
+    height: 18px;
+    width: 200px;
+    font-size: 12px;
+    color: #7f7f7f;
+    margin-bottom: 5px;
+}
+#viewmore{
+    padding-left: 5px;
+}
+.detail-clubmember{font-size: 12px;margin-left: 15px;overflow: hidden;}
+.lbl-clubregister{width: 133px !important;}
+.ListManga li .title-book-block{
+    width:105px;
+    max-height:45px;
+    /*font-size: 15px;*/
+    color: #354E75 !important;
+    /*padding: 9px 0 0 0;*/
+    display:block;
+}
+.ListManga li .name-author-block{
+    width: 105px;
+    max-height: 30px;
+   // overflow: hidden;
+}
+.ListEbook li .title-book-block{
+    width:105px;
+    max-height:45px;
+    /*font-size: 15px;*/
+    color: #354E75 !important;
+    display: block;
+    overflow: hidden;
+
+}
+.ListEbook li .name-author-block{
+    width: 105px;
+    max-height: 23px;
+    overflow: hidden;
+}
+.book-picture-shadow
+{
+    display:block;
+    width:75px;
+    height:auto;
+    /*    margin-left:6px;
+        margin-top:7px*/
+    position: absolute;
+    bottom: 0;
+    left: 4px;
+}
+.imgintro
+{
+    width:67px;
+    height:auto;
+    max-height:105px;
+    position:absolute;
+    bottom:0px;
+    left:0;
+}
+.main-imgintro
+{
+    width:100px;
+    height:auto;
+    max-height:150px;
+    position:absolute;
+    bottom:0px;
+    left:0;
+
+}
+.main-slider div
+{
+    position: relative;
+}
+.newNews-home{
+    display: block;
+    width: 210px;
+    height: 16px;
+}
+#ui-tabs-1
+{
+    float:left !important;
+    margin-top: -2px !important;
+}
+
+#ui-tabs-2
+{
+    float:left !important;
+    margin-top: -2px !important;
+}
+
+
+#result{
+    font-size:12px;
+}
+
+#checkpass
+{
+    color: #747474;
+    font-size: 12px;
+    text-align: center;
+}
+
+#acc-form .short{
+    color:#FF0000;
+}
+
+#acc-form .weak{
+    color:#E66C2C;
+}
+
+#forum-login-form .weak{
+    color:#E66C2C;
+}
+
+
+#acc-form .good{
+    color:#2D98F3;
+}
+
+#acc-form .strong{
+    color: #0e6412;
+}
+#hint-pass{
+    padding-left:138px;
+    color:#A0A0A0;
+    font-size:11px;
+    padding-top:8px;
+}
+.invoice-info table tr td
+{
+    padding: 0 10px 5px 10px !important;
+    text-align: right;
+    border: none;
+    font-weight: normal;
+    white-space: nowrap;
+    font-size: 12px;
+}
+#cod
+{
+    text-align: center;
+    border: none;
+    font-size: 12px;
+    line-height: 30px;
+    /*color:#7C7C7C;*/
+}
+#triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 14px solid transparent;
+    border-left: 16px solid #00aeef;
+    border-bottom: 14px solid transparent;
+    float: left;
+    background: transparent;
+    position: inherit;
+    /*z-index: 90;*/
+}
+#block-new-news{
+    background-color: #e1f4fd;
+    float: left;
+    font-size: 14px;
+    position: relative;
+    width: 960px;
+    border-radius: 4px;
+}
+.title-new-news{
+    float: left;
+    padding: 6px;
+    color: #FFF;
+    background-color: #00aeef;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: inherit;
+    z-index: 99;
+}
+.list-new-news{
+    height: 22px;
+    position: absolute;
+    padding-top: 6px;
+    left: 0px;
+}
+.list-new-news a, .list-new-news a:visited{
+    color: #354E75;
+}
