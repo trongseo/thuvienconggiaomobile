@@ -9,26 +9,51 @@
             <div class="col-sm-12">
                 <div id="slider-carousel" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
-                        <li data-target="#slider-carousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#slider-carousel" data-slide-to="1"></li>
+
+                        <?php
+                        $slideCount=0;
+                        $slideClassActive="";
+                        $datatbl_slide = CommonDB::GetAll("SELECT  * FROM `tbl_slide` WHERE active=1 ORDER BY show_order",[]);
+
+                        ?>
+                        <?php foreach($datatbl_slide as $value):?>
+                            <?php
+                            if( $slideCount==0){
+                                $slideClassActive="active";
+                            } ?>
+
+                            <li data-target="#slider-carousel" data-slide-to="<?php echo $slideCount; ?>"></li>
+                        <?php  $slideCount++; ?>
+                        <?php endforeach?>
 
                     </ol>
 
                     <div class="carousel-inner">
-                        <div class="item active" href="http://abc.com">
 
-                            <div class="col-sm-12">
-                                <img src="http://thuvienconggiaovietnam.net/admintvcg/uploads/slideImage/072118_icon.jpg" class="girl img-responsive" alt="" />
+                        <?php
+                        $slideCount=0;
+                        $slideClassActive="active";
+                        ?>
+                        <?php foreach($datatbl_slide as $value):?>
+                            <?php
+                            if( $slideCount==1){
+                                $slideClassActive="";
+                            }
+                            ?>
 
+                            <div class="item <?php echo $slideClassActive; ?>" href="<?php echo  $value["link_ref"] ?>">
+
+                                <div class="col-sm-12">
+
+                                    <img u="image" src="<?php echo PATH_IMAGE_slideImage. $value["image_name"] ?>"  class="girl img-responsive" alt="" />
+                                </div>
                             </div>
-                        </div>
-                        <div class="item " href="http://abc.com">
+                            <?php  $slideCount++; ?>
+                        <?php endforeach?>
 
-                            <div class="col-sm-12">
-                                <img src="http://thuvienconggiaovietnam.net/admintvcg/uploads/slideImage/072118_icon.jpg" class="girl img-responsive" alt="" />
 
-                            </div>
-                        </div>
+
+
 
 
 
@@ -51,7 +76,7 @@
 
 <script>
     $('.item').click(function(){
-        alert('dd');
-        alert($(this).attr('href'));
+
+        window.open($(this).attr('href'));
     });
 </script>

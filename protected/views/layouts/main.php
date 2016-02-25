@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>trangchu</title>
+    <title><?php echo CHtml::encode($this->pageTitle); ?></title>
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/font-awesome.min.css" rel="stylesheet">
     <link href="/css/prettyPhoto.css" rel="stylesheet">
@@ -216,29 +216,52 @@
                             <span class="icon-bar"></span>
                         </button>
                     </div>
+                    <?php
+
+                    $comboData1ss = CommonDB::GetAll('SELECT * FROM tbl_index WHERE delete_logic_flg=0 ORDER BY  INDEX_CODE',[]);
+                    Common::setSession('MENU_SS',$comboData1ss);
+                    $comboData1ss = Common::getSession('MENU_SS');
+                    function getDataArr($comboData1ss,$valType,$valParentId){
+                        $resultsArray = array();
+                        foreach($comboData1ss as $row){
+                            if(($row['type'] == $valType )&&($valParentId== -1) ) {
+                                $resultsArray[] = $row;
+                            }else
+                                if(($row['type'] == $valType )&&( $row['parent_id']==  $valParentId) ) {
+                                    $resultsArray[] = $row;
+                                }
+                        }
+                        return $resultsArray;
+                    }
+
+                    ?>
                     <div id="navbar" class="navbar-collapse collapse out" aria-expanded="false">
                         <ul class="nav navbar-nav">
                             <li class="active"><a href="/">Trang chủ</a></li>
 
-                            <li><a href="#"> Sách mới</a></li>
-                            <li><a href="#"> Sách hay</a></li>
+                            <li><a href="/thu-vien/0-sachmoiduavaothuvien"> Sách mới</a></li>
+                            <li><a href="/thu-vien/0-sachhaynendoc"> Sách hay</a></li>
                             <li class="dropdown showchild ">
                                 <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Thư Viện <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#">  Kiến Thức Cơ Bản</a></li>
-                                    <li><a href="#">  Kiến Thức Cơ Bảnt</a></li>
-                                    <li><a href="#"> Thánh kinh</a></li>
-                                    <li><a href="#"> Thánh kinh</a></li>
-                                    <li><a href="#"> Thánh kinh</a></li>
-                                    <li><a href="#"> Thánh kinh</a></li>
-                                    <li><a href="#"> Thánh kinh</a></li>
-                                    <li><a href="#"> Thánh kinh</a></li>
-                                    <li><a href="#"> Thánh kinh</a></li>
-                                    <li><a href="#"> Thánh kinh</a></li>
-                                    <li><a href="#"> Thánh kinh</a></li>
-                                    <li><a href="#"> Thánh kinh</a></li>
-                                    <li><a href="#"> Thánh kinh</a></li>
-                                    <li><a href="#"> Thánh kinh</a></li>
+                                    <?php
+                                    //$comboData=$this->comboData;
+                                    $comboData=getDataArr($comboData1ss,0,-1);
+
+                                    ?>
+
+                                    <?php foreach($comboData as $value):?>
+                                        <?php
+                                        $selecttedd="";
+                                        if($this->comboSelect==$value["id"]){
+                                            $selecttedd="selected";
+                                        }
+                                        ?>
+                                        <li><a href="/thu-vien/<?php echo $value["id"]?>- "><?php echo $value["name"]?></a></li>
+
+                                    <?php endforeach?>
+
+
                                 </ul>
                             </li>
                         </ul>
