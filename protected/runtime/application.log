@@ -26680,3 +26680,141 @@ WHERE parent_id in (SELECT id FROM tbl_index
 WHERE parent_id=:parent_id ) and type=2 ). Bound with :parent_id='32', :book_name='%%'
 in D:\project\github\tvcg\conggiaorepon\protected\controllers\SiteController.php (278)
 in D:\project\github\tvcg\conggiaorepon\index.php (27)
+2017/03/31 16:35:43 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM YiiCache WHERE expire>0 AND expire<1490952943
+in D:\project\github\tvcg\conggiaorepon\index.php (27)
+2017/03/31 16:35:43 [trace] [system.db.CDbCommand] Querying SQL: SELECT value FROM YiiCache WHERE id='430dc4aa306dcf1cda6dbdf93f98fd69' AND (expire=0 OR expire>1490952943)
+in D:\project\github\tvcg\conggiaorepon\index.php (27)
+2017/03/31 16:35:44 [trace] [system.db.CDbCommand] Querying SQL: SELECT value FROM YiiCache WHERE id='e2d1e8add2d857adf1d9f83a22a4df8f' AND (expire=0 OR expire>1490952944)
+in D:\project\github\tvcg\conggiaorepon\protected\views\site\index.php (9)
+in D:\project\github\tvcg\conggiaorepon\protected\controllers\SiteController.php (43)
+in D:\project\github\tvcg\conggiaorepon\index.php (27)
+2017/03/31 16:35:44 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM tbl_book WHERE book_type=1 and active=1 AND delete_logic_flg=0 limit 6
+in D:\project\github\tvcg\conggiaorepon\protected\components\CommonDB.php (43)
+in D:\project\github\tvcg\conggiaorepon\protected\views\site\index.php (10)
+in D:\project\github\tvcg\conggiaorepon\protected\controllers\SiteController.php (43)
+2017/03/31 16:35:44 [trace] [system.db.CDbCommand] Querying SQL: SELECT value FROM YiiCache WHERE id='78484489584bc93e8307edb2b2479d6a' AND (expire=0 OR expire>1490952944)
+in D:\project\github\tvcg\conggiaorepon\protected\views\site\index.php (20)
+in D:\project\github\tvcg\conggiaorepon\protected\controllers\SiteController.php (43)
+in D:\project\github\tvcg\conggiaorepon\index.php (27)
+2017/03/31 16:35:44 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM tbl_book WHERE book_type=0 and active=1 AND delete_logic_flg=0 limit 6
+in D:\project\github\tvcg\conggiaorepon\protected\components\CommonDB.php (43)
+in D:\project\github\tvcg\conggiaorepon\protected\views\site\index.php (21)
+in D:\project\github\tvcg\conggiaorepon\protected\controllers\SiteController.php (43)
+2017/03/31 16:35:45 [trace] [system.db.CDbCommand] Querying SQL: SELECT value FROM YiiCache WHERE id='449b8f1a781c911e381499555af18ec9' AND (expire=0 OR expire>1490952945)
+in D:\project\github\tvcg\conggiaorepon\protected\views\site\index.php (31)
+in D:\project\github\tvcg\conggiaorepon\protected\controllers\SiteController.php (43)
+in D:\project\github\tvcg\conggiaorepon\index.php (27)
+2017/03/31 16:35:45 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM tbl_book WHERE good_book_flg=1 and active=1 AND delete_logic_flg=0 limit 6
+in D:\project\github\tvcg\conggiaorepon\protected\components\CommonDB.php (43)
+in D:\project\github\tvcg\conggiaorepon\protected\views\site\index.php (32)
+in D:\project\github\tvcg\conggiaorepon\protected\controllers\SiteController.php (43)
+2017/03/31 16:35:45 [trace] [system.db.CDbCommand] Querying SQL: SELECT value FROM YiiCache WHERE id='2d5ce3494ad85ef1fdc234ccf161d880' AND (expire=0 OR expire>1490952945)
+in D:\project\github\tvcg\conggiaorepon\protected\views\site\index.php (42)
+in D:\project\github\tvcg\conggiaorepon\protected\controllers\SiteController.php (43)
+in D:\project\github\tvcg\conggiaorepon\index.php (27)
+2017/03/31 16:35:45 [trace] [system.db.CDbCommand] Querying SQL: SELECT  * FROM `tbl_reference` WHERE active=1 ORDER BY show_order
+in D:\project\github\tvcg\conggiaorepon\protected\components\CommonDB.php (43)
+in D:\project\github\tvcg\conggiaorepon\protected\views\site\index.php (43)
+in D:\project\github\tvcg\conggiaorepon\protected\controllers\SiteController.php (43)
+2017/03/31 16:35:45 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM tbl_index WHERE delete_logic_flg=0 ORDER BY  INDEX_CODE
+in D:\project\github\tvcg\conggiaorepon\protected\components\CommonDB.php (43)
+in D:\project\github\tvcg\conggiaorepon\protected\views\layouts\main.php (221)
+in D:\project\github\tvcg\conggiaorepon\protected\controllers\SiteController.php (43)
+2017/03/31 16:35:46 [trace] [system.db.CDbCommand] Querying SQL: SELECT  * FROM `tbl_slide` WHERE active=1 ORDER BY show_order
+in D:\project\github\tvcg\conggiaorepon\protected\components\CommonDB.php (43)
+in D:\project\github\tvcg\conggiaorepon\protected\views\layouts\index1scroll.php (16)
+in D:\project\github\tvcg\conggiaorepon\protected\views\layouts\main.php (312)
+2017/03/31 16:35:52 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM YiiCache WHERE expire>0 AND expire<1490952952
+in D:\project\github\tvcg\conggiaorepon\index.php (27)
+2017/03/31 16:35:52 [trace] [system.db.CDbCommand] Querying SQL: SELECT value FROM YiiCache WHERE id='430dc4aa306dcf1cda6dbdf93f98fd69' AND (expire=0 OR expire>1490952952)
+in D:\project\github\tvcg\conggiaorepon\index.php (27)
+2017/03/31 16:35:53 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM tbl_index WHERE delete_logic_flg=0 ORDER BY  INDEX_CODE
+in D:\project\github\tvcg\conggiaorepon\protected\components\CommonDB.php (43)
+in D:\project\github\tvcg\conggiaorepon\protected\views\layouts\main.php (221)
+in D:\project\github\tvcg\conggiaorepon\protected\controllers\SiteController.php (434)
+2017/03/31 16:35:55 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM YiiCache WHERE expire>0 AND expire<1490952955
+in D:\project\github\tvcg\conggiaorepon\index.php (27)
+2017/03/31 16:35:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT value FROM YiiCache WHERE id='430dc4aa306dcf1cda6dbdf93f98fd69' AND (expire=0 OR expire>1490952955)
+in D:\project\github\tvcg\conggiaorepon\index.php (27)
+2017/03/31 16:35:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM tbl_index WHERE delete_logic_flg=0 ORDER BY  INDEX_CODE
+in D:\project\github\tvcg\conggiaorepon\protected\components\CommonDB.php (43)
+in D:\project\github\tvcg\conggiaorepon\protected\views\layouts\main.php (221)
+in D:\project\github\tvcg\conggiaorepon\protected\controllers\SiteController.php (828)
+2017/03/31 16:36:06 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM YiiCache WHERE expire>0 AND expire<1490952966
+in D:\project\github\tvcg\conggiaorepon\index.php (27)
+2017/03/31 16:36:06 [trace] [system.db.CDbCommand] Querying SQL: SELECT value FROM YiiCache WHERE id='430dc4aa306dcf1cda6dbdf93f98fd69' AND (expire=0 OR expire>1490952966)
+in D:\project\github\tvcg\conggiaorepon\index.php (27)
+2017/03/31 16:36:06 [trace] [system.db.CDbCommand] Querying SQL: Select * from tbl_users where email=:email and password=:password. Bound with :email='trung@gmail.com', :password='96e79218965eb72c92a549dd5a330112'
+in D:\project\github\tvcg\conggiaorepon\protected\components\CommonDB.php (43)
+in D:\project\github\tvcg\conggiaorepon\protected\controllers\SiteController.php (408)
+in D:\project\github\tvcg\conggiaorepon\index.php (27)
+2017/03/31 16:36:07 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM YiiCache WHERE expire>0 AND expire<1490952967
+in D:\project\github\tvcg\conggiaorepon\index.php (27)
+2017/03/31 16:36:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT value FROM YiiCache WHERE id='430dc4aa306dcf1cda6dbdf93f98fd69' AND (expire=0 OR expire>1490952967)
+in D:\project\github\tvcg\conggiaorepon\index.php (27)
+2017/03/31 16:36:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT value FROM YiiCache WHERE id='451e32a3546e18a1ebce7d8762cdeccc' AND (expire=0 OR expire>1490952967)
+in D:\project\github\tvcg\conggiaorepon\protected\controllers\SiteController.php (497)
+in D:\project\github\tvcg\conggiaorepon\index.php (27)
+2017/03/31 16:36:07 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `config`
+in D:\project\github\tvcg\conggiaorepon\protected\controllers\SiteController.php (497)
+in D:\project\github\tvcg\conggiaorepon\index.php (27)
+2017/03/31 16:36:08 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `config`
+in D:\project\github\tvcg\conggiaorepon\protected\controllers\SiteController.php (497)
+in D:\project\github\tvcg\conggiaorepon\index.php (27)
+2017/03/31 16:36:08 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM YiiCache WHERE id='451e32a3546e18a1ebce7d8762cdeccc'
+in D:\project\github\tvcg\conggiaorepon\protected\controllers\SiteController.php (497)
+in D:\project\github\tvcg\conggiaorepon\index.php (27)
+2017/03/31 16:36:08 [trace] [system.db.CDbCommand] Executing SQL: INSERT INTO YiiCache (id,expire,value) VALUES ('451e32a3546e18a1ebce7d8762cdeccc',1490956568,:value)
+in D:\project\github\tvcg\conggiaorepon\protected\controllers\SiteController.php (497)
+in D:\project\github\tvcg\conggiaorepon\index.php (27)
+2017/03/31 16:36:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `config` `t` LIMIT 1
+in D:\project\github\tvcg\conggiaorepon\protected\controllers\SiteController.php (497)
+in D:\project\github\tvcg\conggiaorepon\index.php (27)
+2017/03/31 16:36:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM tbl_index WHERE delete_logic_flg=0 ORDER BY  INDEX_CODE
+in D:\project\github\tvcg\conggiaorepon\protected\components\CommonDB.php (43)
+in D:\project\github\tvcg\conggiaorepon\protected\views\layouts\main.php (221)
+in D:\project\github\tvcg\conggiaorepon\protected\controllers\SiteController.php (498)
+2017/03/31 16:36:31 [trace] [system.db.CDbCommand] Executing SQL: DELETE FROM YiiCache WHERE expire>0 AND expire<1490952991
+in D:\project\github\tvcg\conggiaorepon\index.php (27)
+2017/03/31 16:36:31 [trace] [system.db.CDbCommand] Querying SQL: SELECT value FROM YiiCache WHERE id='430dc4aa306dcf1cda6dbdf93f98fd69' AND (expire=0 OR expire>1490952991)
+in D:\project\github\tvcg\conggiaorepon\index.php (27)
+2017/03/31 16:36:31 [trace] [system.db.CDbCommand] Querying SQL: SELECT value FROM YiiCache WHERE id='e2d1e8add2d857adf1d9f83a22a4df8f' AND (expire=0 OR expire>1490952991)
+in D:\project\github\tvcg\conggiaorepon\protected\views\site\index.php (9)
+in D:\project\github\tvcg\conggiaorepon\protected\controllers\SiteController.php (43)
+in D:\project\github\tvcg\conggiaorepon\index.php (27)
+2017/03/31 16:36:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM tbl_book WHERE book_type=1 and active=1 AND delete_logic_flg=0 limit 6
+in D:\project\github\tvcg\conggiaorepon\protected\components\CommonDB.php (43)
+in D:\project\github\tvcg\conggiaorepon\protected\views\site\index.php (10)
+in D:\project\github\tvcg\conggiaorepon\protected\controllers\SiteController.php (43)
+2017/03/31 16:36:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT value FROM YiiCache WHERE id='78484489584bc93e8307edb2b2479d6a' AND (expire=0 OR expire>1490952992)
+in D:\project\github\tvcg\conggiaorepon\protected\views\site\index.php (20)
+in D:\project\github\tvcg\conggiaorepon\protected\controllers\SiteController.php (43)
+in D:\project\github\tvcg\conggiaorepon\index.php (27)
+2017/03/31 16:36:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM tbl_book WHERE book_type=0 and active=1 AND delete_logic_flg=0 limit 6
+in D:\project\github\tvcg\conggiaorepon\protected\components\CommonDB.php (43)
+in D:\project\github\tvcg\conggiaorepon\protected\views\site\index.php (21)
+in D:\project\github\tvcg\conggiaorepon\protected\controllers\SiteController.php (43)
+2017/03/31 16:36:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT value FROM YiiCache WHERE id='449b8f1a781c911e381499555af18ec9' AND (expire=0 OR expire>1490952992)
+in D:\project\github\tvcg\conggiaorepon\protected\views\site\index.php (31)
+in D:\project\github\tvcg\conggiaorepon\protected\controllers\SiteController.php (43)
+in D:\project\github\tvcg\conggiaorepon\index.php (27)
+2017/03/31 16:36:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM tbl_book WHERE good_book_flg=1 and active=1 AND delete_logic_flg=0 limit 6
+in D:\project\github\tvcg\conggiaorepon\protected\components\CommonDB.php (43)
+in D:\project\github\tvcg\conggiaorepon\protected\views\site\index.php (32)
+in D:\project\github\tvcg\conggiaorepon\protected\controllers\SiteController.php (43)
+2017/03/31 16:36:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT value FROM YiiCache WHERE id='2d5ce3494ad85ef1fdc234ccf161d880' AND (expire=0 OR expire>1490952992)
+in D:\project\github\tvcg\conggiaorepon\protected\views\site\index.php (42)
+in D:\project\github\tvcg\conggiaorepon\protected\controllers\SiteController.php (43)
+in D:\project\github\tvcg\conggiaorepon\index.php (27)
+2017/03/31 16:36:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT  * FROM `tbl_reference` WHERE active=1 ORDER BY show_order
+in D:\project\github\tvcg\conggiaorepon\protected\components\CommonDB.php (43)
+in D:\project\github\tvcg\conggiaorepon\protected\views\site\index.php (43)
+in D:\project\github\tvcg\conggiaorepon\protected\controllers\SiteController.php (43)
+2017/03/31 16:36:33 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM tbl_index WHERE delete_logic_flg=0 ORDER BY  INDEX_CODE
+in D:\project\github\tvcg\conggiaorepon\protected\components\CommonDB.php (43)
+in D:\project\github\tvcg\conggiaorepon\protected\views\layouts\main.php (221)
+in D:\project\github\tvcg\conggiaorepon\protected\controllers\SiteController.php (43)
+2017/03/31 16:36:34 [trace] [system.db.CDbCommand] Querying SQL: SELECT  * FROM `tbl_slide` WHERE active=1 ORDER BY show_order
+in D:\project\github\tvcg\conggiaorepon\protected\components\CommonDB.php (43)
+in D:\project\github\tvcg\conggiaorepon\protected\views\layouts\index1scroll.php (16)
+in D:\project\github\tvcg\conggiaorepon\protected\views\layouts\main.php (312)

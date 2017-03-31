@@ -27,8 +27,8 @@ define ("USER_IMAGE_FULL", "USER_IMAGE");
 define ("USER_FULLNAME", "display_name");
 define ("IDDetailBook", "IDDetailBook");
 
-define("DB_HOST","localhost");
-define("DB_NAME","thuvienconggiao");
-define("DB_USERNAME","thuvienconggiao");
-define("DB_PASSWORD","123456789");
+define("DB_HOST","thuvienconggiaovietnam.net");
+define("DB_NAME","thuvienc_onggiao");
+define("DB_USERNAME","thuvienc_vietnam");
+define("DB_PASSWORD","MePhuHoC0n");
 
